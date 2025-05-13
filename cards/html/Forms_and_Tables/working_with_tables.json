@@ -1,0 +1,170 @@
+[
+  {
+    "front": "What are HTML tables primarily used for?",
+    "back": "Displaying tabular data such as stats, schedules, and comparisons."
+  },
+  {
+    "front": "What are HTML tables NOT recommended for anymore?",
+    "back": "Layout and design structure — use CSS Flexbox or Grid instead."
+  },
+  {
+    "front": "Which HTML element defines a table?",
+    "back": "The <table> element."
+  },
+  {
+    "front": "Which element defines a group of header rows in a table?",
+    "back": "The <thead> element."
+  },
+  {
+    "front": "What element groups the body rows of a table?",
+    "back": "<tbody>"
+  },
+  {
+    "front": "What is the purpose of the <tfoot> element?",
+    "back": "It groups the footer rows in a table, often for metadata or totals."
+  },
+  {
+    "front": "What element defines a table row?",
+    "back": "<tr>"
+  },
+  {
+    "front": "What element is used for table headers?",
+    "back": "<th>"
+  },
+  {
+    "front": "What element is used for standard table data cells?",
+    "back": "<td>"
+  },
+  {
+    "front": "In what order should table content be structured?",
+    "back": "<table> > <thead>, <tbody>, <tfoot> > <tr> > <th> or <td>"
+  },
+  {
+    "front": "What does colspan do in a table cell?",
+    "back": "It lets a cell span multiple columns."
+  },
+  {
+    "front": "Is it valid to use tables for non-tabular layout?",
+    "back": "No, it's outdated and not best practice. Use CSS instead."
+  },
+  {
+    "front": "Can <table> have an ID?",
+    "back": "Yes, like <table id=\"quickfacts\"> for reference or styling."
+  },
+  {
+    "front": "What element wraps the main content rows in a table?",
+    "back": "<tbody>"
+  },
+  {
+    "front": "What does <th colspan=\"2\"> do?",
+    "back": "Creates a header cell that spans across two columns."
+  },
+  {
+    "front": "Should <thead>, <tbody>, and <tfoot> be used together?",
+    "back": "Yes, it creates semantic and accessible structure."
+  },
+  {
+    "front": "Can <th> be used in <tbody>?",
+    "back": "Yes, to label rows in the body."
+  },
+  {
+    "front": "What tag starts each new row in a table?",
+    "back": "<tr>"
+  },
+  {
+    "front": "What is a table data cell used for?",
+    "back": "Displaying actual data values inside a row, using <td>."
+  },
+  {
+    "front": "What tag is used for metadata or footnotes in a table?",
+    "back": "<tfoot>"
+  },
+  {
+    "front": "Why is using <table> better than using <div> for tabular data?",
+    "back": "It improves semantics, accessibility, and screen reader support."
+  },
+  {
+    "front": "What will be the visual result of <br> inside a <td>?",
+    "back": "A line break inside the table cell."
+  },
+  {
+    "front": "How many header cells can a single row contain?",
+    "back": "As many as needed — each <tr> can have multiple <th> cells."
+  },
+  {
+    "front": "What’s a real-world example where a table makes sense?",
+    "back": "Salary data, comparison charts, schedules, stats, etc."
+  },
+  {
+    "front": "What layout methods should you use instead of <table> for layout design?",
+    "back": "CSS Flexbox or CSS Grid."
+  },
+  {
+    "front": "Can a <tfoot> come before <tbody> in HTML?",
+    "back": "Yes, in source code for faster rendering, though visually it appears last."
+  },
+  {
+    "front": "How do screen readers benefit from well-structured tables?",
+    "back": "They can accurately associate headers with data cells."
+  },
+  {
+    "front": "What should a table not be used for in modern HTML?",
+    "back": "Positioning elements on a page."
+  },
+  {
+    "front": "Is <table> semantic HTML?",
+    "back": "Yes, it provides semantic structure for tabular data."
+  },
+  {
+    "front": "What happens if you skip <thead> and <tfoot>?",
+    "back": "The table still works, but it loses semantic meaning and accessibility improvements."
+  },
+  {
+    "front": "Is <td> valid inside <thead>?",
+    "back": "No, only <th> is valid inside <thead>."
+  },
+  {
+    "front": "Is it required to use all table sections like <thead>, <tbody>, and <tfoot>?",
+    "back": "No, but it's strongly recommended for clarity and accessibility."
+  },
+  {
+    "front": "How do tables benefit from semantic grouping elements like <thead>?",
+    "back": "It helps browsers and screen readers understand the structure better."
+  },
+  {
+    "front": "Why is nesting <th> and <td> inside <tr> important?",
+    "back": "It ensures proper structure and rendering of rows and columns."
+  },
+  {
+    "front": "Can you use <th> inside a <tfoot>?",
+    "back": "Yes, for summarizing column data or adding footer notes."
+  },
+  {
+    "front": "Is it best practice to include a <caption> for your tables?",
+    "back": "Yes, a <caption> provides a title and helps describe the table."
+  },
+  {
+    "front": "Where does the <caption> go in a table?",
+    "back": "Immediately after the opening <table> tag."
+  },
+  {
+    "front": "Should you use tables to align page layout items like menus and sidebars?",
+    "back": "No — use CSS instead."
+  },
+  {
+    "front": "How should tables be styled today?",
+    "back": "Using external or internal CSS, not with deprecated HTML attributes."
+  },
+  {
+    "front": "Can <th> elements be placed in rows within <tbody>?",
+    "back": "Yes, especially for row headers."
+  },
+  {
+    "front": "Why avoid using too many nested tables?",
+    "back": "They reduce performance and increase complexity unnecessarily."
+  },
+  {
+    "front": "What is the best HTML element for numerical data comparisons?",
+    "back": "A properly structured <table> with <th> and <td>."
+  }
+]

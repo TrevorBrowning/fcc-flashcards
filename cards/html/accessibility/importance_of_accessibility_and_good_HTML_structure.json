@@ -1,0 +1,302 @@
+[
+  {
+    "front": "What is the main goal of web accessibility?",
+    "back": "To ensure websites are usable by everyone, including people with disabilities, by providing equal access to content and functionality."
+  },
+  {
+    "front": "Which four principles make up the foundation of accessibility?",
+    "back": "Perceivable, Operable, Understandable, and Robust (POUR)."
+  },
+  {
+    "front": "What does 'Perceivable' mean in the context of accessibility?",
+    "back": "Content must be available to the senses, either through sight, sound, or touch."
+  },
+  {
+    "front": "What does 'Operable' mean in the POUR model?",
+    "back": "Users must be able to navigate and interact with the interface using a variety of input methods, like keyboard or voice."
+  },
+  {
+    "front": "What does 'Understandable' mean in accessibility design?",
+    "back": "The information and the operation of the user interface must be clear and predictable."
+  },
+  {
+    "front": "What does 'Robust' mean in the context of web accessibility?",
+    "back": "Content must be robust enough to be interpreted reliably by a wide variety of user agents, including assistive technologies."
+  },
+  {
+    "front": "What is an example of a 'Perceivable' accessibility practice?",
+    "back": "Providing text alternatives for non-text content like images (e.g., using the alt attribute)."
+  },
+  {
+    "front": "What is an example of an 'Operable' design feature?",
+    "back": "Ensuring all functionality is available via keyboard navigation."
+  },
+  {
+    "front": "How can you make content more 'Understandable'?",
+    "back": "Use clear and simple language, consistent navigation, and helpful error messages."
+  },
+  {
+    "front": "Why is 'Robust' design important?",
+    "back": "It ensures your content works well with current and future technologies, including screen readers and browsers."
+  },
+  {
+    "front": "What is a screen reader?",
+    "back": "A type of assistive technology that reads aloud the content of a webpage for users with visual impairments."
+  },
+  {
+    "front": "Why should you avoid using color alone to convey meaning?",
+    "back": "Users with color blindness may not perceive the difference, so alternative cues like icons or text should be used."
+  },
+  {
+    "front": "What is the purpose of the alt attribute in an img tag?",
+    "back": "To provide a textual description of the image for users who cannot see it."
+  },
+  {
+    "front": "What happens if an image has no alt attribute?",
+    "back": "Screen readers may skip the image or read the file name, which can be confusing."
+  },
+  {
+    "front": "How should you write good alt text?",
+    "back": "Be concise and describe the image’s essential content or function within the context of the page."
+  },
+  {
+    "front": "What is a decorative image, and how should it be handled?",
+    "back": "An image used for visual flair only; it should have an empty alt attribute (alt=\"\") so screen readers ignore it."
+  },
+  {
+    "front": "Why should headings be used in a logical order?",
+    "back": "It provides a clear content structure for screen readers and helps all users scan and navigate content efficiently."
+  },
+  {
+    "front": "What is ARIA in accessibility?",
+    "back": "Accessible Rich Internet Applications – a set of attributes to help screen readers understand complex widgets or layouts."
+  },
+  {
+    "front": "When should you use ARIA roles?",
+    "back": "When native HTML elements cannot convey the necessary semantic meaning or structure."
+  },
+  {
+    "front": "Why should ARIA not be used as a substitute for semantic HTML?",
+    "back": "Because native HTML is more widely supported and automatically accessible; ARIA should only be used when necessary."
+  },
+  {
+    "front": "What is 'focus order' in accessibility?",
+    "back": "The logical sequence in which elements receive focus when navigating with a keyboard."
+  },
+  {
+    "front": "Why is a logical focus order important?",
+    "back": "It ensures users can navigate a page predictably using a keyboard or assistive technology."
+  },
+  {
+    "front": "How do you change focus order in HTML?",
+    "back": "Use the tabindex attribute, though it should be used carefully to avoid confusion."
+  },
+  {
+    "front": "What does tabindex=\"-1\" do?",
+    "back": "Removes the element from the natural tab order but allows it to be focused programmatically."
+  },
+  {
+    "front": "What does tabindex=\"0\" do?",
+    "back": "Adds an element to the tab order where it would normally appear in the DOM."
+  },
+  {
+    "front": "What does a positive tabindex (e.g., tabindex=\"1\") do?",
+    "back": "It sets a custom tab order, but it’s generally discouraged because it overrides the natural flow of the DOM."
+  },
+  {
+    "front": "What HTML element should you use to group related form controls?",
+    "back": "The <fieldset> element."
+  },
+  {
+    "front": "What is the purpose of the <legend> element in forms?",
+    "back": "It provides a caption or description for a <fieldset> group of form controls."
+  },
+  {
+    "front": "What are skip links and why are they useful?",
+    "back": "Skip links allow keyboard and screen reader users to jump directly to the main content, bypassing navigation."
+  },
+  {
+    "front": "Where should you place a skip link on your page?",
+    "back": "At the top of the page, typically the first focusable element in the HTML."
+  },
+  {
+    "front": "What does the role=\"button\" ARIA attribute do?",
+    "back": "It tells assistive technology that the element acts as a button, even if it's not a native <button>."
+  },
+  {
+    "front": "How can you ensure ARIA roles are effective?",
+    "back": "Use them only when needed, follow proper markup structure, and test with assistive technologies."
+  },
+  {
+    "front": "What is the purpose of aria-label?",
+    "back": "It provides an invisible label for screen readers to describe the purpose of an element."
+  },
+  {
+    "front": "What is the difference between aria-label and aria-labelledby?",
+    "back": "aria-label defines a string directly, while aria-labelledby references the ID of another element to use its content."
+  },
+  {
+    "front": "What should you avoid when using ARIA attributes?",
+    "back": "Avoid overriding native HTML semantics and avoid unnecessary ARIA roles."
+  },
+  {
+    "front": "Why is using semantic HTML better than relying on ARIA?",
+    "back": "Semantic HTML is built-in and automatically interpreted by screen readers, offering better support and easier maintenance."
+  },
+  {
+    "front": "What HTML attribute makes content visible only to screen readers?",
+    "back": "The visually hidden class (commonly using CSS to visually hide text but keep it accessible)."
+  },
+  {
+    "front": "What CSS technique can you use to visually hide content but keep it accessible?",
+    "back": "Use styles like `position: absolute; width: 1px; height: 1px; overflow: hidden;` on screen reader-only text."
+  },
+  {
+    "front": "What is the purpose of alternative text (alt text) in images?",
+    "back": "To provide a textual description of the image for users who can't see it."
+  },
+  {
+    "front": "When should you use empty alt text (alt=\"\")?",
+    "back": "When the image is purely decorative and doesn't convey meaningful content."
+  },
+  {
+    "front": "Why is it important not to repeat surrounding text in alt text?",
+    "back": "It creates redundancy and noise for screen reader users."
+  },
+  {
+    "front": "How should you label form inputs for accessibility?",
+    "back": "Use a <label> element with either implicit nesting or a for/id combination for explicit association."
+  },
+  {
+    "front": "How does associating labels with inputs improve accessibility?",
+    "back": "It allows screen readers to announce the label when the input receives focus."
+  },
+  {
+    "front": "What does the aria-describedby attribute do?",
+    "back": "It allows you to associate additional descriptive text with an input or control."
+  },
+  {
+    "front": "What does the aria-live attribute do?",
+    "back": "It tells screen readers to automatically read dynamic content when it changes."
+  },
+  {
+    "front": "Which aria-live value should you use for polite updates?",
+    "back": "`aria-live=\"polite\"` – it announces updates when the user is idle."
+  },
+  {
+    "front": "Which aria-live value is used for immediate announcements?",
+    "back": "`aria-live=\"assertive\"` – it interrupts current announcements to read the new content right away."
+  },
+  {
+    "front": "What is an accessible name?",
+    "back": "The label or identifier that assistive technologies use to describe an element to the user."
+  },
+  {
+    "front": "How do you define an accessible name for an icon-only button?",
+    "back": "Use aria-label or visually hidden text to describe its purpose."
+  },
+  {
+    "front": "Why should icon-only buttons have labels?",
+    "back": "So screen reader users can understand the purpose of the button even if they can't see the icon."
+  },
+  {
+    "front": "What is a screen reader?",
+    "back": "A screen reader is an assistive technology that reads aloud content displayed on a screen for visually impaired users."
+  },
+  {
+    "front": "Why is keyboard accessibility important?",
+    "back": "Because not all users can use a mouse, and some rely on keyboard navigation to browse the web."
+  },
+  {
+    "front": "What does pressing the Tab key do on a webpage?",
+    "back": "It moves focus to the next focusable element, like links, buttons, or form fields."
+  },
+  {
+    "front": "How do you change the natural tab order of elements?",
+    "back": "By using the tabindex attribute."
+  },
+  {
+    "front": "What tabindex value makes an element not focusable by keyboard?",
+    "back": "`tabindex=\"-1\"`"
+  },
+  {
+    "front": "What does `tabindex=\"0\"` do?",
+    "back": "It includes the element in the natural tab order."
+  },
+  {
+    "front": "What are the two main types of ARIA landmarks?",
+    "back": "Regions like `role=\"main\"` and navigational elements like `role=\"navigation\"`."
+  },
+  {
+    "front": "What is a landmark region used for in accessibility?",
+    "back": "It defines key areas of the page that users can jump to using assistive technologies."
+  },
+  {
+    "front": "What does `role=\"alert\"` do?",
+    "back": "It immediately notifies screen reader users about important content changes."
+  },
+  {
+    "front": "Why is it better to use semantic HTML than to recreate components with divs and ARIA?",
+    "back": "Semantic HTML provides better built-in accessibility and is easier to maintain."
+  },
+  {
+    "front": "What is the difference between aria-hidden and display: none?",
+    "back": "`aria-hidden=\"true\"` hides the element from screen readers only, while `display: none` hides it visually and from assistive tech."
+  },
+  {
+    "front": "What does `aria-hidden=\"true\"` do?",
+    "back": "It removes the element from the accessibility tree so screen readers ignore it."
+  },
+  {
+    "front": "Why should you avoid hiding interactive content with aria-hidden?",
+    "back": "Because it makes the content inaccessible to screen reader users."
+  },
+  {
+    "front": "What is a visually hidden class used for?",
+    "back": "To hide text visually but keep it accessible to screen readers."
+  },
+  {
+    "front": "What does `role=\"presentation\"` or `role=\"none\"` do?",
+    "back": "It tells screen readers to ignore the element’s semantic meaning and treat it as neutral."
+  },
+  {
+    "front": "When should you use `role=\"presentation\"`?",
+    "back": "For purely decorative elements that don’t convey meaningful information."
+  },
+  {
+    "front": "How do you test your site for keyboard accessibility?",
+    "back": "Try navigating the entire interface using only the keyboard (Tab, Shift+Tab, Enter, Space)."
+  },
+  {
+    "front": "How can you ensure accessible focus management on modals?",
+    "back": "Trap focus inside the modal and return it to the previously focused element when closed."
+  },
+  {
+    "front": "What’s one issue caused by poor focus management?",
+    "back": "Screen reader or keyboard users may get lost or stuck in parts of the page."
+  },
+  {
+    "front": "What’s an accessible way to indicate an error in a form?",
+    "back": "Use aria-describedby to associate error messages with the relevant input."
+  },
+  {
+    "front": "How do you group checkboxes or radio buttons for accessibility?",
+    "back": "Use a <fieldset> and <legend> to describe the group."
+  },
+  {
+    "front": "Why is color contrast important for accessibility?",
+    "back": "It ensures that text is readable for users with visual impairments or color blindness."
+  },
+  {
+    "front": "What is the minimum recommended contrast ratio for normal text?",
+    "back": "4.5:1 for normal text, 3:1 for large text (18pt or 14pt bold)."
+  },
+  {
+    "front": "How can you check your color contrast ratios?",
+    "back": "Use tools like WebAIM's Contrast Checker or browser extensions."
+  },
+  {
+    "front": "Why is accessibility important for all users?",
+    "back": "Because it makes the web usable for people with disabilities and improves overall usability for everyone."
+  }
+]

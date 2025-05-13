@@ -1,0 +1,82 @@
+[
+  {
+    "front": "What is an HTML validator?",
+    "back": "A tool that checks your HTML code against official standards and identifies errors or warnings."
+  },
+  {
+    "front": "Why is HTML considered a forgiving language?",
+    "back": "Browsers use parsing algorithms to interpret incomplete or incorrect HTML and render it as expected."
+  },
+  {
+    "front": "Why might missing a closing tag not cause an obvious error in HTML?",
+    "back": "Browsers automatically correct some common mistakes to continue rendering the content."
+  },
+  {
+    "front": "What is the risk of relying on browser auto-correction in HTML?",
+    "back": "It can lead to unexpected rendering, such as paragraphs appearing as headers."
+  },
+  {
+    "front": "What is the benefit of using an HTML validator?",
+    "back": "It ensures your HTML is clean, accurate, and follows best practices for maintainability and accessibility."
+  },
+  {
+    "front": "What is one of the most widely accepted HTML validators?",
+    "back": "The W3C Markup Validation Service at validator.w3.org."
+  },
+  {
+    "front": "How can you validate HTML using the W3C validator?",
+    "back": "Paste your HTML into the 'Direct Input' form and click 'Check' to see validation results."
+  },
+  {
+    "front": "What is another HTML validation tool besides W3C's validator?",
+    "back": "jsonformatter.org can also validate HTML by pasting code and clicking Validate."
+  },
+  {
+    "front": "What does a 404 error indicate?",
+    "back": "That the requested webpage was not found on the server."
+  },
+  {
+    "front": "What are devtools in a browser?",
+    "back": "Built-in tools for inspecting and debugging HTML, CSS, and JavaScript."
+  },
+  {
+    "front": "What is the DOM?",
+    "back": "The Document Object Model, a tree-like representation of the elements in an HTML page."
+  },
+  {
+    "front": "What does the Elements tab in devtools show?",
+    "back": "The current structure of your HTML document as interpreted by the browser."
+  },
+  {
+    "front": "What does the Console tab in devtools show?",
+    "back": "Errors, warnings, and logs related to JavaScript and page behavior."
+  },
+  {
+    "front": "How do you open devtools in a browser using the mouse?",
+    "back": "Right-click on the page and select 'Inspect'."
+  },
+  {
+    "front": "What is the shortcut to open devtools on Windows?",
+    "back": "Ctrl + Shift + I"
+  },
+  {
+    "front": "What is the shortcut to open devtools on Mac?",
+    "back": "Command + Option + I"
+  },
+  {
+    "front": "How can devtools help debug a broken link?",
+    "back": "You can inspect the element and use the console to identify errors like incorrect href values."
+  },
+  {
+    "front": "How does the Console tab help with debugging?",
+    "back": "It displays runtime errors, like 404s or JavaScript problems."
+  },
+  {
+    "front": "What is the issue in this code? <h2>Subheading 3",
+    "back": "The <h2> tag is missing a closing tag, which can affect how the browser renders following content."
+  },
+  {
+    "front": "Why should you validate HTML even if it renders correctly?",
+    "back": "To ensure long-term maintainability, better accessibility, and fewer bugs for others using your code."
+  }
+]

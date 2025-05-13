@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Dark Mode Toggle -->
+    <label class="theme-toggle" for="dark-mode-toggle">
+      <input type="checkbox" id="dark-mode-toggle" />
+      Dark Mode
+    </label>
+
     <h1>Free Code Camp Flashcard Study</h1>
 
     <!-- Toggle always visible -->
-    <button id="toggle-selectors" class="toggle-button">
+    <button id="toggle-selectors" class="toggle-button" aria-expanded="true">
       Hide Lesson Picker ▲
     </button>
 
@@ -49,12 +55,27 @@
       </div>
     </div>
 
+    <!-- Progress Bar -->
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <!-- Card count -->
     <div id="card-count"></div>
 
+    <!-- Controls -->
     <div class="controls">
-      <button id="prev-btn">Previous</button>
+      <button id="prev-btn" aria-label="Previous Card">
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
       <button id="flip-btn">Flip</button>
-      <button id="next-btn">Next</button>
+      <button id="next-btn" aria-label="Next Card">
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M9 6l6 6-6 6" />
+        </svg>
+      </button>
     </div>
 
     <script src="main.js"></script>

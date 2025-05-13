@@ -1,0 +1,486 @@
+[
+  {
+    "front": "<!--...-->",
+    "back": "Defines a comment"
+  },
+  {
+    "front": "<!DOCTYPE>",
+    "back": "Defines the document type"
+  },
+  {
+    "front": "<a>",
+    "back": "Defines a hyperlink"
+  },
+  {
+    "front": "<abbr>",
+    "back": "Defines an abbreviation or an acronym"
+  },
+  {
+    "front": "<acronym>",
+    "back": "Not supported in HTML5. Use <abbr> instead."
+  },
+  {
+    "front": "<address>",
+    "back": "Defines contact information for the author/owner of a document"
+  },
+  {
+    "front": "<applet>",
+    "back": "Not supported in HTML5. Use <embed> or <object> instead."
+  },
+  {
+    "front": "<area>",
+    "back": "Defines an area inside an image map"
+  },
+  {
+    "front": "<article>",
+    "back": "Defines an article"
+  },
+  {
+    "front": "<aside>",
+    "back": "Defines content aside from the page content"
+  },
+  {
+    "front": "<audio>",
+    "back": "Defines embedded sound content"
+  },
+  {
+    "front": "<b>",
+    "back": "Defines bold text"
+  },
+  {
+    "front": "<base>",
+    "back": "Specifies the base URL/target for all relative URLs in a document"
+  },
+  {
+    "front": "<basefont>",
+    "back": "Not supported in HTML5. Use CSS instead."
+  },
+  {
+    "front": "<bdi>",
+    "back": "Isolates text that might be formatted in a different direction"
+  },
+  {
+    "front": "<bdo>",
+    "back": "Overrides the current text direction"
+  },
+  {
+    "front": "<big>",
+    "back": "Not supported in HTML5. Use CSS instead."
+  },
+  {
+    "front": "<blockquote>",
+    "back": "Defines a section that is quoted from another source"
+  },
+  {
+    "front": "<body>",
+    "back": "Defines the document's body"
+  },
+  {
+    "front": "<br>",
+    "back": "Defines a single line break"
+  },
+  {
+    "front": "<button>",
+    "back": "Defines a clickable button"
+  },
+  {
+    "front": "<canvas>",
+    "back": "Used to draw graphics, on the fly, via scripting (usually JavaScript)"
+  },
+  {
+    "front": "<caption>",
+    "back": "Defines a table caption"
+  },
+  {
+    "front": "<center>",
+    "back": "Not supported in HTML5. Use CSS instead."
+  },
+  {
+    "front": "<cite>",
+    "back": "Defines the title of a work"
+  },
+  {
+    "front": "<code>",
+    "back": "Defines a piece of computer code"
+  },
+  {
+    "front": "<col>",
+    "back": "Specifies column properties for each column within a <colgroup> element"
+  },
+  {
+    "front": "<colgroup>",
+    "back": "Specifies a group of one or more columns in a table for formatting"
+  },
+  {
+    "front": "<data>",
+    "back": "Adds a machine-readable translation of a given content"
+  },
+  {
+    "front": "<datalist>",
+    "back": "Specifies a list of pre-defined options for input controls"
+  },
+  {
+    "front": "<dd>",
+    "back": "Defines a description/value of a term in a description list"
+  },
+  {
+    "front": "<del>",
+    "back": "Defines text that has been deleted from a document"
+  },
+  {
+    "front": "<details>",
+    "back": "Defines additional details that the user can view or hide"
+  },
+  {
+    "front": "<dfn>",
+    "back": "Specifies a term that is going to be defined within the content"
+  },
+  {
+    "front": "<dialog>",
+    "back": "Defines a dialog box or window"
+  },
+  {
+    "front": "<dir>",
+    "back": "Not supported in HTML5. Use <ul> instead."
+  },
+  {
+    "front": "<div>",
+    "back": "Defines a section in a document"
+  },
+  {
+    "front": "<dl>",
+    "back": "Defines a description list"
+  },
+  {
+    "front": "<dt>",
+    "back": "Defines a term/name in a description list"
+  },
+  {
+    "front": "<em>",
+    "back": "Defines emphasized text"
+  },
+  {
+    "front": "<embed>",
+    "back": "Defines a container for an external application"
+  },
+  {
+    "front": "<fieldset>",
+    "back": "Groups related elements in a form"
+  },
+  {
+    "front": "<figcaption>",
+    "back": "Defines a caption for a <figure> element"
+  },
+  {
+    "front": "<figure>",
+    "back": "Specifies self-contained content"
+  },
+  {
+    "front": "<font>",
+    "back": "Not supported in HTML5. Use CSS instead."
+  },
+  {
+    "front": "<footer>",
+    "back": "Defines a footer for a document or section"
+  },
+  {
+    "front": "<form>",
+    "back": "Defines an HTML form for user input"
+  },
+  {
+    "front": "<frame>",
+    "back": "Not supported in HTML5."
+  },
+  {
+    "front": "<frameset>",
+    "back": "Not supported in HTML5."
+  },
+  {
+    "front": "<h1> to <h6>",
+    "back": "Defines HTML headings"
+  },
+  {
+    "front": "<head>",
+    "back": "Contains metadata/information for the document"
+  },
+  {
+    "front": "<header>",
+    "back": "Defines a header for a document or section"
+  },
+  {
+    "front": "<hgroup>",
+    "back": "Defines a header and related content"
+  },
+  {
+    "front": "<hr>",
+    "back": "Defines a thematic change in the content"
+  },
+  {
+    "front": "<html>",
+    "back": "Defines the root of an HTML document"
+  },
+  {
+    "front": "<i>",
+    "back": "Defines a part of text in an alternate voice or mood"
+  },
+  {
+    "front": "<iframe>",
+    "back": "Defines an inline frame"
+  },
+  {
+    "front": "<img>",
+    "back": "Defines an image"
+  },
+  {
+    "front": "<input>",
+    "back": "Defines an input control"
+  },
+  {
+    "front": "<ins>",
+    "back": "Defines a text that has been inserted into a document"
+  },
+  {
+    "front": "<kbd>",
+    "back": "Defines keyboard input"
+  },
+  {
+    "front": "<label>",
+    "back": "Defines a label for an <input> element"
+  },
+  {
+    "front": "<legend>",
+    "back": "Defines a caption for a <fieldset> element"
+  },
+  {
+    "front": "<li>",
+    "back": "Defines a list item"
+  },
+  {
+    "front": "<link>",
+    "back": "Defines the relationship between a document and an external resource (most used to link to style sheets)"
+  },
+  {
+    "front": "<main>",
+    "back": "Specifies the main content of a document"
+  },
+  {
+    "front": "<map>",
+    "back": "Defines an image map"
+  },
+  {
+    "front": "<mark>",
+    "back": "Defines marked/highlighted text"
+  },
+  {
+    "front": "<menu>",
+    "back": "Defines an unordered list"
+  },
+  {
+    "front": "<meta>",
+    "back": "Defines metadata about an HTML document"
+  },
+  {
+    "front": "<meter>",
+    "back": "Defines a scalar measurement within a known range (a gauge)"
+  },
+  {
+    "front": "<nav>",
+    "back": "Defines navigation links"
+  },
+  {
+    "front": "<noframes>",
+    "back": "Not supported in HTML5. Defines an alternate content for users that do not support frames"
+  },
+  {
+    "front": "<noscript>",
+    "back": "Defines an alternate content for users that do not support client-side scripts"
+  },
+  {
+    "front": "<object>",
+    "back": "Defines a container for an external application"
+  },
+  {
+    "front": "<ol>",
+    "back": "Defines an ordered list"
+  },
+  {
+    "front": "<optgroup>",
+    "back": "Defines a group of related options in a drop-down list"
+  },
+  {
+    "front": "<option>",
+    "back": "Defines an option in a drop-down list"
+  },
+  {
+    "front": "<output>",
+    "back": "Defines the result of a calculation"
+  },
+  {
+    "front": "<p>",
+    "back": "Defines a paragraph"
+  },
+  {
+    "front": "<param>",
+    "back": "Defines a parameter for an object"
+  },
+  {
+    "front": "<picture>",
+    "back": "Defines a container for multiple image resources"
+  },
+  {
+    "front": "<pre>",
+    "back": "Defines preformatted text"
+  },
+  {
+    "front": "<progress>",
+    "back": "Represents the progress of a task"
+  },
+  {
+    "front": "<q>",
+    "back": "Defines a short quotation"
+  },
+  {
+    "front": "<rp>",
+    "back": "Defines what to show in browsers that do not support ruby annotations"
+  },
+  {
+    "front": "<rt>",
+    "back": "Defines an explanation/pronunciation of characters (for East Asian typography)"
+  },
+  {
+    "front": "<ruby>",
+    "back": "Defines a ruby annotation (for East Asian typography)"
+  },
+  {
+    "front": "<s>",
+    "back": "Defines text that is no longer correct"
+  },
+  {
+    "front": "<samp>",
+    "back": "Defines sample output from a computer program"
+  },
+  {
+    "front": "<script>",
+    "back": "Defines a client-side script"
+  },
+  {
+    "front": "<search>",
+    "back": "Defines a search section"
+  },
+  {
+    "front": "<section>",
+    "back": "Defines a section in a document"
+  },
+  {
+    "front": "<select>",
+    "back": "Defines a drop-down list"
+  },
+  {
+    "front": "<small>",
+    "back": "Defines smaller text"
+  },
+  {
+    "front": "<source>",
+    "back": "Defines multiple media resources for media elements (<video> and <audio>)"
+  },
+  {
+    "front": "<span>",
+    "back": "Defines a section in a document"
+  },
+  {
+    "front": "<strong>",
+    "back": "Defines important text"
+  },
+  {
+    "front": "<style>",
+    "back": "Defines style information for a document"
+  },
+  {
+    "front": "<sub>",
+    "back": "Defines subscripted text"
+  },
+  {
+    "front": "<summary>",
+    "back": "Defines a visible heading for a <details> element"
+  },
+  {
+    "front": "<sup>",
+    "back": "Defines superscripted text"
+  },
+  {
+    "front": "<svg>",
+    "back": "Defines a container for SVG graphics"
+  },
+  {
+    "front": "<table>",
+    "back": "Defines a table"
+  },
+  {
+    "front": "<tbody>",
+    "back": "Groups the body content in a table"
+  },
+  {
+    "front": "<td>",
+    "back": "Defines a cell in a table"
+  },
+  {
+    "front": "<template>",
+    "back": "Defines a container for content that should be hidden when the page loads"
+  },
+  {
+    "front": "<textarea>",
+    "back": "Defines a multiline input control (text area)"
+  },
+  {
+    "front": "<tfoot>",
+    "back": "Groups the footer content in a table"
+  },
+  {
+    "front": "<th>",
+    "back": "Defines a header cell in a table"
+  },
+  {
+    "front": "<thead>",
+    "back": "Groups the header content in a table"
+  },
+  {
+    "front": "<time>",
+    "back": "Defines a specific time (or datetime)"
+  },
+  {
+    "front": "<title>",
+    "back": "Defines a title for the document"
+  },
+  {
+    "front": "<tr>",
+    "back": "Defines a row in a table"
+  },
+  {
+    "front": "<track>",
+    "back": "Defines text tracks for media elements (<video> and <audio>)"
+  },
+  {
+    "front": "<tt>",
+    "back": "Not supported in HTML5. Use CSS instead. Defines teletype text"
+  },
+  {
+    "front": "<u>",
+    "back": "Defines some text that is unarticulated and styled differently from normal text"
+  },
+  {
+    "front": "<ul>",
+    "back": "Defines an unordered list"
+  },
+  {
+    "front": "<var>",
+    "back": "Defines a variable"
+  },
+  {
+    "front": "<video>",
+    "back": "Defines embedded video content"
+  },
+  {
+    "front": "<wbr>",
+    "back": "Defines a possible line-break"
+  }
+]

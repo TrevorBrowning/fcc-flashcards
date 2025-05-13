@@ -1,0 +1,442 @@
+[
+  {
+    "front": "What is the purpose of the <form> element in HTML?",
+    "back": "To collect and submit user data, such as names, emails, or other input information."
+  },
+  {
+    "front": "What does the action attribute in a <form> do?",
+    "back": "It specifies the URL where the form data will be sent after submission."
+  },
+  {
+    "front": "Which HTML element is used to create a field for user input?",
+    "back": "The <input> element."
+  },
+  {
+    "front": "What is a void element?",
+    "back": "An HTML element that cannot have children or a closing tag, like <input>."
+  },
+  {
+    "front": "What is the purpose of the type attribute in <input>?",
+    "back": "It defines the expected kind of data input (e.g., text, email, password)."
+  },
+  {
+    "front": "How do you label an <input> element implicitly?",
+    "back": "By nesting the <input> inside a <label> element."
+  },
+  {
+    "front": "How do you label an <input> explicitly?",
+    "back": "Using the for attribute in <label> and matching it with the input’s id."
+  },
+  {
+    "front": "What does the placeholder attribute do?",
+    "back": "Displays hint text inside an input field to guide users on expected input."
+  },
+  {
+    "front": "What are the three main types of <button>?",
+    "back": "button, submit, and reset."
+  },
+  {
+    "front": "What does a <button type='button'> do?",
+    "back": "It does nothing by default; usually used with JavaScript to perform custom actions."
+  },
+  {
+    "front": "What does a <button type='submit'> do?",
+    "back": "It submits the form it is contained in."
+  },
+  {
+    "front": "What does a <button type='reset'> do?",
+    "back": "It resets all form fields to their default values."
+  },
+  {
+    "front": "Why might using a reset button in a form be discouraged?",
+    "back": "It may confuse users or cause accidental data loss."
+  },
+  {
+    "front": "What’s the difference between <button> and <input type='button'>?",
+    "back": "<button> can contain other elements; <input> is a void element with no children."
+  },
+  {
+    "front": "What attribute is used to make an input required before form submission?",
+    "back": "The required attribute."
+  },
+  {
+    "front": "What happens when a required input is empty on form submission?",
+    "back": "The browser blocks submission and shows a validation message."
+  },
+  {
+    "front": "What is client-side validation?",
+    "back": "Validation performed in the browser before the form is submitted to the server."
+  },
+  {
+    "front": "What is server-side validation?",
+    "back": "Validation done on the server after the form is submitted, used for security."
+  },
+  {
+    "front": "Why do you need both client-side and server-side validation?",
+    "back": "Client-side improves user experience; server-side prevents malicious bypassing."
+  },
+  {
+    "front": "What does the minlength attribute do?",
+    "back": "Sets the minimum number of characters an input must have to be valid."
+  },
+  {
+    "front": "What does the maxlength attribute do?",
+    "back": "Sets the maximum number of characters an input can have."
+  },
+  {
+    "front": "What does the email input type validate?",
+    "back": "That the input contains an '@' and valid domain (basic email formatting)."
+  },
+  {
+    "front": "What is the default form input state?",
+    "back": "Blank or empty, ready to receive input."
+  },
+  {
+    "front": "What is the focused state of a form input?",
+    "back": "When the input is currently selected or active (usually shows a highlight border)."
+  },
+  {
+    "front": "What is the disabled attribute used for in forms?",
+    "back": "To make an input unfocusable and uneditable."
+  },
+  {
+    "front": "Can a disabled input be submitted?",
+    "back": "No, disabled inputs are excluded from form submission."
+  },
+  {
+    "front": "What is the readonly attribute used for?",
+    "back": "To make an input visible and selectable but not editable."
+  },
+  {
+    "front": "Can a readonly input be submitted?",
+    "back": "Yes, unlike disabled inputs, readonly inputs are submitted."
+  },
+  {
+    "front": "What’s the key difference between disabled and readonly?",
+    "back": "Disabled fields are not submitted and cannot be focused. Readonly fields can be focused and submitted but not edited."
+  },
+  {
+    "front": "What attribute allows users to click a label to focus the input?",
+    "back": "The for attribute on the label, when matched to the input’s id."
+  },
+  {
+    "front": "What HTML element allows grouping of multiple form controls?",
+    "back": "The <form> element itself."
+  },
+  {
+    "front": "Is the <input> element a block or inline element?",
+    "back": "It’s an inline-level void element."
+  },
+  {
+    "front": "What does nesting an input in a label do?",
+    "back": "It creates an implicit connection so clicking the label focuses the input."
+  },
+  {
+    "front": "How can JavaScript interact with form buttons?",
+    "back": "By attaching event listeners to <button type='button'> elements."
+  },
+  {
+    "front": "What should be avoided in form UX to prevent frustration?",
+    "back": "Accidental data loss, unnecessary reset buttons, unclear validation errors."
+  },
+  {
+    "front": "What does the name attribute in <input> do?",
+    "back": "It identifies the data key when the form is submitted to the server."
+  },
+  {
+    "front": "Why use input type='email' instead of type='text'?",
+    "back": "It enables built-in email validation and better mobile keyboards."
+  },
+  {
+    "front": "What happens if minlength or maxlength is violated?",
+    "back": "The browser shows an error message and blocks submission."
+  },
+  {
+    "front": "What is the value attribute used for in <input>?",
+    "back": "To pre-fill or define the input’s default value."
+  },
+  {
+    "front": "Which form state allows focusing but not editing?",
+    "back": "The readonly state."
+  },
+  {
+    "front": "Can you style form states like :focus or :disabled in CSS?",
+    "back": "Yes, using pseudo-classes like :focus and :disabled."
+  },
+  {
+    "front": "How do you associate a label with an input for accessibility?",
+    "back": "Use <label for='inputID'> and set input id='inputID'."
+  },
+  {
+    "front": "What is the purpose of the placeholder attribute?",
+    "back": "To show an example or expected format of input data inside the field."
+  },
+  {
+    "front": "What does the reset button do in a form?",
+    "back": "It resets all fields to their default values as specified in the HTML."
+  },
+  {
+    "front": "How do you ensure a form field must be filled before submission?",
+    "back": "Add the required attribute to the <input>."
+  },
+  {
+    "front": "What is the difference between submit and button types?",
+    "back": "Submit sends form data; button does nothing unless controlled by JavaScript."
+  },
+  {
+    "front": "What’s a best practice for email input UX?",
+    "back": "Use type='email', include placeholder text, and apply validation like required, minlength, and maxlength."
+  },
+  {
+    "front": "What is client-side form validation good for?",
+    "back": "Improving user experience and catching basic errors before submission."
+  },
+  {
+    "front": "What are HTML tables primarily used for?",
+    "back": "Displaying tabular data such as stats, schedules, and comparisons."
+  },
+  {
+    "front": "What are HTML tables NOT recommended for anymore?",
+    "back": "Layout and design structure — use CSS Flexbox or Grid instead."
+  },
+  {
+    "front": "Which HTML element defines a table?",
+    "back": "The <table> element."
+  },
+  {
+    "front": "Which element defines a group of header rows in a table?",
+    "back": "The <thead> element."
+  },
+  {
+    "front": "What element groups the body rows of a table?",
+    "back": "<tbody>"
+  },
+  {
+    "front": "What is the purpose of the <tfoot> element?",
+    "back": "It groups the footer rows in a table, often for metadata or totals."
+  },
+  {
+    "front": "What element defines a table row?",
+    "back": "<tr>"
+  },
+  {
+    "front": "What element is used for table headers?",
+    "back": "<th>"
+  },
+  {
+    "front": "What element is used for standard table data cells?",
+    "back": "<td>"
+  },
+  {
+    "front": "In what order should table content be structured?",
+    "back": "<table> > <thead>, <tbody>, <tfoot> > <tr> > <th> or <td>"
+  },
+  {
+    "front": "What does colspan do in a table cell?",
+    "back": "It lets a cell span multiple columns."
+  },
+  {
+    "front": "Is it valid to use tables for non-tabular layout?",
+    "back": "No, it's outdated and not best practice. Use CSS instead."
+  },
+  {
+    "front": "Can <table> have an ID?",
+    "back": "Yes, like <table id=\"quickfacts\"> for reference or styling."
+  },
+  {
+    "front": "What element wraps the main content rows in a table?",
+    "back": "<tbody>"
+  },
+  {
+    "front": "What does <th colspan=\"2\"> do?",
+    "back": "Creates a header cell that spans across two columns."
+  },
+  {
+    "front": "Should <thead>, <tbody>, and <tfoot> be used together?",
+    "back": "Yes, it creates semantic and accessible structure."
+  },
+  {
+    "front": "Can <th> be used in <tbody>?",
+    "back": "Yes, to label rows in the body."
+  },
+  {
+    "front": "What tag starts each new row in a table?",
+    "back": "<tr>"
+  },
+  {
+    "front": "What is a table data cell used for?",
+    "back": "Displaying actual data values inside a row, using <td>."
+  },
+  {
+    "front": "What tag is used for metadata or footnotes in a table?",
+    "back": "<tfoot>"
+  },
+  {
+    "front": "Why is using <table> better than using <div> for tabular data?",
+    "back": "It improves semantics, accessibility, and screen reader support."
+  },
+  {
+    "front": "What will be the visual result of <br> inside a <td>?",
+    "back": "A line break inside the table cell."
+  },
+  {
+    "front": "How many header cells can a single row contain?",
+    "back": "As many as needed — each <tr> can have multiple <th> cells."
+  },
+  {
+    "front": "What’s a real-world example where a table makes sense?",
+    "back": "Salary data, comparison charts, schedules, stats, etc."
+  },
+  {
+    "front": "What layout methods should you use instead of <table> for layout design?",
+    "back": "CSS Flexbox or CSS Grid."
+  },
+  {
+    "front": "Can a <tfoot> come before <tbody> in HTML?",
+    "back": "Yes, in source code for faster rendering, though visually it appears last."
+  },
+  {
+    "front": "How do screen readers benefit from well-structured tables?",
+    "back": "They can accurately associate headers with data cells."
+  },
+  {
+    "front": "What should a table not be used for in modern HTML?",
+    "back": "Positioning elements on a page."
+  },
+  {
+    "front": "Is <table> semantic HTML?",
+    "back": "Yes, it provides semantic structure for tabular data."
+  },
+  {
+    "front": "What happens if you skip <thead> and <tfoot>?",
+    "back": "The table still works, but it loses semantic meaning and accessibility improvements."
+  },
+  {
+    "front": "Is <td> valid inside <thead>?",
+    "back": "No, only <th> is valid inside <thead>."
+  },
+  {
+    "front": "Is it required to use all table sections like <thead>, <tbody>, and <tfoot>?",
+    "back": "No, but it's strongly recommended for clarity and accessibility."
+  },
+  {
+    "front": "How do tables benefit from semantic grouping elements like <thead>?",
+    "back": "It helps browsers and screen readers understand the structure better."
+  },
+  {
+    "front": "Why is nesting <th> and <td> inside <tr> important?",
+    "back": "It ensures proper structure and rendering of rows and columns."
+  },
+  {
+    "front": "Can you use <th> inside a <tfoot>?",
+    "back": "Yes, for summarizing column data or adding footer notes."
+  },
+  {
+    "front": "Is it best practice to include a <caption> for your tables?",
+    "back": "Yes, a <caption> provides a title and helps describe the table."
+  },
+  {
+    "front": "Where does the <caption> go in a table?",
+    "back": "Immediately after the opening <table> tag."
+  },
+  {
+    "front": "Should you use tables to align page layout items like menus and sidebars?",
+    "back": "No — use CSS instead."
+  },
+  {
+    "front": "How should tables be styled today?",
+    "back": "Using external or internal CSS, not with deprecated HTML attributes."
+  },
+  {
+    "front": "Can <th> elements be placed in rows within <tbody>?",
+    "back": "Yes, especially for row headers."
+  },
+  {
+    "front": "Why avoid using too many nested tables?",
+    "back": "They reduce performance and increase complexity unnecessarily."
+  },
+  {
+    "front": "What is the best HTML element for numerical data comparisons?",
+    "back": "A properly structured <table> with <th> and <td>."
+  },
+  {
+    "front": "What is an HTML validator?",
+    "back": "A tool that checks your HTML code against official standards and identifies errors or warnings."
+  },
+  {
+    "front": "Why is HTML considered a forgiving language?",
+    "back": "Browsers use parsing algorithms to interpret incomplete or incorrect HTML and render it as expected."
+  },
+  {
+    "front": "Why might missing a closing tag not cause an obvious error in HTML?",
+    "back": "Browsers automatically correct some common mistakes to continue rendering the content."
+  },
+  {
+    "front": "What is the risk of relying on browser auto-correction in HTML?",
+    "back": "It can lead to unexpected rendering, such as paragraphs appearing as headers."
+  },
+  {
+    "front": "What is the benefit of using an HTML validator?",
+    "back": "It ensures your HTML is clean, accurate, and follows best practices for maintainability and accessibility."
+  },
+  {
+    "front": "What is one of the most widely accepted HTML validators?",
+    "back": "The W3C Markup Validation Service at validator.w3.org."
+  },
+  {
+    "front": "How can you validate HTML using the W3C validator?",
+    "back": "Paste your HTML into the 'Direct Input' form and click 'Check' to see validation results."
+  },
+  {
+    "front": "What is another HTML validation tool besides W3C's validator?",
+    "back": "jsonformatter.org can also validate HTML by pasting code and clicking Validate."
+  },
+  {
+    "front": "What does a 404 error indicate?",
+    "back": "That the requested webpage was not found on the server."
+  },
+  {
+    "front": "What are devtools in a browser?",
+    "back": "Built-in tools for inspecting and debugging HTML, CSS, and JavaScript."
+  },
+  {
+    "front": "What is the DOM?",
+    "back": "The Document Object Model, a tree-like representation of the elements in an HTML page."
+  },
+  {
+    "front": "What does the Elements tab in devtools show?",
+    "back": "The current structure of your HTML document as interpreted by the browser."
+  },
+  {
+    "front": "What does the Console tab in devtools show?",
+    "back": "Errors, warnings, and logs related to JavaScript and page behavior."
+  },
+  {
+    "front": "How do you open devtools in a browser using the mouse?",
+    "back": "Right-click on the page and select 'Inspect'."
+  },
+  {
+    "front": "What is the shortcut to open devtools on Windows?",
+    "back": "Ctrl + Shift + I"
+  },
+  {
+    "front": "What is the shortcut to open devtools on Mac?",
+    "back": "Command + Option + I"
+  },
+  {
+    "front": "How can devtools help debug a broken link?",
+    "back": "You can inspect the element and use the console to identify errors like incorrect href values."
+  },
+  {
+    "front": "How does the Console tab help with debugging?",
+    "back": "It displays runtime errors, like 404s or JavaScript problems."
+  },
+  {
+    "front": "What is the issue in this code? <h2>Subheading 3",
+    "back": "The <h2> tag is missing a closing tag, which can affect how the browser renders following content."
+  },
+  {
+    "front": "Why should you validate HTML even if it renders correctly?",
+    "back": "To ensure long-term maintainability, better accessibility, and fewer bugs for others using your code."
+  }
+]

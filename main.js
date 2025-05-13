@@ -19,8 +19,13 @@ const controls = document.querySelector(".controls");
 let flashcards = [];
 let currentIndex = 0;
 
+document.getElementById("dark-mode-toggle").addEventListener("change", (e) => {
+  document.body.classList.toggle("dark", e.target.checked);
+});
+
 const lessonData = {
   html: {
+    tags: ["HTML_tags"],
     basics: [
       "all",
       "what_is_HTML",
@@ -44,6 +49,13 @@ const lessonData = {
       "code_representation",
       "u_s_ruby_elements",
     ],
+    Forms_and_Tables: [
+      "all",
+      "working_with_forms",
+      "working_with_tables",
+      "working_with_HTML_tools",
+    ],
+    accessibility: ["importance_of_accessibility_and_good_HTML_structure"],
   },
   css: {
     basics: ["selectors", "box_model", "all"],
@@ -128,6 +140,9 @@ function displayCard() {
   cardBack.textContent = card.back;
   cardCount.textContent = `Card ${currentIndex + 1} of ${flashcards.length}`;
   flashcard.classList.remove("flipped");
+
+  const progress = ((currentIndex + 1) / flashcards.length) * 100;
+  document.getElementById("progress-bar").style.width = `${progress}%`;
 }
 
 flashcard.addEventListener("click", () => {

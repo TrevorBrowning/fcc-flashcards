@@ -1,0 +1,194 @@
+[
+  {
+    "front": "What is the purpose of the <form> element in HTML?",
+    "back": "To collect and submit user data, such as names, emails, or other input information."
+  },
+  {
+    "front": "What does the action attribute in a <form> do?",
+    "back": "It specifies the URL where the form data will be sent after submission."
+  },
+  {
+    "front": "Which HTML element is used to create a field for user input?",
+    "back": "The <input> element."
+  },
+  {
+    "front": "What is a void element?",
+    "back": "An HTML element that cannot have children or a closing tag, like <input>."
+  },
+  {
+    "front": "What is the purpose of the type attribute in <input>?",
+    "back": "It defines the expected kind of data input (e.g., text, email, password)."
+  },
+  {
+    "front": "How do you label an <input> element implicitly?",
+    "back": "By nesting the <input> inside a <label> element."
+  },
+  {
+    "front": "How do you label an <input> explicitly?",
+    "back": "Using the for attribute in <label> and matching it with the input’s id."
+  },
+  {
+    "front": "What does the placeholder attribute do?",
+    "back": "Displays hint text inside an input field to guide users on expected input."
+  },
+  {
+    "front": "What are the three main types of <button>?",
+    "back": "button, submit, and reset."
+  },
+  {
+    "front": "What does a <button type='button'> do?",
+    "back": "It does nothing by default; usually used with JavaScript to perform custom actions."
+  },
+  {
+    "front": "What does a <button type='submit'> do?",
+    "back": "It submits the form it is contained in."
+  },
+  {
+    "front": "What does a <button type='reset'> do?",
+    "back": "It resets all form fields to their default values."
+  },
+  {
+    "front": "Why might using a reset button in a form be discouraged?",
+    "back": "It may confuse users or cause accidental data loss."
+  },
+  {
+    "front": "What’s the difference between <button> and <input type='button'>?",
+    "back": "<button> can contain other elements; <input> is a void element with no children."
+  },
+  {
+    "front": "What attribute is used to make an input required before form submission?",
+    "back": "The required attribute."
+  },
+  {
+    "front": "What happens when a required input is empty on form submission?",
+    "back": "The browser blocks submission and shows a validation message."
+  },
+  {
+    "front": "What is client-side validation?",
+    "back": "Validation performed in the browser before the form is submitted to the server."
+  },
+  {
+    "front": "What is server-side validation?",
+    "back": "Validation done on the server after the form is submitted, used for security."
+  },
+  {
+    "front": "Why do you need both client-side and server-side validation?",
+    "back": "Client-side improves user experience; server-side prevents malicious bypassing."
+  },
+  {
+    "front": "What does the minlength attribute do?",
+    "back": "Sets the minimum number of characters an input must have to be valid."
+  },
+  {
+    "front": "What does the maxlength attribute do?",
+    "back": "Sets the maximum number of characters an input can have."
+  },
+  {
+    "front": "What does the email input type validate?",
+    "back": "That the input contains an '@' and valid domain (basic email formatting)."
+  },
+  {
+    "front": "What is the default form input state?",
+    "back": "Blank or empty, ready to receive input."
+  },
+  {
+    "front": "What is the focused state of a form input?",
+    "back": "When the input is currently selected or active (usually shows a highlight border)."
+  },
+  {
+    "front": "What is the disabled attribute used for in forms?",
+    "back": "To make an input unfocusable and uneditable."
+  },
+  {
+    "front": "Can a disabled input be submitted?",
+    "back": "No, disabled inputs are excluded from form submission."
+  },
+  {
+    "front": "What is the readonly attribute used for?",
+    "back": "To make an input visible and selectable but not editable."
+  },
+  {
+    "front": "Can a readonly input be submitted?",
+    "back": "Yes, unlike disabled inputs, readonly inputs are submitted."
+  },
+  {
+    "front": "What’s the key difference between disabled and readonly?",
+    "back": "Disabled fields are not submitted and cannot be focused. Readonly fields can be focused and submitted but not edited."
+  },
+  {
+    "front": "What attribute allows users to click a label to focus the input?",
+    "back": "The for attribute on the label, when matched to the input’s id."
+  },
+  {
+    "front": "What HTML element allows grouping of multiple form controls?",
+    "back": "The <form> element itself."
+  },
+  {
+    "front": "Is the <input> element a block or inline element?",
+    "back": "It’s an inline-level void element."
+  },
+  {
+    "front": "What does nesting an input in a label do?",
+    "back": "It creates an implicit connection so clicking the label focuses the input."
+  },
+  {
+    "front": "How can JavaScript interact with form buttons?",
+    "back": "By attaching event listeners to <button type='button'> elements."
+  },
+  {
+    "front": "What should be avoided in form UX to prevent frustration?",
+    "back": "Accidental data loss, unnecessary reset buttons, unclear validation errors."
+  },
+  {
+    "front": "What does the name attribute in <input> do?",
+    "back": "It identifies the data key when the form is submitted to the server."
+  },
+  {
+    "front": "Why use input type='email' instead of type='text'?",
+    "back": "It enables built-in email validation and better mobile keyboards."
+  },
+  {
+    "front": "What happens if minlength or maxlength is violated?",
+    "back": "The browser shows an error message and blocks submission."
+  },
+  {
+    "front": "What is the value attribute used for in <input>?",
+    "back": "To pre-fill or define the input’s default value."
+  },
+  {
+    "front": "Which form state allows focusing but not editing?",
+    "back": "The readonly state."
+  },
+  {
+    "front": "Can you style form states like :focus or :disabled in CSS?",
+    "back": "Yes, using pseudo-classes like :focus and :disabled."
+  },
+  {
+    "front": "How do you associate a label with an input for accessibility?",
+    "back": "Use <label for='inputID'> and set input id='inputID'."
+  },
+  {
+    "front": "What is the purpose of the placeholder attribute?",
+    "back": "To show an example or expected format of input data inside the field."
+  },
+  {
+    "front": "What does the reset button do in a form?",
+    "back": "It resets all fields to their default values as specified in the HTML."
+  },
+  {
+    "front": "How do you ensure a form field must be filled before submission?",
+    "back": "Add the required attribute to the <input>."
+  },
+  {
+    "front": "What is the difference between submit and button types?",
+    "back": "Submit sends form data; button does nothing unless controlled by JavaScript."
+  },
+  {
+    "front": "What’s a best practice for email input UX?",
+    "back": "Use type='email', include placeholder text, and apply validation like required, minlength, and maxlength."
+  },
+  {
+    "front": "What is client-side form validation good for?",
+    "back": "Improving user experience and catching basic errors before submission."
+  }
+]
