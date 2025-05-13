@@ -1,0 +1,38 @@
+[
+  {
+    "front": "What does the <sup> element do in HTML?",
+    "back": "It renders text as superscript — raised above the normal line and smaller in size."
+  },
+  {
+    "front": "What are common use cases for the <sup> (superscript) element?",
+    "back": "Exponents (e.g., 2<sup>2</sup>), ordinal numbers (e.g., 1<sup>st</sup>), and superior lettering for abbreviations."
+  },
+  {
+    "front": "When should you use the <sup> element instead of styling with CSS?",
+    "back": "Only when the superscript conveys semantic meaning, like exponents or proper typographical formatting."
+  },
+  {
+    "front": "What is an example of using <sup> for a math equation?",
+    "back": "<p>2<sup>2</sup> (2 squared) is 4.</p>"
+  },
+  {
+    "front": "What does the <sub> element do in HTML?",
+    "back": "It renders text as subscript — lowered below the normal line and smaller in size."
+  },
+  {
+    "front": "What are common use cases for the <sub> (subscript) element?",
+    "back": "Chemical formulas (e.g., CO<sub>2</sub>), footnotes, and mathematical variable subscripts."
+  },
+  {
+    "front": "What is an example of a chemical formula using <sub>?",
+    "back": "<p>CO<sub>2</sub></p> — for carbon dioxide."
+  },
+  {
+    "front": "Should you use <sup> or <sub> for visual styling alone?",
+    "back": "No. If you're only adjusting appearance, use CSS instead of semantic tags."
+  },
+  {
+    "front": "What does superior lettering mean, and how is it marked in HTML?",
+    "back": "It refers to abbreviated letters in superscript (e.g., M<sup>gr</sup> for Monseigneur)."
+  }
+]

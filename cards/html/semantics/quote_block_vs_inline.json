@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the purpose of the <blockquote> element in HTML?",
+    "back": "To represent an extended quotation from another source, usually displayed as an indented block."
+  },
+  {
+    "front": "How do you attribute a source in a <blockquote> element?",
+    "back": "Using the cite attribute (e.g., cite=\"https://example.com\") to specify the URL of the source."
+  },
+  {
+    "front": "Does the cite attribute change how a <blockquote> looks in the browser?",
+    "back": "No. It doesn't affect the visual presentation but provides metadata for screen readers and search engines."
+  },
+  {
+    "front": "How do you display multiple paragraphs inside a <blockquote>?",
+    "back": "Wrap each paragraph in a <p> element inside the <blockquote> element."
+  },
+  {
+    "front": "What is the <cite> element used for?",
+    "back": "To visually mark the title of a referenced work, such as a book, article, or film."
+  },
+  {
+    "front": "What's the difference between the <cite> element and the cite attribute?",
+    "back": "<cite> is an element used for visible source titles; cite is an attribute used for hidden source metadata."
+  },
+  {
+    "front": "What is the purpose of the <q> element in HTML?",
+    "back": "To mark a short, inline quotation within a paragraph. Browsers usually add quotation marks automatically."
+  },
+  {
+    "front": "Can the <q> element use the cite attribute?",
+    "back": "Yes. It works like in <blockquote>—providing source metadata without affecting appearance."
+  },
+  {
+    "front": "What’s the main difference between <blockquote> and <q>?",
+    "back": "<blockquote> is for long, standalone quotations. <q> is for short quotes within paragraphs."
+  },
+  {
+    "front": "When should you use a <blockquote> instead of a <q>?",
+    "back": "Use <blockquote> for longer, multi-line or multi-paragraph quotes. Use <q> for brief, inline quotations."
+  }
+]

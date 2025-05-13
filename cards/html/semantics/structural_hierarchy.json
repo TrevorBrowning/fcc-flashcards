@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the most important aspect of creating structural hierarchy in HTML?",
+    "back": "The correct use of heading elements (h1–h6) in a meaningful order that reflects the structure of your content."
+  },
+  {
+    "front": "What does the number in an <h1> to <h6> tag represent?",
+    "back": "The heading level, with <h1> being the highest (top-level) and <h6> the lowest."
+  },
+  {
+    "front": "How many <h1> elements should a page typically have?",
+    "back": "Usually only one. It should represent the main title and come before all other content."
+  },
+  {
+    "front": "Is this heading structure valid?\n<h1>Main</h1>\n<h2>Section</h2>\n<h2>Another Section</h2>",
+    "back": "Yes. Multiple headings of the same level (e.g., <h2>) are allowed and common when organizing sections."
+  },
+  {
+    "front": "Is this heading structure valid?\n<h1>Main</h1>\n<h3>Subsection</h3>\n<h2>Section</h2>",
+    "back": "No. You should not skip heading levels. <h3> should not come before <h2>."
+  },
+  {
+    "front": "Should heading elements be used just to style large text?",
+    "back": "No. Use headings only for structure. Use CSS to control visual size and styling."
+  },
+  {
+    "front": "Why is proper heading order important for accessibility?",
+    "back": "Screen readers rely on heading structure to navigate content. Skipping levels (e.g., <h1> to <h3>) can confuse users."
+  },
+  {
+    "front": "How does structural hierarchy affect SEO?",
+    "back": "Search engines use heading structure to understand and rank content. Malformed structure can reduce visibility in results."
+  },
+  {
+    "front": "What happens if HTML heading structure is incorrect?",
+    "back": "Your HTML might be invalid. The browser will guess how to display it, which could produce unintended results."
+  },
+  {
+    "front": "What’s the best way to style headings without affecting structural hierarchy?",
+    "back": "Use appropriate heading tags for structure, and apply visual styles using CSS instead of choosing headings for their size."
+  }
+]

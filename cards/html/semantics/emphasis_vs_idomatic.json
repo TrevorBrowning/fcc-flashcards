@@ -1,0 +1,38 @@
+[
+  {
+    "front": "What was the original purpose of the <i> element in HTML?",
+    "back": "To display text in italics for visual presentation."
+  },
+  {
+    "front": "What is the modern, semantic use of the <i> (idiomatic) element?",
+    "back": "To mark text that is different in voice or mood, such as idioms, thoughts, foreign phrases, or technical terms."
+  },
+  {
+    "front": "What attribute can be used with the <i> element to specify a language?",
+    "back": "The 'lang' attribute, e.g., <i lang=\"fr\">je ne sais quoi</i>."
+  },
+  {
+    "front": "What is the purpose of the <em> (emphasis) element in HTML?",
+    "back": "To mark text that should be emphasized compared to surrounding content. It affects meaning, not just style."
+  },
+  {
+    "front": "How is the <em> element typically displayed in browsers?",
+    "back": "Browsers usually render it in italics to visually emphasize the word or phrase."
+  },
+  {
+    "front": "What is the difference in meaning between <i> and <em>?",
+    "back": "<i> indicates a shift in voice or mood without implying importance, while <em> emphasizes importance or meaning."
+  },
+  {
+    "front": "Should <i> or <em> be used for purely visual italics?",
+    "back": "No. If text is italic only for style and has no semantic meaning, you should use CSS instead."
+  },
+  {
+    "front": "Which element would you use to emphasize the word 'your' in: 'Never give up on your dreams'?",
+    "back": "Use <em>your</em> to emphasize the word and convey importance in the sentence."
+  },
+  {
+    "front": "What type of text is best suited for the <i> tag?",
+    "back": "Text with a different tone, foreign phrases, or technical/idiomatic terms that don’t convey emphasis or importance."
+  }
+]

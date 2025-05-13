@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the purpose of the <u> element in HTML?",
+    "back": "To indicate text with non-textual annotation, such as misspellings or proper names with special markings."
+  },
+  {
+    "front": "What is the default browser styling for the <u> element?",
+    "back": "A black underline beneath the text."
+  },
+  {
+    "front": "Should you use the <u> element for styling underlined text?",
+    "back": "No. Use CSS for styling instead; <u> should only be used for semantic purposes."
+  },
+  {
+    "front": "What is the semantic use case for the <s> element?",
+    "back": "To mark text that is no longer accurate or relevant, such as outdated information or cancelled events."
+  },
+  {
+    "front": "What is an example of <s> in use?",
+    "back": "<s>Tomorrow's hike will be meeting at noon.</s>"
+  },
+  {
+    "front": "What elements should be used instead of <s> to show document edits?",
+    "back": "<del> for deleted text and <ins> for inserted text."
+  },
+  {
+    "front": "What is the <ruby> element used for?",
+    "back": "To display small annotations above or below text, commonly used for East Asian pronunciation guides."
+  },
+  {
+    "front": "What does the <rt> element represent inside a <ruby> element?",
+    "back": "It provides the ruby text, such as pronunciation or translation details."
+  },
+  {
+    "front": "What does the <rp> element do in a ruby annotation?",
+    "back": "It provides fallback parentheses for browsers that do not support ruby annotations."
+  },
+  {
+    "front": "What is a common use case for the <ruby> element?",
+    "back": "Showing pronunciation guides for East Asian characters in educational or multilingual documents."
+  }
+]

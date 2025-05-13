@@ -1,0 +1,38 @@
+[
+  {
+    "front": "What is the purpose of the <time> element in HTML?",
+    "back": "To represent a specific time, date, or both in a way that's understandable by both humans and machines."
+  },
+  {
+    "front": "What attribute must be used with the <time> element to provide machine-readable data?",
+    "back": "The datetime attribute."
+  },
+  {
+    "front": "Why is the datetime attribute important?",
+    "back": "It makes the date or time machine-readable, improving SEO and helping browsers understand the timing details."
+  },
+  {
+    "front": "What format should the datetime attribute use?",
+    "back": "The ISO 8601 format (e.g., 2024-06-15T15:00 for June 15, 2024 at 3:00 PM)."
+  },
+  {
+    "front": "What does the 'T' represent in the ISO datetime format?",
+    "back": "It separates the date and time portions in the datetime value."
+  },
+  {
+    "front": "How would you mark up a time value of 8:00 PM using the <time> element?",
+    "back": "<time datetime=\"20:00\">20:00</time>"
+  },
+  {
+    "front": "How do you mark up an event date of June 15, 2024 at 3:00 PM using the <time> element?",
+    "back": "<time datetime=\"2024-06-15T15:00\">June 15</time>"
+  },
+  {
+    "front": "What types of content should use the <time> element?",
+    "back": "Use it for events, appointment times, article publication dates, deadlines, or any timestamped data."
+  },
+  {
+    "front": "Does the <time> element affect how text is displayed by default?",
+    "back": "No, but it adds semantic meaning and enables machine processing of the time data."
+  }
+]

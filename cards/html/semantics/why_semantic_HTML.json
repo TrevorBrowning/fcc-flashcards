@@ -1,0 +1,34 @@
+[
+  {
+    "front": "What does 'semantic' mean in the context of HTML?",
+    "back": "In HTML, 'semantic' refers to the meaning that an element conveys. Semantic elements describe their purpose or content clearly (e.g., <p> for paragraphs)."
+  },
+  {
+    "front": "How is writing an HTML document similar to writing a text document?",
+    "back": "Both use structure and formatting like headings, paragraphs, images, and emphasis to organize and present content meaningfully."
+  },
+  {
+    "front": "What is the semantic meaning of the <p> element?",
+    "back": "It represents a paragraph of text."
+  },
+  {
+    "front": "Which commonly used HTML element does NOT have semantic meaning?",
+    "back": "The <div> element. It is a generic container without inherent meaning."
+  },
+  {
+    "front": "Why is semantic HTML important for accessibility?",
+    "back": "It helps assistive technologies like screen readers interpret the page structure and content more accurately, improving usability."
+  },
+  {
+    "front": "How can semantic HTML improve SEO?",
+    "back": "Search engines can better understand and index your content when semantic elements are used, potentially improving search rankings."
+  },
+  {
+    "front": "How does semantic HTML help developers?",
+    "back": "It makes code easier to read and maintain. For example, you can edit a <nav> element directly rather than searching through generic <div>s."
+  },
+  {
+    "front": "What are three benefits of using semantic HTML?",
+    "back": "Improved accessibility, better SEO, and clearer, more maintainable code for developers."
+  }
+]

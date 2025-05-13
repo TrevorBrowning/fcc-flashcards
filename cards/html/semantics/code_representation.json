@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the purpose of the <code> element in HTML?",
+    "back": "To represent short, inline snippets of computer code within text."
+  },
+  {
+    "front": "What default styling is applied to the <code> element in most browsers?",
+    "back": "Text inside <code> is displayed in a monospaced (fixed-width) font."
+  },
+  {
+    "front": "What type of code is best suited for the <code> element?",
+    "back": "Short, inline code snippets such as property names, function names, or commands."
+  },
+  {
+    "front": "How would you mark up this code in HTML: color: blue;",
+    "back": "<code>color: blue;</code>"
+  },
+  {
+    "front": "What is the purpose of the <pre> element in HTML?",
+    "back": "To preserve whitespace and formatting, allowing display of multi-line preformatted text."
+  },
+  {
+    "front": "How do you display a multi-line code snippet in HTML?",
+    "back": "Wrap the code inside a <pre><code>...</code></pre> block to preserve indentation and formatting."
+  },
+  {
+    "front": "What happens to indentation and spacing inside a <pre> element?",
+    "back": "It is preserved exactly as written in the HTML source."
+  },
+  {
+    "front": "Should you use <code> alone for long code blocks?",
+    "back": "No. For long code, use <code> inside a <pre> element to preserve formatting."
+  },
+  {
+    "front": "What is a good use case for <pre><code>...</code></pre>?",
+    "back": "Displaying code samples or examples in technical articles and documentation."
+  },
+  {
+    "front": "Why use semantic elements like <code> and <pre> instead of just <p>?",
+    "back": "They add meaning, improve accessibility, and allow consistent styling and formatting for code."
+  }
+]

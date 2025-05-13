@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the difference between an abbreviation and an acronym?",
+    "back": "An abbreviation is a shortened form of a word (e.g., 'Dr.'), while an acronym is formed from the first letters of a phrase (e.g., HTML = HyperText Markup Language)."
+  },
+  {
+    "front": "Which HTML element should you use to mark up abbreviations or acronyms?",
+    "back": "The <abbr> element."
+  },
+  {
+    "front": "What does the <abbr> element do?",
+    "back": "It semantically marks text as an abbreviation or acronym, and optionally provides a full description via the title attribute."
+  },
+  {
+    "front": "How do you display the full meaning of an abbreviation using HTML?",
+    "back": "Use the title attribute in the <abbr> element. For example: <abbr title=\"HyperText Markup Language\">HTML</abbr>."
+  },
+  {
+    "front": "How does the title attribute in <abbr> affect user experience?",
+    "back": "It allows users to see a tooltip with the full form of the abbreviation when they hover over it."
+  },
+  {
+    "front": "Does the <abbr> element always change the appearance of the text?",
+    "back": "No. It may be styled differently depending on the browser, but by default it often looks like normal text unless the title attribute is added."
+  },
+  {
+    "front": "Should you use <abbr> for every abbreviation on a page?",
+    "back": "Not necessarily. Use it when the abbreviation might be unclear or when it benefits from additional context."
+  },
+  {
+    "front": "What is an example of using <abbr> to mark an acronym?",
+    "back": "<abbr title=\"HyperText Markup Language\">HTML</abbr>"
+  },
+  {
+    "front": "What visual cue might browsers add to an <abbr> with a title attribute?",
+    "back": "Some browsers show a dotted underline or display small caps, along with a tooltip on hover."
+  },
+  {
+    "front": "Why should you use the <abbr> element for acronyms like HTML or CSS?",
+    "back": "It provides semantic meaning, improves accessibility, and helps users understand abbreviations with tooltips."
+  }
+]

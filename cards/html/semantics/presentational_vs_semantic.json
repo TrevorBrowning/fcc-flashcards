@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the main difference between presentational and semantic HTML?",
+    "back": "Presentational HTML focuses on appearance and styling, while semantic HTML describes the meaning and structure of content."
+  },
+  {
+    "front": "Why is presentational HTML discouraged in modern web development?",
+    "back": "It harms accessibility, is harder to maintain, and separates content from styling less effectively than using CSS."
+  },
+  {
+    "front": "What does it mean when an HTML element is 'deprecated'?",
+    "back": "It means the element is outdated, no longer recommended, and may be removed in future HTML specifications."
+  },
+  {
+    "front": "What does the <font> element do, and why shouldn't you use it?",
+    "back": "It changes font size and color. It’s deprecated—use CSS instead for styling text."
+  },
+  {
+    "front": "What does the <center> element do, and what's the alternative?",
+    "back": "It centers content horizontally. It's deprecated—use CSS (e.g., text-align: center) instead."
+  },
+  {
+    "front": "What does the <big> element do, and why is it deprecated?",
+    "back": "It increases font size relative to surrounding text. It's deprecated—font size should be set with CSS."
+  },
+  {
+    "front": "What are some examples of semantic HTML elements?",
+    "back": "<header>, <nav>, <section>, <figure> — these describe the role of the content within them."
+  },
+  {
+    "front": "How does semantic HTML improve accessibility?",
+    "back": "It helps screen readers understand the structure and purpose of content, improving navigation and usability."
+  },
+  {
+    "front": "How does semantic HTML benefit search engines?",
+    "back": "Semantic elements help search engines interpret and index your content accurately, improving SEO."
+  },
+  {
+    "front": "Complete the sentence: Presentational HTML focuses on appearance, while semantic HTML...",
+    "back": "...describes the meaning and purpose of the content."
+  }
+]

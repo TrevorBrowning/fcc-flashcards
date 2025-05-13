@@ -1,0 +1,38 @@
+[
+  {
+    "front": "What is the purpose of the <b> (bring attention to) element?",
+    "back": "To visually highlight text without adding semantic importance. Commonly used for keywords, product names, or standout terms."
+  },
+  {
+    "front": "How do browsers typically render the <b> element?",
+    "back": "Browsers usually display <b> content in boldface to visually draw attention."
+  },
+  {
+    "front": "When should you use the <b> element?",
+    "back": "When you want to highlight text without implying urgency or importance, such as product names or terms in summaries."
+  },
+  {
+    "front": "What is the purpose of the <strong> element?",
+    "back": "To indicate that text is of strong importance, urgency, or seriousness. It adds semantic weight."
+  },
+  {
+    "front": "How is the <strong> element typically displayed in browsers?",
+    "back": "It is displayed in boldface, similar to <b>, but carries semantic meaning."
+  },
+  {
+    "front": "What is the key difference between <b> and <strong>?",
+    "back": "<b> adds visual emphasis without meaning, while <strong> conveys importance or urgency in the content."
+  },
+  {
+    "front": "Which element would you use to label a warning or alert?",
+    "back": "Use <strong> to signal the urgency or importance of the message, e.g., <strong>Warning</strong>: Contains allergens."
+  },
+  {
+    "front": "Can <b> and <strong> look the same visually?",
+    "back": "Yes, both default to bold styling, but only <strong> communicates semantic importance to screen readers and search engines."
+  },
+  {
+    "front": "How do you decide between using <b> or <strong>?",
+    "back": "Use <b> for non-urgent visual emphasis; use <strong> when conveying critical importance or warnings."
+  }
+]

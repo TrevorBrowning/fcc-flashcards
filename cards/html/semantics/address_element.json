@@ -1,0 +1,38 @@
+[
+  {
+    "front": "What is the purpose of the <address> element in HTML?",
+    "back": "To semantically represent contact information for a person, company, or organization on a web page."
+  },
+  {
+    "front": "Why should you use the <address> element instead of a <div> for contact info?",
+    "back": "Because <address> is a semantic element that clearly defines the content's purpose, improving accessibility and SEO."
+  },
+  {
+    "front": "What types of information are typically included inside an <address> element?",
+    "back": "Physical addresses, phone numbers, email addresses, and names or titles of people or organizations."
+  },
+  {
+    "front": "What does the <br> element do in an address block?",
+    "back": "It creates a line break, often used to format street, city, and country on separate lines."
+  },
+  {
+    "front": "How do you create a clickable phone number link in HTML?",
+    "back": "Use <a href=\"tel:+15555555555\">Phone</a> to allow supported devices to initiate a call."
+  },
+  {
+    "front": "How do you create a clickable email link in HTML?",
+    "back": "Use <a href=\"mailto:someone@example.com\">Email</a> to open a user's default email client."
+  },
+  {
+    "front": "What are some potential drawbacks of using mailto links?",
+    "back": "They can be perceived as spam and may attract email-harvesting bots if not protected."
+  },
+  {
+    "front": "Is <address> limited to physical mailing addresses only?",
+    "back": "No. It can also include phone numbers, email addresses, names, and even links to contact forms."
+  },
+  {
+    "front": "In what types of pages or sections is <address> most appropriate?",
+    "back": "Contact pages, author info blocks, footers, or any section with contact-related content."
+  }
+]

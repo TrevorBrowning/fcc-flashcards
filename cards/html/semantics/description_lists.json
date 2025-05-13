@@ -1,0 +1,42 @@
+[
+  {
+    "front": "What is the main purpose of a description list in HTML?",
+    "back": "To present terms and their corresponding details, like definitions or descriptions, in an organized format."
+  },
+  {
+    "front": "Which HTML element wraps a description list?",
+    "back": "<dl> — the description list element, which contains all terms and details."
+  },
+  {
+    "front": "What does the <dt> element represent in a description list?",
+    "back": "A description term — usually a word, phrase, or item being described."
+  },
+  {
+    "front": "What does the <dd> element represent in a description list?",
+    "back": "A description detail — the definition or value associated with the preceding <dt> term."
+  },
+  {
+    "front": "Is this structure valid?\n<dl><dt>Flour</dt><dd>2 cups</dd></dl>",
+    "back": "Yes. 'Flour' is the term and '2 cups' is the related detail — this is a valid description list entry."
+  },
+  {
+    "front": "Can description lists be used for things other than definitions?",
+    "back": "Yes! They're useful for recipes, FAQs, product specs, contact info, and any key–value pair data."
+  },
+  {
+    "front": "How are items typically styled in a description list by default?",
+    "back": "The <dt> term is aligned left, and the <dd> detail is slightly indented to the right."
+  },
+  {
+    "front": "How many <dt> and <dd> pairs can a single <dl> contain?",
+    "back": "As many as needed — you can repeat <dt> and <dd> pairs throughout the same <dl>."
+  },
+  {
+    "front": "What type of data pattern is best suited for description lists?",
+    "back": "Any key–value pair format where one item labels the other (e.g., term-definition, item-quantity, question-answer)."
+  },
+  {
+    "front": "Why might you choose a description list over other list types?",
+    "back": "Because it semantically links a label to its associated detail, which is useful for accessibility and meaning."
+  }
+]
