@@ -1,7 +1,3 @@
-const categorySelect = document.getElementById("category-select");
-const subcategorySelect = document.getElementById("subcategory-select");
-const lessonSelect = document.getElementById("lesson-select");
-
 const flashcard = document.getElementById("flashcard");
 const cardFront = document.getElementById("card-front");
 const cardBack = document.getElementById("card-back");
@@ -11,17 +7,26 @@ const flipBtn = document.getElementById("flip-btn");
 const nextBtn = document.getElementById("next-btn");
 const prevBtn = document.getElementById("prev-btn");
 
+const categorySelect = document.getElementById("category-select");
+const subcategorySelect = document.getElementById("subcategory-select");
+const lessonSelect = document.getElementById("lesson-select");
+
+const toggleBtn = document.getElementById("toggle-selectors");
+const selectorPanel = document.getElementById("selector-panel");
+
+const controls = document.querySelector(".controls");
+
 let flashcards = [];
 let currentIndex = 0;
 
 const lessonData = {
   html: {
     basics: [
+      "all",
       "what_is_HTML",
       "HTML_fundamentals",
       "working_with_media",
       "working_with_links",
-      "all",
     ],
   },
   css: {
@@ -32,54 +37,66 @@ const lessonData = {
   },
 };
 
+toggleBtn.addEventListener("click", () => {
+  selectorPanel.classList.toggle("collapsed");
+
+  const isCollapsed = selectorPanel.classList.contains("collapsed");
+
+  toggleBtn.textContent = isCollapsed
+    ? "Show Lesson Picker ▼"
+    : "Hide Lesson Picker ▲";
+
+  toggleBtn.classList.toggle("sticky-toggle", isCollapsed);
+});
+
 categorySelect.addEventListener("change", () => {
   const category = categorySelect.value;
   subcategorySelect.innerHTML = `<option value="">-- Choose a section --</option>`;
   lessonSelect.innerHTML = `<option value="">-- Choose a lesson --</option>`;
+  subcategorySelect.disabled = true;
   lessonSelect.disabled = true;
 
   if (category && lessonData[category]) {
     subcategorySelect.disabled = false;
-    Object.keys(lessonData[category]).forEach((sub) => {
-      const option = document.createElement("option");
-      option.value = sub;
-      option.textContent = capitalize(sub);
-      subcategorySelect.appendChild(option);
+    Object.keys(lessonData[category]).forEach((section) => {
+      const opt = document.createElement("option");
+      opt.value = section;
+      opt.textContent = capitalize(section);
+      subcategorySelect.appendChild(opt);
     });
-  } else {
-    subcategorySelect.disabled = true;
   }
 });
 
 subcategorySelect.addEventListener("change", () => {
   const category = categorySelect.value;
-  const sub = subcategorySelect.value;
+  const section = subcategorySelect.value;
   lessonSelect.innerHTML = `<option value="">-- Choose a lesson --</option>`;
+  lessonSelect.disabled = true;
 
-  if (category && sub && lessonData[category][sub]) {
+  if (category && section && lessonData[category][section]) {
     lessonSelect.disabled = false;
-    lessonData[category][sub].forEach((lesson) => {
-      const option = document.createElement("option");
-      option.value = lesson;
-      option.textContent = formatLessonName(lesson);
-      lessonSelect.appendChild(option);
+    lessonData[category][section].forEach((lesson) => {
+      const opt = document.createElement("option");
+      opt.value = lesson;
+      opt.textContent = formatLessonName(lesson);
+      lessonSelect.appendChild(opt);
     });
-  } else {
-    lessonSelect.disabled = true;
   }
 });
 
 lessonSelect.addEventListener("change", async () => {
   const category = categorySelect.value;
-  const sub = subcategorySelect.value;
+  const section = subcategorySelect.value;
   const lesson = lessonSelect.value;
-  if (!category || !sub || !lesson) return;
+  if (!category || !section || !lesson) return;
 
   try {
-    const res = await fetch(`cards/${category}/${sub}/${lesson}.json`);
+    const res = await fetch(`cards/${category}/${section}/${lesson}.json`);
     flashcards = await res.json();
     currentIndex = 0;
     displayCard();
+    flashcard.style.display = "block";
+    controls.style.display = "flex";
   } catch (err) {
     cardFront.textContent = "Error loading flashcards.";
     cardBack.textContent = "";
@@ -97,12 +114,12 @@ function displayCard() {
   flashcard.classList.remove("flipped");
 }
 
-flipBtn.addEventListener("click", () => {
+flashcard.addEventListener("click", () => {
   if (flashcards.length === 0) return;
   flashcard.classList.toggle("flipped");
 });
 
-flashcard.addEventListener("click", () => {
+flipBtn.addEventListener("click", () => {
   if (flashcards.length === 0) return;
   flashcard.classList.toggle("flipped");
 });
@@ -124,7 +141,6 @@ prevBtn.addEventListener("click", () => {
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
-
 function formatLessonName(str) {
   return str.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
 }

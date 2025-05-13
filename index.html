@@ -9,24 +9,39 @@
   <body>
     <h1>Flashcard Study</h1>
 
-    <label for="category-select">Language:</label>
-    <select id="category-select">
-      <option value="">-- Choose a category --</option>
-      <option value="html">HTML</option>
-      <option value="css">CSS</option>
-      <option value="js">JavaScript</option>
-    </select>
+    <!-- Toggle always visible -->
+    <button id="toggle-selectors" class="toggle-button">
+      Hide Lesson Picker ▲
+    </button>
 
-    <label for="subcategory-select">Section:</label>
-    <select id="subcategory-select" disabled>
-      <option value="">-- Choose a section --</option>
-    </select>
+    <!-- Collapsible Selector Panel -->
+    <div id="selector-panel" class="panel expanded">
+      <div class="dropdown-group">
+        <label for="category-select">Language:</label>
+        <select id="category-select">
+          <option value="">-- Choose a category --</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+      </div>
 
-    <label for="lesson-select">Lesson:</label>
-    <select id="lesson-select" disabled>
-      <option value="">-- Choose a lesson --</option>
-    </select>
+      <div class="dropdown-group">
+        <label for="subcategory-select">Section:</label>
+        <select id="subcategory-select" disabled>
+          <option value="">-- Choose a section --</option>
+        </select>
+      </div>
 
+      <div class="dropdown-group">
+        <label for="lesson-select">Lesson:</label>
+        <select id="lesson-select" disabled>
+          <option value="">-- Choose a lesson --</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Flashcard -->
     <div id="flashcard" class="card">
       <div class="card-inner">
         <div class="card-front" id="card-front">Select a lesson to begin.</div>

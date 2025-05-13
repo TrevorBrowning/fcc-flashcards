@@ -1,45 +1,105 @@
+/* Global Layout */
 body {
   font-family: "Segoe UI", system-ui, sans-serif;
   margin: 0;
-  padding: 2rem;
+  padding: 1.5rem 1rem;
   background-color: #eef2f7;
   color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
   color: #222;
+  text-align: center;
 }
 
-label {
-  margin: 0.5rem 0 0.25rem;
+/* Selector Panel */
+.panel {
+  width: 100%;
+  max-width: 700px;
+  background: #fff;
+  padding: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+  max-height: 500px;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.panel.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
+}
+
+/* Toggle Button */
+.toggle-button {
+  position: relative;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+#toggle-selectors.sticky-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown Styling */
+.dropdown-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.dropdown-group label {
   font-weight: 600;
   display: block;
+  margin-bottom: 0.4rem;
   color: #444;
 }
 
-select {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
+.dropdown-group select {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  background: white;
-  color: #333;
-  width: 250px;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
+/* Flashcard Styles */
 #flashcard {
-  width: 90%;
-  max-width: 500px;
-  height: 240px;
+  width: 95%;
+  max-width: 700px;
+  height: clamp(260px, 60vh, 550px);
   perspective: 1000px;
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem;
   cursor: pointer;
 }
 
@@ -69,9 +129,11 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.1rem;
+  padding: 2rem;
   box-sizing: border-box;
+  text-align: center;
+  overflow-y: auto;
 }
 
 .card-back {
@@ -82,7 +144,8 @@ select {
 #card-count {
   font-size: 0.95rem;
   color: #555;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
 }
 
 .controls {
@@ -90,9 +153,10 @@ select {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
-button {
+.controls button {
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
   border: none;
@@ -103,11 +167,11 @@ button {
   transition: background 0.2s ease;
 }
 
-button:hover {
+.controls button:hover {
   background-color: #0056b3;
 }
 
-button:disabled {
+.controls button:disabled {
   background-color: #aaa;
   cursor: not-allowed;
 }
