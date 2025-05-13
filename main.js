@@ -73,7 +73,7 @@ const lessonData = {
     design: ["design_fundamentals"],
   },
   js: {
-    conditionals: ["if_else", "switch", "ternary", "all"],
+    not_available: ["N/A"],
   },
 };
 
