@@ -1,0 +1,54 @@
+[
+  {
+    "front": "What is the px unit in CSS?",
+    "back": "px (Pixels) is a fixed-size absolute unit equal to 1/96th of an inch. It provides precise control over dimensions."
+  },
+  {
+    "front": "What is the in unit in CSS?",
+    "back": "in (Inch) is an absolute unit equal to 96px."
+  },
+  {
+    "front": "What is the cm unit in CSS?",
+    "back": "cm (Centimeters) is an absolute unit equal to 25.2/64 of an inch."
+  },
+  {
+    "front": "What is the mm unit in CSS?",
+    "back": "mm (Millimeters) is an absolute unit equal to 1/10th of a centimeter."
+  },
+  {
+    "front": "What is the q unit in CSS?",
+    "back": "q (Quarter-Millimeters) is an absolute unit equal to 1/40th of a centimeter."
+  },
+  {
+    "front": "What is the pc unit in CSS?",
+    "back": "pc (Picas) is an absolute unit equal to 1/6th of an inch."
+  },
+  {
+    "front": "What is the pt unit in CSS?",
+    "back": "pt (Points) is an absolute unit equal to 1/72th of an inch."
+  },
+  {
+    "front": "What are percentage units used for in CSS?",
+    "back": "Percentage units are relative to the parent element and define properties like width or height as a proportion of that parent. For example, width: 50% makes the element half as wide as its parent."
+  },
+  {
+    "front": "What is the em unit in CSS?",
+    "back": "em is a relative unit based on the font size of the element's parent. For example, font-size: 2em means twice the parent font size."
+  },
+  {
+    "front": "What is the rem unit in CSS?",
+    "back": "rem is a relative unit based on the font size of the root (html) element."
+  },
+  {
+    "front": "What is the vh unit in CSS?",
+    "back": "vh (viewport height) is a relative unit where 1vh equals 1% of the height of the viewport."
+  },
+  {
+    "front": "What is the vw unit in CSS?",
+    "back": "vw (viewport width) is a relative unit where 1vw equals 1% of the width of the viewport."
+  },
+  {
+    "front": "What does the calc() function do in CSS?",
+    "back": "The calc() function allows you to perform calculations directly in CSS, such as adding, subtracting, multiplying, or dividing units. It's useful for creating flexible and responsive layouts."
+  }
+]

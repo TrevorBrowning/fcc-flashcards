@@ -1,0 +1,178 @@
+[
+  {
+    "front": "What are CSS pseudo-classes?",
+    "back": "Pseudo-classes are special CSS keywords that let you select elements based on their state or position."
+  },
+  {
+    "front": "What are user action pseudo-classes used for?",
+    "back": "They allow you to change the appearance of elements based on user interactions."
+  },
+  {
+    "front": "What does the :active pseudo-class do?",
+    "back": "It styles elements that are in the active state, such as when a button is being clicked."
+  },
+  {
+    "front": "What does the :hover pseudo-class do?",
+    "back": "It applies styles when the user hovers over an element with their mouse."
+  },
+  {
+    "front": "What does the :focus pseudo-class do?",
+    "back": "It applies styles to an element when it gains focus, typically through keyboard or click."
+  },
+  {
+    "front": "What does the :focus-within pseudo-class do?",
+    "back": "It applies styles to an element if it or any of its children are focused."
+  },
+  {
+    "front": "What are input pseudo-classes used for?",
+    "back": "They style HTML input elements based on their state before or after user interaction."
+  },
+  {
+    "front": "What does the :enabled pseudo-class do?",
+    "back": "It targets and styles enabled form elements."
+  },
+  {
+    "front": "What does the :disabled pseudo-class do?",
+    "back": "It targets form elements that are currently disabled."
+  },
+  {
+    "front": "What does the :checked pseudo-class do?",
+    "back": "It styles input elements like checkboxes and radio buttons that are checked."
+  },
+  {
+    "front": "What does the :valid pseudo-class do?",
+    "back": "It applies styles to input fields that pass validation criteria."
+  },
+  {
+    "front": "What does the :invalid pseudo-class do?",
+    "back": "It applies styles to input fields that fail validation criteria."
+  },
+  {
+    "front": "What do :in-range and :out-of-range pseudo-classes do?",
+    "back": "They apply styles to inputs based on whether their values are within or outside a defined range."
+  },
+  {
+    "front": "What does the :required pseudo-class do?",
+    "back": "It targets input fields that must be filled out to submit the form."
+  },
+  {
+    "front": "What does the :optional pseudo-class do?",
+    "back": "It targets input fields that are not required."
+  },
+  {
+    "front": "What does the :autofill pseudo-class do?",
+    "back": "It targets input fields that are automatically filled by the browser."
+  },
+  {
+    "front": "What are location pseudo-classes used for?",
+    "back": "They style links and elements targeted within the document."
+  },
+  {
+    "front": "What does the :any-link pseudo-class do?",
+    "back": "It targets all links, regardless of whether they have been visited."
+  },
+  {
+    "front": "What does the :link pseudo-class do?",
+    "back": "It targets links that have not been visited."
+  },
+  {
+    "front": "What does the :local-link pseudo-class do?",
+    "back": "It targets links that point to the same document."
+  },
+  {
+    "front": "What does the :visited pseudo-class do?",
+    "back": "It styles links that the user has previously clicked on."
+  },
+  {
+    "front": "What does the :target pseudo-class do?",
+    "back": "It applies styles to an element that is the target of a URL fragment."
+  },
+  {
+    "front": "What does the :target-within pseudo-class do?",
+    "back": "It applies styles to an element if it or its descendants are the target of a URL fragment."
+  },
+  {
+    "front": "What are tree-structural pseudo-classes?",
+    "back": "They allow you to style elements based on their position within the document tree."
+  },
+  {
+    "front": "What does the :root pseudo-class do?",
+    "back": "It targets the highest-level element in the document, usually the html tag."
+  },
+  {
+    "front": "What does the :empty pseudo-class do?",
+    "back": "It targets elements that have no children or content."
+  },
+  {
+    "front": "What does the :nth-child(n) pseudo-class do?",
+    "back": "It targets the nth child of a parent element."
+  },
+  {
+    "front": "What does the :nth-last-child(n) pseudo-class do?",
+    "back": "It selects children based on their position from the end."
+  },
+  {
+    "front": "What does the :first-child pseudo-class do?",
+    "back": "It targets the first child element of a parent."
+  },
+  {
+    "front": "What does the :last-child pseudo-class do?",
+    "back": "It targets the last child element of a parent."
+  },
+  {
+    "front": "What does the :only-child pseudo-class do?",
+    "back": "It selects elements that are the only child of their parent."
+  },
+  {
+    "front": "What does the :first-of-type pseudo-class do?",
+    "back": "It selects the first element of its type within a parent."
+  },
+  {
+    "front": "What does the :last-of-type pseudo-class do?",
+    "back": "It selects the last element of its type within a parent."
+  },
+  {
+    "front": "What does the :nth-of-type(n) pseudo-class do?",
+    "back": "It selects the nth element of a specific type within a parent."
+  },
+  {
+    "front": "What does the :only-of-type pseudo-class do?",
+    "back": "It selects an element if it is the only one of its type within its parent."
+  },
+  {
+    "front": "What are functional pseudo-classes?",
+    "back": "They allow you to select elements based on more complex conditions using arguments."
+  },
+  {
+    "front": "What does the :is() pseudo-class do?",
+    "back": "It selects elements that match one or more selectors in a list. Ex: p:is(.class1, .class2)"
+  },
+  {
+    "front": "What does the :where() pseudo-class do?",
+    "back": "It selects elements like :is(), but with zero specificity. Ex: :where(h1, h2)"
+  },
+  {
+    "front": "What does the :has() pseudo-class do?",
+    "back": "It selects elements that contain a specific child element. Example: article:has(h2)"
+  },
+  {
+    "front": "What does the :not() pseudo-class do?",
+    "back": "It excludes elements that match the given selector. Ex: p:not(.example)"
+  },
+  {
+    "front": "What does the ::before pseudo-element do?",
+    "back": "It inserts content before the element using the content property."
+  },
+  {
+    "front": "What does the ::after pseudo-element do?",
+    "back": "It inserts content after the element using the content property."
+  },
+  {
+    "front": "What does the ::first-letter pseudo-element do?",
+    "back": "It targets the first letter of an element’s text content for styling."
+  },
+  {
+    "front": "What does the ::marker pseudo-element do?",
+    "back": "It targets the bullet or number in list items for styling."
+  }
+]

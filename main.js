@@ -71,6 +71,8 @@ const lessonData = {
     computer_basics: ["computer_basics"],
     basic_css: ["basic_css", "lists_links_css_backgrounds_and_borders"],
     design: ["design_fundamentals"],
+    absolute_and_relative_units: ["absolute_and_relative_units"],
+    pseudo_classes_and_elements: ["pseudo_classes"],
   },
   js: {
     not_available: ["N/A"],
