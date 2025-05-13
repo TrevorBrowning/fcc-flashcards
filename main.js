@@ -33,7 +33,7 @@ const lessonData = {
       "why_semantic_HTML",
       "structural_hierarchy",
       "presentational_vs_semantic",
-      "em_vs_i",
+      "emphasis_vs_idomatic",
       "strong_vs_b",
       "description_lists",
       "quote_block_vs_inline",
