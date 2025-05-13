@@ -1,0 +1,210 @@
+[
+  {
+    "front": "What is the <div> element used for?",
+    "back": "It's a general-purpose container used to group HTML elements together."
+  },
+  {
+    "front": "Can a <div> be styled?",
+    "back": "Yes, you can apply height, width, background color, and other CSS styles to a <div>."
+  },
+  {
+    "front": "What does a basic <div> structure look like?",
+    "back": "<div>\n  <!-- content here -->\n</div>"
+  },
+  {
+    "front": "How can a <div> group content?",
+    "back": "You can place multiple elements (like a heading and paragraph) inside a <div> to group them visually and structurally."
+  },
+  {
+    "front": "What is the difference between a <div> and a <section>?",
+    "back": "A <section> has semantic meaning (treated as a section of content), while a <div> has no semantic meaning—it's a generic container."
+  },
+  {
+    "front": "What does 'semantic' mean in HTML?",
+    "back": "It refers to elements that convey meaning about the type or role of their content (e.g., <section>, <article>, <header>)."
+  },
+  {
+    "front": "Does the <div> element have semantic meaning?",
+    "back": "No. It's a non-semantic element—used for grouping but without inherent meaning."
+  },
+  {
+    "front": "Why might you choose <section> over <div>?",
+    "back": "To improve accessibility and clarity by giving the browser and assistive technologies context about the grouped content."
+  },
+  {
+    "front": "What does the id attribute do in HTML?",
+    "back": "It assigns a unique identifier to an element, which can be used in CSS or JavaScript."
+  },
+  {
+    "front": "How do you reference an id in CSS?",
+    "back": "Use a hash symbol (#) followed by the id name. Example: #title { color: red; }"
+  },
+  {
+    "front": "Should id values be unique?",
+    "back": "Yes, each id should be unique within an HTML document."
+  },
+  {
+    "front": "Can id values have spaces?",
+    "back": "No. Id values should not contain spaces. Use underscores or dashes instead."
+  },
+  {
+    "front": "What characters are valid in an id value?",
+    "back": "Letters, digits, underscores (_), and dashes (-)"
+  },
+  {
+    "front": "What does the class attribute do?",
+    "back": "It applies a style or behavior to one or more elements. Class values do not have to be unique."
+  },
+  {
+    "front": "Can you use multiple class names on a single element?",
+    "back": "Yes. Separate them with spaces. Example: class=\"box red-box\""
+  },
+  {
+    "front": "How do you reference a class in CSS?",
+    "back": "Use a dot (.) followed by the class name. Example: .box { border: 2px solid black; }"
+  },
+  {
+    "front": "When should you use a class over an id?",
+    "back": "Use a class when applying styles to multiple elements. Use an id when targeting a single, specific element."
+  },
+  {
+    "front": "What is an HTML entity (character reference)?",
+    "back": "A special set of characters used to display reserved or invisible characters in HTML, like < or ©."
+  },
+  {
+    "front": "Why can't you write <img> directly in HTML text?",
+    "back": "Because the browser interprets it as an actual HTML element, not text."
+  },
+  {
+    "front": "How do you write < and > using HTML entities?",
+    "back": "Use &lt; for < and &gt; for >"
+  },
+  {
+    "front": "What is the syntax of a named character reference?",
+    "back": "Starts with & and ends with ; (e.g., &lt;, &gt;, &copy;)"
+  },
+  {
+    "front": "What is a decimal numeric reference?",
+    "back": "A character reference using a number: starts with &#, followed by digits, and ends with ; (e.g., &#60; for <)"
+  },
+  {
+    "front": "What is a hexadecimal numeric reference?",
+    "back": "A reference using hex digits: starts with &#x, followed by hex code, ends with ; (e.g., &#x3C; for <)"
+  },
+  {
+    "front": "What is the named HTML entity for the ampersand sign?",
+    "back": "&amp;"
+  },
+  {
+    "front": "Give examples of common named character references.",
+    "back": "&copy; for ©, &quot; for \", &trade; for ™, &amp; for &"
+  },
+  {
+    "front": "When should you use an HTML entity?",
+    "back": "Whenever you want to display a character that would otherwise be interpreted as HTML syntax or is not normally displayable."
+  },
+  {
+    "front": "What is the <script> element used for in HTML?",
+    "back": "To embed or link to executable code, typically JavaScript."
+  },
+  {
+    "front": "Give an example of using <script> to run inline JavaScript.",
+    "back": "<script>\n  alert(\"Welcome to freeCodeCamp\");\n</script>"
+  },
+  {
+    "front": "What does JavaScript add to a web page?",
+    "back": "Interactivity—like games, image sliders, or form validation."
+  },
+  {
+    "front": "What is the recommended way to include JavaScript in a web page?",
+    "back": "Link to an external file using the src attribute in the <script> tag."
+  },
+  {
+    "front": "What does the src attribute in a <script> tag do?",
+    "back": "It specifies the path to the external JavaScript file. Example: <script src=\"script.js\"></script>"
+  },
+  {
+    "front": "Why is it better to use external JavaScript files?",
+    "back": "To follow the principle of separation of concerns—keeping HTML and JavaScript in separate files for clarity and maintainability."
+  },
+  {
+    "front": "What is 'separation of concerns'?",
+    "back": "A design principle where code is divided into sections by purpose—for example, HTML for structure and JavaScript for behavior."
+  },
+  {
+    "front": "What does SEO stand for?",
+    "back": "Search Engine Optimization"
+  },
+  {
+    "front": "What is the goal of SEO?",
+    "back": "To make web pages more visible and rank higher on search engines."
+  },
+  {
+    "front": "How can the meta description element help with SEO?",
+    "back": "It provides a short, descriptive summary of a webpage that can be shown in search engine results."
+  },
+  {
+    "front": "What attributes are used in the meta description tag?",
+    "back": "The name attribute is set to 'description' and the content attribute holds the summary."
+  },
+  {
+    "front": "Will the meta description appear on the webpage itself?",
+    "back": "No, it's metadata—used by browsers, search engines, and web tools but not shown on the page."
+  },
+  {
+    "front": "Where can users see the meta description?",
+    "back": "In search engine result snippets, under the page title and link."
+  },
+  {
+    "front": "Does the meta description directly affect your search ranking?",
+    "back": "No, but it can improve click-through rate by attracting users with a compelling summary."
+  },
+  {
+    "front": "Why should meta descriptions be short and concise?",
+    "back": "Because search engines may truncate long descriptions in result pages."
+  },
+  {
+    "front": "Give an example of a valid meta description tag.",
+    "back": "<meta name=\"description\" content=\"Learn tips for small space gardening and plant care.\">"
+  },
+  {
+    "front": "What is the purpose of Open Graph (OG) meta tags?",
+    "back": "To control how your website's content appears when shared on social media platforms like Facebook or LinkedIn."
+  },
+  {
+    "front": "Where should OG tags be placed in your HTML?",
+    "back": "Inside the <head> section of your HTML document."
+  },
+  {
+    "front": "What is the OG title tag used for?",
+    "back": "It sets the title that will be displayed when the page is shared. Example: <meta property=\"og:title\" content=\"Your Title\" />"
+  },
+  {
+    "front": "What does the OG type tag define?",
+    "back": "The type of content being shared, such as article, website, video, or music."
+  },
+  {
+    "front": "What is the OG image tag used for?",
+    "back": "It defines the image shown when the page is shared. It should be a high-resolution, well-sized image."
+  },
+  {
+    "front": "What are the recommended image dimensions for OG images according to Facebook?",
+    "back": "At least 1200x630 pixels (minimum 600x315)."
+  },
+  {
+    "front": "What does the OG url tag specify?",
+    "back": "The canonical URL of the page being shared."
+  },
+  {
+    "front": "How do OG tags affect SEO?",
+    "back": "They don't directly affect ranking, but improved appearance on social media can increase clicks, which can signal relevance to search engines."
+  },
+  {
+    "front": "What are the four most important OG properties to include?",
+    "back": "og:title, og:type, og:image, og:url"
+  },
+  {
+    "front": "What attribute is used in OG meta tags to specify the type of metadata?",
+    "back": "property (e.g., property=\"og:title\")"
+  }
+]

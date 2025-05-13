@@ -1,0 +1,206 @@
+[
+  {
+    "front": "What does HTML stand for?",
+    "back": "Hypertext Markup Language"
+  },
+  {
+    "front": "What is the role of HTML on the web?",
+    "back": "HTML provides the content and structure of a web page using elements like paragraphs, headings, links, images, and videos."
+  },
+  {
+    "front": "What are the two main parts of most HTML elements?",
+    "back": "An opening tag and a closing tag, with content between them."
+  },
+  {
+    "front": "How can you distinguish a closing tag from an opening tag in HTML?",
+    "back": "A closing tag includes a forward slash (/) after the left angle bracket, like </p>."
+  },
+  {
+    "front": "What is a void element in HTML?",
+    "back": "An element that does not have a closing tag and cannot contain any content. Example: <img>"
+  },
+  {
+    "front": "What is an attribute in HTML?",
+    "back": "A special value used to adjust the behavior of an HTML element. Example: src in an <img> tag."
+  },
+  {
+    "front": "What does the src attribute do in an <img> element?",
+    "back": "Specifies the location of the image to display."
+  },
+  {
+    "front": "What does the alt attribute do in an <img> element?",
+    "back": "Provides descriptive text for the image if it can't be displayed."
+  },
+  {
+    "front": "Is HTML alone enough to build a website?",
+    "back": "It can be for basic content, but modern websites also need CSS for styling and JavaScript for interactivity."
+  },
+  {
+    "front": "What's a good analogy to describe HTML, CSS, and JavaScript?",
+    "back": "HTML is the structure (like concrete and walls), CSS is the design (interior/exterior), and JavaScript is the plumbing/electrical systems (interactivity)."
+  },
+  {
+    "front": "What is an attribute in HTML?",
+    "back": "A value placed inside the opening tag of an element that provides extra info or controls behavior. Syntax: <element attribute=\"value\">"
+  },
+  {
+    "front": "What is the syntax structure of an attribute?",
+    "back": "attributeName=\"value\" (The value is usually in quotes and can be a string or number.)"
+  },
+  {
+    "front": "What does the href attribute do?",
+    "back": "Specifies the URL destination for a link element."
+  },
+  {
+    "front": "Why is the href attribute important?",
+    "back": "Without it, an <a> tag won't lead anywhere—it needs href to define the link's destination."
+  },
+  {
+    "front": "What do the src and alt attributes do in an <img> element?",
+    "back": "src defines the image source (file or URL), and alt provides descriptive text for accessibility."
+  },
+  {
+    "front": "Is the alt attribute required?",
+    "back": "No, but it's strongly recommended for accessibility purposes."
+  },
+  {
+    "front": "What is a boolean attribute in HTML?",
+    "back": "An attribute that doesn't need a value—its presence alone enables it. Example: 'checked' in checkboxes."
+  },
+  {
+    "front": "What happens if you add the 'checked' attribute to a checkbox input?",
+    "back": "The checkbox will be checked by default."
+  },
+  {
+    "front": "Give examples of common boolean attributes in HTML.",
+    "back": "checked, disabled, readonly, required"
+  },
+  {
+    "front": "Why are attributes important in HTML?",
+    "back": "They allow you to customize and control the behavior and accessibility of web elements."
+  },
+  {
+    "front": "What is the purpose of the <link> element in HTML?",
+    "back": "It's used to link to external resources like stylesheets, fonts, or icons."
+  },
+  {
+    "front": "How do you link an external CSS file in HTML?",
+    "back": "<link rel=\"stylesheet\" href=\"./styles.css\" />"
+  },
+  {
+    "front": "What does the rel attribute do in a <link> element?",
+    "back": "It specifies the relationship between the HTML document and the linked resource. Example: rel=\"stylesheet\" for a CSS file."
+  },
+  {
+    "front": "What does the href attribute do in a <link> element?",
+    "back": "It defines the path or URL to the external resource (like a CSS file or font)."
+  },
+  {
+    "front": "Where should the <link> element be placed in an HTML document?",
+    "back": "Inside the <head> section."
+  },
+  {
+    "front": "What does './' mean in a file path like './styles.css'?",
+    "back": "It means the file is in the same folder as the current HTML file (the current directory)."
+  },
+  {
+    "front": "Why is it considered best practice to separate HTML and CSS?",
+    "back": "It improves code organization and makes styling reusable and maintainable."
+  },
+  {
+    "front": "What is a common use of <link> beyond stylesheets?",
+    "back": "To load fonts (e.g., Google Fonts) and favicons."
+  },
+  {
+    "front": "What does rel=\"preconnect\" do in a <link> tag?",
+    "back": "It allows the browser to create an early connection to the resource URL, which speeds up loading."
+  },
+  {
+    "front": "What is a favicon?",
+    "back": "A small icon shown in the browser tab next to the page title, often used for branding."
+  },
+  {
+    "front": "What is an HTML boilerplate?",
+    "back": "It's a basic starter template that includes the essential structure and elements for every HTML document."
+  },
+  {
+    "front": "Why is an HTML boilerplate useful?",
+    "back": "It saves time, ensures correct structure, improves browser compatibility, and follows best practices."
+  },
+  {
+    "front": "What does <!DOCTYPE html> do?",
+    "back": "It tells the browser to use the latest version of HTML (HTML5)."
+  },
+  {
+    "front": "What is the purpose of the <html> element?",
+    "back": "It wraps around the entire content of the webpage and can define the language with the lang attribute."
+  },
+  {
+    "front": "What are the two main sections inside the <html> tag?",
+    "back": "<head> and <body>"
+  },
+  {
+    "front": "What is the <head> section used for?",
+    "back": "It contains metadata, the title, links to stylesheets, and other resources not shown directly on the page."
+  },
+  {
+    "front": "What is the <body> section used for?",
+    "back": "It holds all the visible content of the webpage like headings, paragraphs, images, and buttons."
+  },
+  {
+    "front": "What does the <meta charset=\"UTF-8\"> tag do?",
+    "back": "It sets the character encoding so the browser can correctly display special characters."
+  },
+  {
+    "front": "What does the viewport <meta> tag do?",
+    "back": "It makes the site responsive by controlling layout on mobile browsers."
+  },
+  {
+    "front": "Where should you put the <link rel=\"stylesheet\"> tag?",
+    "back": "Inside the <head> section to link external CSS files."
+  },
+  {
+    "front": "What does the <title> element control?",
+    "back": "The text displayed in the browser tab and used for link previews on sites like Twitter."
+  },
+  {
+    "front": "Can you customize your HTML boilerplate?",
+    "back": "Yes! As you gain experience, you can add preferred meta tags or other elements to fit your projects."
+  },
+  {
+    "front": "What does UTF-8 stand for?",
+    "back": "UCS Transformation Format 8"
+  },
+  {
+    "front": "What is character encoding?",
+    "back": "It's the method computers use to store characters as data using bytes."
+  },
+  {
+    "front": "What is a byte in computing?",
+    "back": "A unit of data made up of 8 bits (binary digits)."
+  },
+  {
+    "front": "Why is UTF-8 the recommended encoding for web pages?",
+    "back": "It supports all characters and symbols in the Unicode character set, making it compatible with all languages and writing systems."
+  },
+  {
+    "front": "How do you declare UTF-8 encoding in an HTML document?",
+    "back": "<meta charset=\"UTF-8\" />"
+  },
+  {
+    "front": "What happens if you don't set the character encoding correctly?",
+    "back": "Characters like accented letters or symbols may display incorrectly on the page."
+  },
+  {
+    "front": "Where should the <meta charset=\"UTF-8\"> tag be placed?",
+    "back": "Inside the <head> section of your HTML document."
+  },
+  {
+    "front": "Give an example of a character that benefits from UTF-8 encoding.",
+    "back": "The accented letter é (as in 'Café')"
+  },
+  {
+    "front": "Should you include UTF-8 encoding in every HTML project?",
+    "back": "Yes, it's best practice to ensure proper character display and compatibility."
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "front": "What is a replaced element in HTML?",
+    "back": "An element whose content is determined by an external resource, not by CSS."
+  },
+  {
+    "front": "Give examples of replaced elements.",
+    "back": "<img>, <iframe>, <video>, <embed>, and <input type=\"image\">"
+  },
+  {
+    "front": "Can you modify the content of a replaced element with CSS?",
+    "back": "No. CSS can affect layout and appearance, but not the content itself."
+  },
+  {
+    "front": "What happens when you use an <img> tag on your page?",
+    "back": "The <img> element is replaced by the image file specified in the src attribute."
+  },
+  {
+    "front": "What does an <iframe> do?",
+    "back": "It embeds an external site onto your webpage. The content comes from another URL."
+  },
+  {
+    "front": "Can CSS style the internal content of an embedded <iframe>?",
+    "back": "No, CSS cannot affect the contents inside an <iframe>."
+  },
+  {
+    "front": "What makes <input type=\"image\"> a replaced element?",
+    "back": "Because it uses an image file as its content, similar to an <img> tag."
+  },
+  {
+    "front": "Are all <input> types replaced elements?",
+    "back": "No. Only <input type=\"image\"> is considered a replaced element. Others like text or email are not."
+  },
+  {
+    "front": "What can CSS do to a replaced element?",
+    "back": "CSS can control layout, position, size, and some appearance (like filters), but not its internal content."
+  },
+  {
+    "front": "What are three key tools to consider when optimizing media assets?",
+    "back": "Size, format, and compression."
+  },
+  {
+    "front": "Why should image resolution match the display size?",
+    "back": "To avoid forcing users to download unnecessarily large files, improving performance."
+  },
+  {
+    "front": "What does a resolution of 640x480 mean?",
+    "back": "The image is 640 pixels wide and 480 pixels tall."
+  },
+  {
+    "front": "What happens if you serve a large image (e.g., 1920x1080) but display it at a smaller size (e.g., 640x480)?",
+    "back": "The page loads unnecessary data, slowing down performance."
+  },
+  {
+    "front": "What are some modern optimized image formats?",
+    "back": "WEBP and AVIF"
+  },
+  {
+    "front": "Why might PNG and JPG not be the best formats today?",
+    "back": "They are larger in size compared to modern formats like WEBP and AVIF, unless backward compatibility is needed."
+  },
+  {
+    "front": "What does a compression algorithm do?",
+    "back": "It reduces the size of files or data to improve load times and efficiency."
+  },
+  {
+    "front": "What is a lossless format?",
+    "back": "A format where the original data can be perfectly reconstructed after compression."
+  },
+  {
+    "front": "Is JPG a lossless format?",
+    "back": "No. JPG compression is lossy, meaning it degrades image quality."
+  },
+  {
+    "front": "Name a tool you can use to compress PNG images.",
+    "back": "pngcrush (or various online tools)"
+  },
+  {
+    "front": "Why are images considered intellectual property?",
+    "back": "Because they are protected by copyright laws, typically owned by the creator or publisher."
+  },
+  {
+    "front": "What does 'all rights reserved' mean for an image?",
+    "back": "The creator holds all rights, and you cannot use the image without permission."
+  },
+  {
+    "front": "What are three legal ways to use a copyrighted image?",
+    "back": "1. Get written permission, 2. Purchase a license, 3. Use under fair use (limited and transformative)."
+  },
+  {
+    "front": "What is 'fair use' of an image?",
+    "back": "A limited and transformative use such as commentary, critique, or parody."
+  },
+  {
+    "front": "What is a permissive license?",
+    "back": "A license (like Creative Commons or BSD) that allows use with certain conditions, such as attribution or source sharing."
+  },
+  {
+    "front": "Can all Creative Commons images be used freely?",
+    "back": "No. You must read the license details—some restrict modifications or require attribution."
+  },
+  {
+    "front": "What is the public domain?",
+    "back": "Content that has no copyright and can be used freely without restriction."
+  },
+  {
+    "front": "What license specifically places an image into the public domain?",
+    "back": "Creative Commons 0 (CC0) license."
+  },
+  {
+    "front": "What are two websites that offer free-to-use images?",
+    "back": "Pixabay and Unsplash"
+  },
+  {
+    "front": "How can you find images by license type when using a search engine?",
+    "back": "Use the search engine’s filters to sort images by license."
+  },
+  {
+    "front": "What does SVG stand for?",
+    "back": "Scalable Vector Graphic"
+  },
+  {
+    "front": "How are PNG and JPG images classified?",
+    "back": "As raster images, which are pixel-based."
+  },
+  {
+    "front": "Why don’t raster images like PNG or JPG upscale well?",
+    "back": "Because they are pixel-based, and enlarging them causes pixelation or blurring."
+  },
+  {
+    "front": "How are SVGs different from raster images?",
+    "back": "They are vector-based, using mathematical paths to define shapes, allowing infinite scaling without quality loss."
+  },
+  {
+    "front": "What format is used to store data in an SVG?",
+    "back": "XML (eXtensible Markup Language)"
+  },
+  {
+    "front": "What is a major advantage of SVGs over raster formats?",
+    "back": "They can be resized to any dimension without becoming blurry or losing quality."
+  },
+  {
+    "front": "Can you include SVG code directly in an HTML file?",
+    "back": "Yes, using the <svg> element, since SVG is XML-based."
+  },
+  {
+    "front": "What’s a common use case for SVGs?",
+    "back": "Icons, logos, and custom UI graphics that need to scale responsively."
+  },
+  {
+    "front": "What popular icon library uses SVGs?",
+    "back": "Font Awesome"
+  },
+  {
+    "front": "Why are SVGs good for responsive design?",
+    "back": "Because they scale perfectly and maintain sharpness at any size."
+  },
+  {
+    "front": "What does the <audio> element do?",
+    "back": "It allows you to embed sound content like music or narration in an HTML document."
+  },
+  {
+    "front": "What does the <video> element do?",
+    "back": "It allows you to embed video content into an HTML document."
+  },
+  {
+    "front": "What formats are supported by the <audio> element?",
+    "back": "mp3, wav, and ogg"
+  },
+  {
+    "front": "What formats are supported by the <video> element?",
+    "back": "mp4, ogg, and webm"
+  },
+  {
+    "front": "What does the 'controls' attribute do?",
+    "back": "It enables the built-in playback controls for audio or video (play, pause, volume, etc.)."
+  },
+  {
+    "front": "Is 'controls' a boolean attribute?",
+    "back": "Yes. Its presence alone enables the feature."
+  },
+  {
+    "front": "What does the 'loop' attribute do?",
+    "back": "It causes the audio or video to replay automatically when it ends."
+  },
+  {
+    "front": "What does the 'muted' attribute do?",
+    "back": "It starts the audio or video in a muted state."
+  },
+  {
+    "front": "How can you support multiple audio formats for different browsers?",
+    "back": "Use multiple <source> elements inside the <audio> tag with different formats."
+  },
+  {
+    "front": "What is the 'poster' attribute used for in a <video> tag?",
+    "back": "It displays an image before the video starts playing, while it's loading."
+  },
+  {
+    "front": "Is the 'poster' attribute available in the <audio> element?",
+    "back": "No. It is unique to the <video> element."
+  },
+  {
+    "front": "What does the 'width' attribute do in a <video> tag?",
+    "back": "It sets the display width of the video in pixels."
+  },
+  {
+    "front": "What does iframe stand for?",
+    "back": "Inline Frame"
+  },
+  {
+    "front": "What is the purpose of the <iframe> element?",
+    "back": "To embed another HTML document (such as videos, maps, or other pages) within your current HTML page."
+  },
+  {
+    "front": "What attributes are commonly used with <iframe>?",
+    "back": "src, width, height, title, allowfullscreen"
+  },
+  {
+    "front": "What does the src attribute do in an <iframe>?",
+    "back": "It defines the URL of the content you want to embed."
+  },
+  {
+    "front": "Why is the title attribute important in an <iframe>?",
+    "back": "It improves accessibility by describing the content of the iframe to screen readers."
+  },
+  {
+    "front": "How do you enable fullscreen mode in an <iframe>?",
+    "back": "Add the allowfullscreen attribute (it’s a boolean attribute)."
+  },
+  {
+    "front": "How do you embed a YouTube video using an <iframe>?",
+    "back": "Use the format https://www.youtube.com/embed/VIDEO_ID as the src value."
+  },
+  {
+    "front": "Can you use the share link from YouTube directly in an <iframe>?",
+    "back": "No. You must replace 'youtu.be' with 'youtube.com/embed/' to embed properly."
+  },
+  {
+    "front": "Can <iframe> be used to embed non-video content?",
+    "back": "Yes. You can embed maps, web pages, or direct HTML using srcdoc."
+  },
+  {
+    "front": "What attribute lets you embed raw HTML inside an <iframe>?",
+    "back": "The srcdoc attribute."
+  }
+]

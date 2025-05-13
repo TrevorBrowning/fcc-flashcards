@@ -1,0 +1,10 @@
+[
+  {
+    "front": "What does `===` mean?",
+    "back": "Strict equality — checks both value and type."
+  },
+  {
+    "front": "What is a `switch` statement used for?",
+    "back": "To test a variable against many values."
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "front": "What does the target attribute do in an <a> element?",
+    "back": "It specifies where to open the linked document."
+  },
+  {
+    "front": "What is the default value of the target attribute?",
+    "back": "_self — it opens the link in the same tab or window."
+  },
+  {
+    "front": "What does target=\"_blank\" do?",
+    "back": "Opens the link in a new tab or browsing context."
+  },
+  {
+    "front": "What does target=\"_parent\" do?",
+    "back": "Opens the link in the parent browsing context (e.g. outside an iframe)."
+  },
+  {
+    "front": "What does target=\"_top\" do?",
+    "back": "Opens the link in the topmost browsing context, replacing all frames."
+  },
+  {
+    "front": "What is target=\"_unfencedTop\" used for?",
+    "back": "It's an experimental value used with the FencedFrame API."
+  },
+  {
+    "front": "How do you make a link open in a new tab?",
+    "back": "Use target=\"_blank\" in your <a> tag."
+  },
+  {
+    "front": "Why is it important to choose the right target attribute?",
+    "back": "It affects user experience and controls where users are taken when clicking a link."
+  },
+  {
+    "front": "Does _blank always open in a new tab?",
+    "back": "Typically yes, but some browsers may open a new window depending on settings."
+  },
+  {
+    "front": "What is a path in web development?",
+    "back": "A string that specifies the location of a file or directory in a file system."
+  },
+  {
+    "front": "What is an absolute path?",
+    "back": "A complete path that starts from the root directory and includes protocol, domain (if web), and the full file location."
+  },
+  {
+    "front": "Give an example of an absolute web URL.",
+    "back": "https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg"
+  },
+  {
+    "front": "What protocol is used for absolute paths on local machines?",
+    "back": "file://"
+  },
+  {
+    "front": "What does a local absolute path include?",
+    "back": "The full folder hierarchy starting from the root, e.g., /Users/user/Desktop/.../about.html"
+  },
+  {
+    "front": "What is a relative path?",
+    "back": "A path that specifies the location of a file relative to the current document’s directory."
+  },
+  {
+    "front": "Give an example of a relative path.",
+    "back": "<a href=\"about.html\">About Page</a> — if both pages are in the same folder."
+  },
+  {
+    "front": "When should you use an absolute path?",
+    "back": "When linking to external resources or when consistent linking is needed regardless of document location."
+  },
+  {
+    "front": "When should you use a relative path?",
+    "back": "When linking within the same website or during local development for cleaner and more flexible links."
+  },
+  {
+    "front": "What is the main benefit of using relative paths in development?",
+    "back": "They keep your code cleaner and easier to maintain and allow for local testing without needing an internet connection."
+  },
+  {
+    "front": "What are the three key file path symbols in web development?",
+    "back": "Slash (/ or \\), single dot (.), and double dot (..)"
+  },
+  {
+    "front": "What does a slash (/) represent in a file path?",
+    "back": "It is the path separator used to indicate folder structure (e.g., /folder/file)."
+  },
+  {
+    "front": "What does a single dot (./) mean in a file path?",
+    "back": "It refers to the current directory and is used to indicate a relative path."
+  },
+  {
+    "front": "What does a double dot (../) mean in a file path?",
+    "back": "It refers to the parent directory of the current directory."
+  },
+  {
+    "front": "Which operating systems use which slashes?",
+    "back": "Forward slash (/) is used on Unix-based systems; backslash (\\) is used on Windows."
+  },
+  {
+    "front": "Why is ./favicon.ico used from public/index.html?",
+    "back": "Because favicon.ico is in the same directory, so you use a relative path pointing to the current directory."
+  },
+  {
+    "front": "Why is ../src/index.css used from public/index.html?",
+    "back": "Because you need to go up to the parent (my-app) directory and then into the src folder."
+  },
+  {
+    "front": "When are double dots (../) commonly used?",
+    "back": "To access files located outside the current working directory."
+  },
+  {
+    "front": "What does ./script.js tell the browser?",
+    "back": "To load script.js from the same folder as the current file."
+  },
+  {
+    "front": "What does ../styles.css tell the browser?",
+    "back": "To go up one directory and then look for styles.css."
+  },
+  {
+    "front": "What are the five different link states in CSS?",
+    "back": ":link, :visited, :hover, :focus, :active"
+  },
+  {
+    "front": "What does the :link state represent?",
+    "back": "A link that has not been visited or interacted with yet (default state)."
+  },
+  {
+    "front": "What does the :visited state represent?",
+    "back": "A link that the user has already visited."
+  },
+  {
+    "front": "What is the default style for a :visited link in most browsers?",
+    "back": "Purple text color"
+  },
+  {
+    "front": "What does the :hover state represent?",
+    "back": "When a user hovers their cursor over a link."
+  },
+  {
+    "front": "Why is :hover styling helpful?",
+    "back": "It helps indicate interactivity and can draw attention to links."
+  },
+  {
+    "front": "What does the :focus state represent?",
+    "back": "When a link receives focus, such as by tabbing through elements with the keyboard."
+  },
+  {
+    "front": "What does the :active state represent?",
+    "back": "When a link is being activated by a user, usually by clicking on it."
+  },
+  {
+    "front": "What is the correct order for writing link states in CSS?",
+    "back": ":link, :visited, :hover, :focus, :active"
+  },
+  {
+    "front": "Why is the order of link states important in CSS?",
+    "back": "To ensure proper styling and predictable behavior as browsers cascade the styles."
+  }
+]

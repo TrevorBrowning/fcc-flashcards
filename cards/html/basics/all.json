@@ -1,0 +1,814 @@
+[
+  {
+    "front": "What does HTML stand for?",
+    "back": "Hypertext Markup Language"
+  },
+  {
+    "front": "What is the role of HTML on the web?",
+    "back": "HTML provides the content and structure of a web page using elements like paragraphs, headings, links, images, and videos."
+  },
+  {
+    "front": "What are the two main parts of most HTML elements?",
+    "back": "An opening tag and a closing tag, with content between them."
+  },
+  {
+    "front": "How can you distinguish a closing tag from an opening tag in HTML?",
+    "back": "A closing tag includes a forward slash (/) after the left angle bracket, like </p>."
+  },
+  {
+    "front": "What is a void element in HTML?",
+    "back": "An element that does not have a closing tag and cannot contain any content. Example: <img>"
+  },
+  {
+    "front": "What is an attribute in HTML?",
+    "back": "A special value used to adjust the behavior of an HTML element. Example: src in an <img> tag."
+  },
+  {
+    "front": "What does the src attribute do in an <img> element?",
+    "back": "Specifies the location of the image to display."
+  },
+  {
+    "front": "What does the alt attribute do in an <img> element?",
+    "back": "Provides descriptive text for the image if it can't be displayed."
+  },
+  {
+    "front": "Is HTML alone enough to build a website?",
+    "back": "It can be for basic content, but modern websites also need CSS for styling and JavaScript for interactivity."
+  },
+  {
+    "front": "What's a good analogy to describe HTML, CSS, and JavaScript?",
+    "back": "HTML is the structure (like concrete and walls), CSS is the design (interior/exterior), and JavaScript is the plumbing/electrical systems (interactivity)."
+  },
+  {
+    "front": "What is an attribute in HTML?",
+    "back": "A value placed inside the opening tag of an element that provides extra info or controls behavior. Syntax: <element attribute=\"value\">"
+  },
+  {
+    "front": "What is the syntax structure of an attribute?",
+    "back": "attributeName=\"value\" (The value is usually in quotes and can be a string or number.)"
+  },
+  {
+    "front": "What does the href attribute do?",
+    "back": "Specifies the URL destination for a link element."
+  },
+  {
+    "front": "Why is the href attribute important?",
+    "back": "Without it, an <a> tag won't lead anywhere—it needs href to define the link's destination."
+  },
+  {
+    "front": "What do the src and alt attributes do in an <img> element?",
+    "back": "src defines the image source (file or URL), and alt provides descriptive text for accessibility."
+  },
+  {
+    "front": "Is the alt attribute required?",
+    "back": "No, but it's strongly recommended for accessibility purposes."
+  },
+  {
+    "front": "What is a boolean attribute in HTML?",
+    "back": "An attribute that doesn't need a value—its presence alone enables it. Example: 'checked' in checkboxes."
+  },
+  {
+    "front": "What happens if you add the 'checked' attribute to a checkbox input?",
+    "back": "The checkbox will be checked by default."
+  },
+  {
+    "front": "Give examples of common boolean attributes in HTML.",
+    "back": "checked, disabled, readonly, required"
+  },
+  {
+    "front": "Why are attributes important in HTML?",
+    "back": "They allow you to customize and control the behavior and accessibility of web elements."
+  },
+  {
+    "front": "What is the purpose of the <link> element in HTML?",
+    "back": "It's used to link to external resources like stylesheets, fonts, or icons."
+  },
+  {
+    "front": "How do you link an external CSS file in HTML?",
+    "back": "<link rel=\"stylesheet\" href=\"./styles.css\" />"
+  },
+  {
+    "front": "What does the rel attribute do in a <link> element?",
+    "back": "It specifies the relationship between the HTML document and the linked resource. Example: rel=\"stylesheet\" for a CSS file."
+  },
+  {
+    "front": "What does the href attribute do in a <link> element?",
+    "back": "It defines the path or URL to the external resource (like a CSS file or font)."
+  },
+  {
+    "front": "Where should the <link> element be placed in an HTML document?",
+    "back": "Inside the <head> section."
+  },
+  {
+    "front": "What does './' mean in a file path like './styles.css'?",
+    "back": "It means the file is in the same folder as the current HTML file (the current directory)."
+  },
+  {
+    "front": "Why is it considered best practice to separate HTML and CSS?",
+    "back": "It improves code organization and makes styling reusable and maintainable."
+  },
+  {
+    "front": "What is a common use of <link> beyond stylesheets?",
+    "back": "To load fonts (e.g., Google Fonts) and favicons."
+  },
+  {
+    "front": "What does rel=\"preconnect\" do in a <link> tag?",
+    "back": "It allows the browser to create an early connection to the resource URL, which speeds up loading."
+  },
+  {
+    "front": "What is a favicon?",
+    "back": "A small icon shown in the browser tab next to the page title, often used for branding."
+  },
+  {
+    "front": "What is an HTML boilerplate?",
+    "back": "It's a basic starter template that includes the essential structure and elements for every HTML document."
+  },
+  {
+    "front": "Why is an HTML boilerplate useful?",
+    "back": "It saves time, ensures correct structure, improves browser compatibility, and follows best practices."
+  },
+  {
+    "front": "What does <!DOCTYPE html> do?",
+    "back": "It tells the browser to use the latest version of HTML (HTML5)."
+  },
+  {
+    "front": "What is the purpose of the <html> element?",
+    "back": "It wraps around the entire content of the webpage and can define the language with the lang attribute."
+  },
+  {
+    "front": "What are the two main sections inside the <html> tag?",
+    "back": "<head> and <body>"
+  },
+  {
+    "front": "What is the <head> section used for?",
+    "back": "It contains metadata, the title, links to stylesheets, and other resources not shown directly on the page."
+  },
+  {
+    "front": "What is the <body> section used for?",
+    "back": "It holds all the visible content of the webpage like headings, paragraphs, images, and buttons."
+  },
+  {
+    "front": "What does the <meta charset=\"UTF-8\"> tag do?",
+    "back": "It sets the character encoding so the browser can correctly display special characters."
+  },
+  {
+    "front": "What does the viewport <meta> tag do?",
+    "back": "It makes the site responsive by controlling layout on mobile browsers."
+  },
+  {
+    "front": "Where should you put the <link rel=\"stylesheet\"> tag?",
+    "back": "Inside the <head> section to link external CSS files."
+  },
+  {
+    "front": "What does the <title> element control?",
+    "back": "The text displayed in the browser tab and used for link previews on sites like Twitter."
+  },
+  {
+    "front": "Can you customize your HTML boilerplate?",
+    "back": "Yes! As you gain experience, you can add preferred meta tags or other elements to fit your projects."
+  },
+  {
+    "front": "What does UTF-8 stand for?",
+    "back": "UCS Transformation Format 8"
+  },
+  {
+    "front": "What is character encoding?",
+    "back": "It's the method computers use to store characters as data using bytes."
+  },
+  {
+    "front": "What is a byte in computing?",
+    "back": "A unit of data made up of 8 bits (binary digits)."
+  },
+  {
+    "front": "Why is UTF-8 the recommended encoding for web pages?",
+    "back": "It supports all characters and symbols in the Unicode character set, making it compatible with all languages and writing systems."
+  },
+  {
+    "front": "How do you declare UTF-8 encoding in an HTML document?",
+    "back": "<meta charset=\"UTF-8\" />"
+  },
+  {
+    "front": "What happens if you don't set the character encoding correctly?",
+    "back": "Characters like accented letters or symbols may display incorrectly on the page."
+  },
+  {
+    "front": "Where should the <meta charset=\"UTF-8\"> tag be placed?",
+    "back": "Inside the <head> section of your HTML document."
+  },
+  {
+    "front": "Give an example of a character that benefits from UTF-8 encoding.",
+    "back": "The accented letter é (as in 'Café')"
+  },
+  {
+    "front": "Should you include UTF-8 encoding in every HTML project?",
+    "back": "Yes, it's best practice to ensure proper character display and compatibility."
+  },
+  {
+    "front": "What is the <div> element used for?",
+    "back": "It's a general-purpose container used to group HTML elements together."
+  },
+  {
+    "front": "Can a <div> be styled?",
+    "back": "Yes, you can apply height, width, background color, and other CSS styles to a <div>."
+  },
+  {
+    "front": "What does a basic <div> structure look like?",
+    "back": "<div>\n  <!-- content here -->\n</div>"
+  },
+  {
+    "front": "How can a <div> group content?",
+    "back": "You can place multiple elements (like a heading and paragraph) inside a <div> to group them visually and structurally."
+  },
+  {
+    "front": "What is the difference between a <div> and a <section>?",
+    "back": "A <section> has semantic meaning (treated as a section of content), while a <div> has no semantic meaning—it's a generic container."
+  },
+  {
+    "front": "What does 'semantic' mean in HTML?",
+    "back": "It refers to elements that convey meaning about the type or role of their content (e.g., <section>, <article>, <header>)."
+  },
+  {
+    "front": "Does the <div> element have semantic meaning?",
+    "back": "No. It's a non-semantic element—used for grouping but without inherent meaning."
+  },
+  {
+    "front": "Why might you choose <section> over <div>?",
+    "back": "To improve accessibility and clarity by giving the browser and assistive technologies context about the grouped content."
+  },
+  {
+    "front": "What does the id attribute do in HTML?",
+    "back": "It assigns a unique identifier to an element, which can be used in CSS or JavaScript."
+  },
+  {
+    "front": "How do you reference an id in CSS?",
+    "back": "Use a hash symbol (#) followed by the id name. Example: #title { color: red; }"
+  },
+  {
+    "front": "Should id values be unique?",
+    "back": "Yes, each id should be unique within an HTML document."
+  },
+  {
+    "front": "Can id values have spaces?",
+    "back": "No. Id values should not contain spaces. Use underscores or dashes instead."
+  },
+  {
+    "front": "What characters are valid in an id value?",
+    "back": "Letters, digits, underscores (_), and dashes (-)"
+  },
+  {
+    "front": "What does the class attribute do?",
+    "back": "It applies a style or behavior to one or more elements. Class values do not have to be unique."
+  },
+  {
+    "front": "Can you use multiple class names on a single element?",
+    "back": "Yes. Separate them with spaces. Example: class=\"box red-box\""
+  },
+  {
+    "front": "How do you reference a class in CSS?",
+    "back": "Use a dot (.) followed by the class name. Example: .box { border: 2px solid black; }"
+  },
+  {
+    "front": "When should you use a class over an id?",
+    "back": "Use a class when applying styles to multiple elements. Use an id when targeting a single, specific element."
+  },
+  {
+    "front": "What is an HTML entity (character reference)?",
+    "back": "A special set of characters used to display reserved or invisible characters in HTML, like < or ©."
+  },
+  {
+    "front": "Why can't you write <img> directly in HTML text?",
+    "back": "Because the browser interprets it as an actual HTML element, not text."
+  },
+  {
+    "front": "How do you write < and > using HTML entities?",
+    "back": "Use &lt; for < and &gt; for >"
+  },
+  {
+    "front": "What is the syntax of a named character reference?",
+    "back": "Starts with & and ends with ; (e.g., &lt;, &gt;, &copy;)"
+  },
+  {
+    "front": "What is a decimal numeric reference?",
+    "back": "A character reference using a number: starts with &#, followed by digits, and ends with ; (e.g., &#60; for <)"
+  },
+  {
+    "front": "What is a hexadecimal numeric reference?",
+    "back": "A reference using hex digits: starts with &#x, followed by hex code, ends with ; (e.g., &#x3C; for <)"
+  },
+  {
+    "front": "What is the named HTML entity for the ampersand sign?",
+    "back": "&amp;"
+  },
+  {
+    "front": "Give examples of common named character references.",
+    "back": "&copy; for ©, &quot; for \", &trade; for ™, &amp; for &"
+  },
+  {
+    "front": "When should you use an HTML entity?",
+    "back": "Whenever you want to display a character that would otherwise be interpreted as HTML syntax or is not normally displayable."
+  },
+  {
+    "front": "What is the <script> element used for in HTML?",
+    "back": "To embed or link to executable code, typically JavaScript."
+  },
+  {
+    "front": "Give an example of using <script> to run inline JavaScript.",
+    "back": "<script>\n  alert(\"Welcome to freeCodeCamp\");\n</script>"
+  },
+  {
+    "front": "What does JavaScript add to a web page?",
+    "back": "Interactivity—like games, image sliders, or form validation."
+  },
+  {
+    "front": "What is the recommended way to include JavaScript in a web page?",
+    "back": "Link to an external file using the src attribute in the <script> tag."
+  },
+  {
+    "front": "What does the src attribute in a <script> tag do?",
+    "back": "It specifies the path to the external JavaScript file. Example: <script src=\"script.js\"></script>"
+  },
+  {
+    "front": "Why is it better to use external JavaScript files?",
+    "back": "To follow the principle of separation of concerns—keeping HTML and JavaScript in separate files for clarity and maintainability."
+  },
+  {
+    "front": "What is 'separation of concerns'?",
+    "back": "A design principle where code is divided into sections by purpose—for example, HTML for structure and JavaScript for behavior."
+  },
+  {
+    "front": "What does SEO stand for?",
+    "back": "Search Engine Optimization"
+  },
+  {
+    "front": "What is the goal of SEO?",
+    "back": "To make web pages more visible and rank higher on search engines."
+  },
+  {
+    "front": "How can the meta description element help with SEO?",
+    "back": "It provides a short, descriptive summary of a webpage that can be shown in search engine results."
+  },
+  {
+    "front": "What attributes are used in the meta description tag?",
+    "back": "The name attribute is set to 'description' and the content attribute holds the summary."
+  },
+  {
+    "front": "Will the meta description appear on the webpage itself?",
+    "back": "No, it's metadata—used by browsers, search engines, and web tools but not shown on the page."
+  },
+  {
+    "front": "Where can users see the meta description?",
+    "back": "In search engine result snippets, under the page title and link."
+  },
+  {
+    "front": "Does the meta description directly affect your search ranking?",
+    "back": "No, but it can improve click-through rate by attracting users with a compelling summary."
+  },
+  {
+    "front": "Why should meta descriptions be short and concise?",
+    "back": "Because search engines may truncate long descriptions in result pages."
+  },
+  {
+    "front": "Give an example of a valid meta description tag.",
+    "back": "<meta name=\"description\" content=\"Learn tips for small space gardening and plant care.\">"
+  },
+  {
+    "front": "What is the purpose of Open Graph (OG) meta tags?",
+    "back": "To control how your website's content appears when shared on social media platforms like Facebook or LinkedIn."
+  },
+  {
+    "front": "Where should OG tags be placed in your HTML?",
+    "back": "Inside the <head> section of your HTML document."
+  },
+  {
+    "front": "What is the OG title tag used for?",
+    "back": "It sets the title that will be displayed when the page is shared. Example: <meta property=\"og:title\" content=\"Your Title\" />"
+  },
+  {
+    "front": "What does the OG type tag define?",
+    "back": "The type of content being shared, such as article, website, video, or music."
+  },
+  {
+    "front": "What is the OG image tag used for?",
+    "back": "It defines the image shown when the page is shared. It should be a high-resolution, well-sized image."
+  },
+  {
+    "front": "What are the recommended image dimensions for OG images according to Facebook?",
+    "back": "At least 1200x630 pixels (minimum 600x315)."
+  },
+  {
+    "front": "What does the OG url tag specify?",
+    "back": "The canonical URL of the page being shared."
+  },
+  {
+    "front": "How do OG tags affect SEO?",
+    "back": "They don't directly affect ranking, but improved appearance on social media can increase clicks, which can signal relevance to search engines."
+  },
+  {
+    "front": "What are the four most important OG properties to include?",
+    "back": "og:title, og:type, og:image, og:url"
+  },
+  {
+    "front": "What attribute is used in OG meta tags to specify the type of metadata?",
+    "back": "property (e.g., property=\"og:title\")"
+  },
+  {
+    "front": "What is a replaced element in HTML?",
+    "back": "An element whose content is determined by an external resource, not by CSS."
+  },
+  {
+    "front": "Give examples of replaced elements.",
+    "back": "<img>, <iframe>, <video>, <embed>, and <input type=\"image\">"
+  },
+  {
+    "front": "Can you modify the content of a replaced element with CSS?",
+    "back": "No. CSS can affect layout and appearance, but not the content itself."
+  },
+  {
+    "front": "What happens when you use an <img> tag on your page?",
+    "back": "The <img> element is replaced by the image file specified in the src attribute."
+  },
+  {
+    "front": "What does an <iframe> do?",
+    "back": "It embeds an external site onto your webpage. The content comes from another URL."
+  },
+  {
+    "front": "Can CSS style the internal content of an embedded <iframe>?",
+    "back": "No, CSS cannot affect the contents inside an <iframe>."
+  },
+  {
+    "front": "What makes <input type=\"image\"> a replaced element?",
+    "back": "Because it uses an image file as its content, similar to an <img> tag."
+  },
+  {
+    "front": "Are all <input> types replaced elements?",
+    "back": "No. Only <input type=\"image\"> is considered a replaced element. Others like text or email are not."
+  },
+  {
+    "front": "What can CSS do to a replaced element?",
+    "back": "CSS can control layout, position, size, and some appearance (like filters), but not its internal content."
+  },
+  {
+    "front": "What are three key tools to consider when optimizing media assets?",
+    "back": "Size, format, and compression."
+  },
+  {
+    "front": "Why should image resolution match the display size?",
+    "back": "To avoid forcing users to download unnecessarily large files, improving performance."
+  },
+  {
+    "front": "What does a resolution of 640x480 mean?",
+    "back": "The image is 640 pixels wide and 480 pixels tall."
+  },
+  {
+    "front": "What happens if you serve a large image (e.g., 1920x1080) but display it at a smaller size (e.g., 640x480)?",
+    "back": "The page loads unnecessary data, slowing down performance."
+  },
+  {
+    "front": "What are some modern optimized image formats?",
+    "back": "WEBP and AVIF"
+  },
+  {
+    "front": "Why might PNG and JPG not be the best formats today?",
+    "back": "They are larger in size compared to modern formats like WEBP and AVIF, unless backward compatibility is needed."
+  },
+  {
+    "front": "What does a compression algorithm do?",
+    "back": "It reduces the size of files or data to improve load times and efficiency."
+  },
+  {
+    "front": "What is a lossless format?",
+    "back": "A format where the original data can be perfectly reconstructed after compression."
+  },
+  {
+    "front": "Is JPG a lossless format?",
+    "back": "No. JPG compression is lossy, meaning it degrades image quality."
+  },
+  {
+    "front": "Name a tool you can use to compress PNG images.",
+    "back": "pngcrush (or various online tools)"
+  },
+  {
+    "front": "Why are images considered intellectual property?",
+    "back": "Because they are protected by copyright laws, typically owned by the creator or publisher."
+  },
+  {
+    "front": "What does 'all rights reserved' mean for an image?",
+    "back": "The creator holds all rights, and you cannot use the image without permission."
+  },
+  {
+    "front": "What are three legal ways to use a copyrighted image?",
+    "back": "1. Get written permission, 2. Purchase a license, 3. Use under fair use (limited and transformative)."
+  },
+  {
+    "front": "What is 'fair use' of an image?",
+    "back": "A limited and transformative use such as commentary, critique, or parody."
+  },
+  {
+    "front": "What is a permissive license?",
+    "back": "A license (like Creative Commons or BSD) that allows use with certain conditions, such as attribution or source sharing."
+  },
+  {
+    "front": "Can all Creative Commons images be used freely?",
+    "back": "No. You must read the license details—some restrict modifications or require attribution."
+  },
+  {
+    "front": "What is the public domain?",
+    "back": "Content that has no copyright and can be used freely without restriction."
+  },
+  {
+    "front": "What license specifically places an image into the public domain?",
+    "back": "Creative Commons 0 (CC0) license."
+  },
+  {
+    "front": "What are two websites that offer free-to-use images?",
+    "back": "Pixabay and Unsplash"
+  },
+  {
+    "front": "How can you find images by license type when using a search engine?",
+    "back": "Use the search engine’s filters to sort images by license."
+  },
+  {
+    "front": "What does SVG stand for?",
+    "back": "Scalable Vector Graphic"
+  },
+  {
+    "front": "How are PNG and JPG images classified?",
+    "back": "As raster images, which are pixel-based."
+  },
+  {
+    "front": "Why don’t raster images like PNG or JPG upscale well?",
+    "back": "Because they are pixel-based, and enlarging them causes pixelation or blurring."
+  },
+  {
+    "front": "How are SVGs different from raster images?",
+    "back": "They are vector-based, using mathematical paths to define shapes, allowing infinite scaling without quality loss."
+  },
+  {
+    "front": "What format is used to store data in an SVG?",
+    "back": "XML (eXtensible Markup Language)"
+  },
+  {
+    "front": "What is a major advantage of SVGs over raster formats?",
+    "back": "They can be resized to any dimension without becoming blurry or losing quality."
+  },
+  {
+    "front": "Can you include SVG code directly in an HTML file?",
+    "back": "Yes, using the <svg> element, since SVG is XML-based."
+  },
+  {
+    "front": "What’s a common use case for SVGs?",
+    "back": "Icons, logos, and custom UI graphics that need to scale responsively."
+  },
+  {
+    "front": "What popular icon library uses SVGs?",
+    "back": "Font Awesome"
+  },
+  {
+    "front": "Why are SVGs good for responsive design?",
+    "back": "Because they scale perfectly and maintain sharpness at any size."
+  },
+  {
+    "front": "What does the <audio> element do?",
+    "back": "It allows you to embed sound content like music or narration in an HTML document."
+  },
+  {
+    "front": "What does the <video> element do?",
+    "back": "It allows you to embed video content into an HTML document."
+  },
+  {
+    "front": "What formats are supported by the <audio> element?",
+    "back": "mp3, wav, and ogg"
+  },
+  {
+    "front": "What formats are supported by the <video> element?",
+    "back": "mp4, ogg, and webm"
+  },
+  {
+    "front": "What does the 'controls' attribute do?",
+    "back": "It enables the built-in playback controls for audio or video (play, pause, volume, etc.)."
+  },
+  {
+    "front": "Is 'controls' a boolean attribute?",
+    "back": "Yes. Its presence alone enables the feature."
+  },
+  {
+    "front": "What does the 'loop' attribute do?",
+    "back": "It causes the audio or video to replay automatically when it ends."
+  },
+  {
+    "front": "What does the 'muted' attribute do?",
+    "back": "It starts the audio or video in a muted state."
+  },
+  {
+    "front": "How can you support multiple audio formats for different browsers?",
+    "back": "Use multiple <source> elements inside the <audio> tag with different formats."
+  },
+  {
+    "front": "What is the 'poster' attribute used for in a <video> tag?",
+    "back": "It displays an image before the video starts playing, while it's loading."
+  },
+  {
+    "front": "Is the 'poster' attribute available in the <audio> element?",
+    "back": "No. It is unique to the <video> element."
+  },
+  {
+    "front": "What does the 'width' attribute do in a <video> tag?",
+    "back": "It sets the display width of the video in pixels."
+  },
+  {
+    "front": "What does iframe stand for?",
+    "back": "Inline Frame"
+  },
+  {
+    "front": "What is the purpose of the <iframe> element?",
+    "back": "To embed another HTML document (such as videos, maps, or other pages) within your current HTML page."
+  },
+  {
+    "front": "What attributes are commonly used with <iframe>?",
+    "back": "src, width, height, title, allowfullscreen"
+  },
+  {
+    "front": "What does the src attribute do in an <iframe>?",
+    "back": "It defines the URL of the content you want to embed."
+  },
+  {
+    "front": "Why is the title attribute important in an <iframe>?",
+    "back": "It improves accessibility by describing the content of the iframe to screen readers."
+  },
+  {
+    "front": "How do you enable fullscreen mode in an <iframe>?",
+    "back": "Add the allowfullscreen attribute (it’s a boolean attribute)."
+  },
+  {
+    "front": "How do you embed a YouTube video using an <iframe>?",
+    "back": "Use the format https://www.youtube.com/embed/VIDEO_ID as the src value."
+  },
+  {
+    "front": "Can you use the share link from YouTube directly in an <iframe>?",
+    "back": "No. You must replace 'youtu.be' with 'youtube.com/embed/' to embed properly."
+  },
+  {
+    "front": "Can <iframe> be used to embed non-video content?",
+    "back": "Yes. You can embed maps, web pages, or direct HTML using srcdoc."
+  },
+  {
+    "front": "What attribute lets you embed raw HTML inside an <iframe>?",
+    "back": "The srcdoc attribute."
+  },
+  {
+    "front": "What does the target attribute do in an <a> element?",
+    "back": "It specifies where to open the linked document."
+  },
+  {
+    "front": "What is the default value of the target attribute?",
+    "back": "_self — it opens the link in the same tab or window."
+  },
+  {
+    "front": "What does target=\"_blank\" do?",
+    "back": "Opens the link in a new tab or browsing context."
+  },
+  {
+    "front": "What does target=\"_parent\" do?",
+    "back": "Opens the link in the parent browsing context (e.g. outside an iframe)."
+  },
+  {
+    "front": "What does target=\"_top\" do?",
+    "back": "Opens the link in the topmost browsing context, replacing all frames."
+  },
+  {
+    "front": "What is target=\"_unfencedTop\" used for?",
+    "back": "It's an experimental value used with the FencedFrame API."
+  },
+  {
+    "front": "How do you make a link open in a new tab?",
+    "back": "Use target=\"_blank\" in your <a> tag."
+  },
+  {
+    "front": "Why is it important to choose the right target attribute?",
+    "back": "It affects user experience and controls where users are taken when clicking a link."
+  },
+  {
+    "front": "Does _blank always open in a new tab?",
+    "back": "Typically yes, but some browsers may open a new window depending on settings."
+  },
+  {
+    "front": "What is a path in web development?",
+    "back": "A string that specifies the location of a file or directory in a file system."
+  },
+  {
+    "front": "What is an absolute path?",
+    "back": "A complete path that starts from the root directory and includes protocol, domain (if web), and the full file location."
+  },
+  {
+    "front": "Give an example of an absolute web URL.",
+    "back": "https://design-style-guide.freecodecamp.org/img/fcc_secondary_small.svg"
+  },
+  {
+    "front": "What protocol is used for absolute paths on local machines?",
+    "back": "file://"
+  },
+  {
+    "front": "What does a local absolute path include?",
+    "back": "The full folder hierarchy starting from the root, e.g., /Users/user/Desktop/.../about.html"
+  },
+  {
+    "front": "What is a relative path?",
+    "back": "A path that specifies the location of a file relative to the current document’s directory."
+  },
+  {
+    "front": "Give an example of a relative path.",
+    "back": "<a href=\"about.html\">About Page</a> — if both pages are in the same folder."
+  },
+  {
+    "front": "When should you use an absolute path?",
+    "back": "When linking to external resources or when consistent linking is needed regardless of document location."
+  },
+  {
+    "front": "When should you use a relative path?",
+    "back": "When linking within the same website or during local development for cleaner and more flexible links."
+  },
+  {
+    "front": "What is the main benefit of using relative paths in development?",
+    "back": "They keep your code cleaner and easier to maintain and allow for local testing without needing an internet connection."
+  },
+  {
+    "front": "What are the three key file path symbols in web development?",
+    "back": "Slash (/ or \\), single dot (.), and double dot (..)"
+  },
+  {
+    "front": "What does a slash (/) represent in a file path?",
+    "back": "It is the path separator used to indicate folder structure (e.g., /folder/file)."
+  },
+  {
+    "front": "What does a single dot (./) mean in a file path?",
+    "back": "It refers to the current directory and is used to indicate a relative path."
+  },
+  {
+    "front": "What does a double dot (../) mean in a file path?",
+    "back": "It refers to the parent directory of the current directory."
+  },
+  {
+    "front": "Which operating systems use which slashes?",
+    "back": "Forward slash (/) is used on Unix-based systems; backslash (\\) is used on Windows."
+  },
+  {
+    "front": "Why is ./favicon.ico used from public/index.html?",
+    "back": "Because favicon.ico is in the same directory, so you use a relative path pointing to the current directory."
+  },
+  {
+    "front": "Why is ../src/index.css used from public/index.html?",
+    "back": "Because you need to go up to the parent (my-app) directory and then into the src folder."
+  },
+  {
+    "front": "When are double dots (../) commonly used?",
+    "back": "To access files located outside the current working directory."
+  },
+  {
+    "front": "What does ./script.js tell the browser?",
+    "back": "To load script.js from the same folder as the current file."
+  },
+  {
+    "front": "What does ../styles.css tell the browser?",
+    "back": "To go up one directory and then look for styles.css."
+  },
+  {
+    "front": "What are the five different link states in CSS?",
+    "back": ":link, :visited, :hover, :focus, :active"
+  },
+  {
+    "front": "What does the :link state represent?",
+    "back": "A link that has not been visited or interacted with yet (default state)."
+  },
+  {
+    "front": "What does the :visited state represent?",
+    "back": "A link that the user has already visited."
+  },
+  {
+    "front": "What is the default style for a :visited link in most browsers?",
+    "back": "Purple text color"
+  },
+  {
+    "front": "What does the :hover state represent?",
+    "back": "When a user hovers their cursor over a link."
+  },
+  {
+    "front": "Why is :hover styling helpful?",
+    "back": "It helps indicate interactivity and can draw attention to links."
+  },
+  {
+    "front": "What does the :focus state represent?",
+    "back": "When a link receives focus, such as by tabbing through elements with the keyboard."
+  },
+  {
+    "front": "What does the :active state represent?",
+    "back": "When a link is being activated by a user, usually by clicking on it."
+  },
+  {
+    "front": "What is the correct order for writing link states in CSS?",
+    "back": ":link, :visited, :hover, :focus, :active"
+  },
+  {
+    "front": "Why is the order of link states important in CSS?",
+    "back": "To ensure proper styling and predictable behavior as browsers cascade the styles."
+  }
+]

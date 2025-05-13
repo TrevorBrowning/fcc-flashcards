@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Flashcard Study</h1>
+
+    <label for="category-select">Language:</label>
+    <select id="category-select">
+      <option value="">-- Choose a category --</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="js">JavaScript</option>
+    </select>
+
+    <label for="subcategory-select">Section:</label>
+    <select id="subcategory-select" disabled>
+      <option value="">-- Choose a section --</option>
+    </select>
+
+    <label for="lesson-select">Lesson:</label>
+    <select id="lesson-select" disabled>
+      <option value="">-- Choose a lesson --</option>
+    </select>
+
+    <div id="flashcard" class="card">
+      <div class="card-inner">
+        <div class="card-front" id="card-front">Select a lesson to begin.</div>
+        <div class="card-back" id="card-back"></div>
+      </div>
+    </div>
+
+    <div id="card-count"></div>
+
+    <div class="controls">
+      <button id="prev-btn">Previous</button>
+      <button id="flip-btn">Flip</button>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
