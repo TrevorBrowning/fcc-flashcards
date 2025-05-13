@@ -13,14 +13,24 @@ const lessonSelect = document.getElementById("lesson-select");
 
 const toggleBtn = document.getElementById("toggle-selectors");
 const selectorPanel = document.getElementById("selector-panel");
-
 const controls = document.querySelector(".controls");
 
 let flashcards = [];
 let currentIndex = 0;
+let isShuffle = false;
 
-document.getElementById("dark-mode-toggle").addEventListener("change", (e) => {
+const darkModeToggle = document.getElementById("dark-mode-toggle");
+const shuffleToggle = document.getElementById("shuffle-toggle");
+
+darkModeToggle.addEventListener("change", (e) => {
   document.body.classList.toggle("dark", e.target.checked);
+});
+
+shuffleToggle.addEventListener("change", (e) => {
+  isShuffle = e.target.checked;
+  if (isShuffle) shuffleCards();
+  currentIndex = 0;
+  displayCard();
 });
 
 const lessonData = {
@@ -58,7 +68,9 @@ const lessonData = {
     accessibility: ["importance_of_accessibility_and_good_HTML_structure"],
   },
   css: {
-    basics: ["selectors", "box_model", "all"],
+    computer_basics: ["computer_basics"],
+    basic_css: ["basic_css", "lists_links_css_backgrounds_and_borders"],
+    design: ["design_fundamentals"],
   },
   js: {
     conditionals: ["if_else", "switch", "ternary", "all"],
@@ -67,13 +79,10 @@ const lessonData = {
 
 toggleBtn.addEventListener("click", () => {
   selectorPanel.classList.toggle("collapsed");
-
   const isCollapsed = selectorPanel.classList.contains("collapsed");
-
   toggleBtn.textContent = isCollapsed
     ? "Show Lesson Picker ▼"
     : "Hide Lesson Picker ▲";
-
   toggleBtn.classList.toggle("sticky-toggle", isCollapsed);
 });
 
@@ -121,6 +130,7 @@ lessonSelect.addEventListener("change", async () => {
   try {
     const res = await fetch(`cards/${category}/${section}/${lesson}.json`);
     flashcards = await res.json();
+    if (isShuffle) shuffleCards();
     currentIndex = 0;
     displayCard();
     flashcard.style.display = "block";
@@ -169,9 +179,38 @@ prevBtn.addEventListener("click", () => {
   }
 });
 
+document.addEventListener("keydown", (e) => {
+  if (e.key === "ArrowRight") nextBtn.click();
+  if (e.key === "ArrowLeft") prevBtn.click();
+  if (e.key === " " || e.key === "Enter") flipBtn.click();
+});
+
+let startX = null;
+
+flashcard.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+});
+
+flashcard.addEventListener("touchend", (e) => {
+  if (startX === null) return;
+  const endX = e.changedTouches[0].clientX;
+  const diff = endX - startX;
+
+  if (diff > 50) prevBtn.click();
+  else if (diff < -50) nextBtn.click();
+  startX = null;
+});
+
+function shuffleCards() {
+  for (let i = flashcards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [flashcards[i], flashcards[j]] = [flashcards[j], flashcards[i]];
+  }
+}
+
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 function formatLessonName(str) {
-  return str.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
+  return str.replace(/_/g, " ").replace(/\w/g, (l) => l.toUpperCase());
 }

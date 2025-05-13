@@ -3,24 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Free Code Camp Flashcard Study</title>
+    <title>FreeCodeCamp Flashcard Study</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Dark Mode Toggle -->
-    <label class="theme-toggle" for="dark-mode-toggle">
-      <input type="checkbox" id="dark-mode-toggle" />
-      Dark Mode
-    </label>
+    <div class="theme-toggle">
+      <label>
+        <input type="checkbox" id="dark-mode-toggle" />
+        Dark Mode
+      </label>
+      <label style="margin-left: 1rem">
+        <input type="checkbox" id="shuffle-toggle" />
+        Shuffle Mode
+      </label>
+    </div>
 
-    <h1>Free Code Camp Flashcard Study</h1>
+    <h1>FreeCodeCamp Flashcard Study</h1>
 
-    <!-- Toggle always visible -->
     <button id="toggle-selectors" class="toggle-button" aria-expanded="true">
       Hide Lesson Picker ▲
     </button>
 
-    <!-- Collapsible Selector Panel -->
     <div id="selector-panel" class="panel expanded">
       <div class="dropdown-group">
         <label for="category-select">Language:</label>
@@ -47,7 +50,6 @@
       </div>
     </div>
 
-    <!-- Flashcard -->
     <div id="flashcard" class="card">
       <div class="card-inner">
         <div class="card-front" id="card-front">Select a lesson to begin.</div>
@@ -55,15 +57,12 @@
       </div>
     </div>
 
-    <!-- Progress Bar -->
     <div id="progress-bar-container">
       <div id="progress-bar"></div>
     </div>
 
-    <!-- Card count -->
     <div id="card-count"></div>
 
-    <!-- Controls -->
     <div class="controls">
       <button id="prev-btn" aria-label="Previous Card">
         <svg width="20" height="20" viewBox="0 0 24 24">

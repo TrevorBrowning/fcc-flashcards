@@ -1,0 +1,122 @@
+[
+  {
+    "front": "What does the line-height property control?",
+    "back": "It controls the vertical space between lines of text. Accepted values include normal, numbers, percentages, and length units like em."
+  },
+  {
+    "front": "What is the list-style-type property used for?",
+    "back": "It specifies the marker type for a list item, such as disc, circle, or decimal."
+  },
+  {
+    "front": "What does list-style-position do?",
+    "back": "It sets the position of the list marker, with possible values of inside or outside."
+  },
+  {
+    "front": "What is list-style-image used for?",
+    "back": "It sets an image as the marker for list items using the url() function."
+  },
+  {
+    "front": "How can margin-bottom improve list readability?",
+    "back": "It adds space below each list item, improving separation and readability. Example: margin-bottom: 10px;"
+  },
+  {
+    "front": "What is a pseudo-class in CSS?",
+    "back": "A keyword added to a selector to style an element based on its state, such as :hover or :focus."
+  },
+  {
+    "front": "What does the :link pseudo-class target?",
+    "back": "It styles links that have not yet been visited by the user."
+  },
+  {
+    "front": "What does the :visited pseudo-class target?",
+    "back": "It styles links that the user has already visited."
+  },
+  {
+    "front": "What does the :hover pseudo-class target?",
+    "back": "It styles an element when the user hovers over it."
+  },
+  {
+    "front": "What does the :focus pseudo-class do?",
+    "back": "It styles elements like input fields or selects when they gain focus (clicked or tabbed)."
+  },
+  {
+    "front": "What does the :active pseudo-class do?",
+    "back": "It styles an element while it is being activated (e.g., clicked)."
+  },
+  {
+    "front": "What does background-size: cover do?",
+    "back": "It makes the background image cover the entire element."
+  },
+  {
+    "front": "What does background-size: contain do?",
+    "back": "It scales the background image to fit entirely within the element."
+  },
+  {
+    "front": "What is background-repeat: repeat?",
+    "back": "It repeats the background image both horizontally and vertically."
+  },
+  {
+    "front": "What is background-repeat: no-repeat?",
+    "back": "It prevents the background image from repeating."
+  },
+  {
+    "front": "How is background-position used?",
+    "back": "It sets the position of the background image using values like top, center, left, or percentages."
+  },
+  {
+    "front": "What is background-attachment: scroll?",
+    "back": "The background scrolls along with the page content (default behavior)."
+  },
+  {
+    "front": "What is background-attachment: fixed?",
+    "back": "The background image stays fixed in place when scrolling."
+  },
+  {
+    "front": "What can background-image accept?",
+    "back": "It accepts url(), linear-gradient(), or radial-gradient() values to set background images."
+  },
+  {
+    "front": "What is the background shorthand property?",
+    "back": "It allows you to set multiple background properties at once. Example: background: no-repeat url('img.jpg');"
+  },
+  {
+    "front": "Why is contrast important for background and foreground colors?",
+    "back": "Good contrast ensures readability. WCAG recommends 4.5:1 for normal text and 3:1 for large text."
+  },
+  {
+    "front": "What does border-top: 3px solid blue do?",
+    "back": "It adds a 3px solid blue border to the top of the element."
+  },
+  {
+    "front": "What does border-right: 2px solid red do?",
+    "back": "It adds a 2px solid red border to the right of the element."
+  },
+  {
+    "front": "What does border-bottom: 1px dashed green do?",
+    "back": "It adds a 1px dashed green border to the bottom of the element."
+  },
+  {
+    "front": "What does border-left: 4px dotted orange do?",
+    "back": "It adds a 4px dotted orange border to the left of the element."
+  },
+  {
+    "front": "What is the border shorthand property?",
+    "back": "It sets width, style, and color for all four sides. Example: border: 1px solid black;"
+  },
+  {
+    "front": "What does border-radius do?",
+    "back": "It creates rounded corners on an element’s border."
+  },
+  {
+    "front": "What does border-style define?",
+    "back": "It sets the border style. Accepted values include solid, dashed, dotted, and double."
+  },
+  {
+    "front": "What does linear-gradient() do in CSS?",
+    "back": "It creates a gradient that transitions between colors in a straight line."
+  },
+  {
+    "front": "What does radial-gradient() do in CSS?",
+    "back": "It creates a circular or elliptical gradient that radiates from a central point."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "front": "What is CSS?",
+    "back": "CSS stands for Cascading Style Sheets. It is a language used to apply styles to HTML elements such as colors, background images, layouts, and more."
+  },
+  {
+    "front": "What are the parts of a CSS rule?",
+    "back": "A CSS rule includes a selector and a declaration block. The selector targets HTML elements, and the declaration block applies styles."
+  },
+  {
+    "front": "What does the 'meta name=\"viewport\"' tag do?",
+    "back": "It gives the browser instructions on how to control the page's dimensions and scaling, especially on mobile devices."
+  },
+  {
+    "front": "What are default browser styles?",
+    "back": "They are the basic styles (like margin and padding) applied to HTML elements by default in browsers."
+  },
+  {
+    "front": "What is inline CSS?",
+    "back": "Inline CSS is written directly in the style attribute of an HTML element. It is usually avoided in favor of external or internal styles."
+  },
+  {
+    "front": "What is internal CSS?",
+    "back": "Internal CSS is written within <style> tags in the head section of an HTML document. It’s often used for small code examples."
+  },
+  {
+    "front": "What is external CSS?",
+    "back": "External CSS is written in a separate .css file and linked in the HTML using the <link> tag in the head."
+  },
+  {
+    "front": "What does the width property do?",
+    "back": "It specifies the width of an element. Default is auto, meaning it fills the width of its container."
+  },
+  {
+    "front": "What does the min-width property do?",
+    "back": "It defines the minimum width an element can shrink to."
+  },
+  {
+    "front": "What does the max-width property do?",
+    "back": "It defines the maximum width an element can grow to."
+  },
+  {
+    "front": "What does the height property do?",
+    "back": "It sets the height of an element. Default is auto, which adjusts to content."
+  },
+  {
+    "front": "What does the min-height property do?",
+    "back": "It defines the minimum height an element can shrink to."
+  },
+  {
+    "front": "What does the max-height property do?",
+    "back": "It defines the maximum height an element can grow to."
+  },
+  {
+    "front": "What is the descendant combinator?",
+    "back": "It targets elements that are descendants of a specific parent. Syntax: `ul li {}`"
+  },
+  {
+    "front": "What is the child combinator?",
+    "back": "It targets direct children of a parent element. Syntax: `.container > p {}`"
+  },
+  {
+    "front": "What is the next-sibling combinator?",
+    "back": "It selects the first sibling immediately following a specific element. Syntax: `h2 + p {}`"
+  },
+  {
+    "front": "What is the subsequent-sibling combinator?",
+    "back": "It selects all siblings after a specific element. Syntax: `ul ~ p {}`"
+  },
+  {
+    "front": "What are inline elements?",
+    "back": "Inline elements only take up as much width as needed and do not start on a new line. Examples: <span>, <a>, <img>"
+  },
+  {
+    "front": "What are block-level elements?",
+    "back": "Block-level elements start on a new line and span the full width of their container. Examples: <div>, <p>, <section>"
+  },
+  {
+    "front": "What are inline-block elements?",
+    "back": "They behave like inline elements but allow width and height properties to be set."
+  },
+  {
+    "front": "What does the margin property do?",
+    "back": "It adds space outside an element, between the border and neighboring elements."
+  },
+  {
+    "front": "What does the padding property do?",
+    "back": "It adds space inside an element, between the content and the border."
+  },
+  {
+    "front": "How does margin shorthand work?",
+    "back": "1–4 values can be set for top, right, bottom, and left margins, depending on how many values are provided."
+  },
+  {
+    "front": "How does padding shorthand work?",
+    "back": "Like margin, 1–4 values define top, right, bottom, and left padding."
+  },
+  {
+    "front": "What is inline CSS specificity?",
+    "back": "Inline CSS has the highest specificity: (1, 0, 0, 0). It overrides all other styles."
+  },
+  {
+    "front": "What is internal CSS specificity?",
+    "back": "Defined within <style> tags, it has lower specificity than inline but higher than external styles."
+  },
+  {
+    "front": "What is external CSS specificity?",
+    "back": "Defined in a separate file and linked in the HTML. Lowest specificity but best for maintainability."
+  },
+  {
+    "front": "What is the universal selector (*)?",
+    "back": "It targets all elements. Specificity: (0, 0, 0, 0). Used for resets or global styles."
+  },
+  {
+    "front": "What are type selectors?",
+    "back": "They target elements by tag name. Specificity: (0, 0, 0, 1)"
+  },
+  {
+    "front": "What are class selectors?",
+    "back": "Defined with a period (.) followed by a class name. Specificity: (0, 0, 1, 0)"
+  },
+  {
+    "front": "What are ID selectors?",
+    "back": "Defined with a # followed by an ID. Specificity: (0, 1, 0, 0)"
+  },
+  {
+    "front": "What does !important do in CSS?",
+    "back": "It overrides all other declarations, regardless of specificity. Use it sparingly to avoid maintenance issues."
+  },
+  {
+    "front": "What is the CSS cascade algorithm?",
+    "back": "A method to determine which style rule applies when multiple rules target the same element."
+  },
+  {
+    "front": "What is CSS inheritance?",
+    "back": "Inheritance allows child elements to receive styles from parent elements automatically, unless overridden."
+  }
+]

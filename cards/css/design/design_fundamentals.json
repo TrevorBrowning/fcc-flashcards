@@ -1,0 +1,146 @@
+[
+  {
+    "front": "What is layout in design?",
+    "back": "Layout is the arrangement of visual elements like text, images, and white space on a page or screen to communicate a message."
+  },
+  {
+    "front": "What does alignment refer to in design?",
+    "back": "Alignment refers to how design elements are placed in relation to one another, helping make the layout look clean and organized."
+  },
+  {
+    "front": "What is composition in design?",
+    "back": "Composition is the arrangement of design elements to create harmony and artistic coherence."
+  },
+  {
+    "front": "What is balance in visual design?",
+    "back": "Balance refers to how visual weight is distributed in a design, using symmetrical or asymmetrical arrangements to create equilibrium."
+  },
+  {
+    "front": "What does scale refer to in design?",
+    "back": "Scale compares the size of one design element to another."
+  },
+  {
+    "front": "What is hierarchy in design?",
+    "back": "Hierarchy establishes the importance of elements, making sure the most important information stands out first."
+  },
+  {
+    "front": "What is contrast in design?",
+    "back": "Contrast is the use of visual differences like color, size, and shape to distinguish elements and improve readability."
+  },
+  {
+    "front": "What is white space (negative space)?",
+    "back": "White space is the empty area around design elements, helping create breathing room and clarity."
+  },
+  {
+    "front": "What does UI stand for?",
+    "back": "UI stands for User Interface and includes all visual and interactive elements like icons, text, and buttons."
+  },
+  {
+    "front": "What does UX stand for?",
+    "back": "UX stands for User Experience and focuses on how a user feels when using a product or service."
+  },
+  {
+    "front": "What is a design brief?",
+    "back": "A design brief is a document outlining the goals, objectives, and requirements of a project."
+  },
+  {
+    "front": "What is vector-based design?",
+    "back": "Vector-based design uses mathematical formulas to create graphics that can be resized without losing quality."
+  },
+  {
+    "front": "What is prototyping in design?",
+    "back": "Prototyping is the process of creating an interactive model of a product or interface."
+  },
+  {
+    "front": "What is good contrast in design?",
+    "back": "Good contrast ensures readable text and visual clarity, meeting WCAG guidelines like 4.5:1 for normal text."
+  },
+  {
+    "front": "What is visual hierarchy?",
+    "back": "Visual hierarchy is the organization of elements to guide the viewer’s eye in a logical and intentional order."
+  },
+  {
+    "front": "What are responsive images?",
+    "back": "Responsive images adjust to fit the screen size across devices, improving usability and appearance."
+  },
+  {
+    "front": "What is progressive enhancement?",
+    "back": "Progressive enhancement ensures basic content and functionality are accessible to all users, regardless of browser or device."
+  },
+  {
+    "front": "What is user-centered design?",
+    "back": "User-centered design prioritizes the needs, preferences, and limitations of users to create intuitive experiences."
+  },
+  {
+    "front": "What is user research?",
+    "back": "User research involves studying your users to understand their behaviors, needs, and pain points."
+  },
+  {
+    "front": "What are exit interviews?",
+    "back": "Exit interviews are surveys for users who cancel accounts to understand reasons for leaving and reduce churn."
+  },
+  {
+    "front": "What is user testing?",
+    "back": "User testing captures real user interactions to assess usability and identify areas for improvement."
+  },
+  {
+    "front": "What is A/B testing?",
+    "back": "A/B testing is launching a new feature to a subset of users and using data to evaluate its impact."
+  },
+  {
+    "front": "What are user requirements?",
+    "back": "User requirements define what a product must do, based on user research, industry standards, or stakeholder input."
+  },
+  {
+    "front": "What is progressive disclosure?",
+    "back": "Progressive disclosure shows only relevant content based on current activity to reduce cognitive load."
+  },
+  {
+    "front": "What is deferred or lazy registration?",
+    "back": "It allows users to interact with an app before creating an account, reducing barriers to entry."
+  },
+  {
+    "front": "What is dark mode?",
+    "back": "Dark mode is a UI theme with dark backgrounds and light text, using desaturated colors for accessibility."
+  },
+  {
+    "front": "What are breadcrumbs?",
+    "back": "Breadcrumbs are navigation aids that show users their location in a site's hierarchy."
+  },
+  {
+    "front": "What is a card component?",
+    "back": "A card is a compact content block in UI design, best kept simple and supported by high-quality visuals."
+  },
+  {
+    "front": "What is infinite scroll?",
+    "back": "Infinite scroll loads more content as the user scrolls. A 'load more' button can improve user control."
+  },
+  {
+    "front": "What is a modal dialog?",
+    "back": "A modal is a pop-up overlay that focuses user attention. Clicking outside to close is a common best practice."
+  },
+  {
+    "front": "What is progress indication in forms?",
+    "back": "Progress indicators show users how far along they are in a process and can allow navigation between steps."
+  },
+  {
+    "front": "What is a shopping cart in UI?",
+    "back": "A shopping cart lets users view selected items. It should be visible, use clear icons, and include a checkout CTA."
+  },
+  {
+    "front": "What is Figma used for?",
+    "back": "Figma is a cloud-based UI/UX design tool for collaboration, vector editing, layouts, and feedback."
+  },
+  {
+    "front": "What is Sketch?",
+    "back": "Sketch is a popular design tool known for its simplicity and use in prototyping and web design."
+  },
+  {
+    "front": "What is Adobe XD?",
+    "back": "Adobe XD is a vector-based UI/UX tool with tight integration with Adobe apps like Photoshop and Illustrator."
+  },
+  {
+    "front": "What is Canva?",
+    "back": "Canva is a user-friendly design tool ideal for beginners to create graphics, videos, and presentations."
+  }
+]

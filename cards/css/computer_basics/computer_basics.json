@@ -1,0 +1,122 @@
+[
+  {
+    "front": "What is a motherboard?",
+    "back": "The main circuit board that holds memory, connectors, and drives required to run a computer."
+  },
+  {
+    "front": "What is a CPU?",
+    "back": "The Central Processing Unit executes instructions and performs calculations."
+  },
+  {
+    "front": "What is RAM?",
+    "back": "Random Access Memory is temporary storage used by the CPU while a computer is on."
+  },
+  {
+    "front": "What is an HDD?",
+    "back": "A Hard Disk Drive stores data permanently, even when the computer is turned off."
+  },
+  {
+    "front": "What is an SSD?",
+    "back": "A Solid State Drive is a type of non-volatile flash memory used as an alternative to hard drives."
+  },
+  {
+    "front": "What is a PSU?",
+    "back": "The Power Supply Unit converts wall electricity into a usable form for your computer."
+  },
+  {
+    "front": "What is a GPU?",
+    "back": "The Graphics Processing Unit renders visuals and images on the screen."
+  },
+  {
+    "front": "What are the types of Internet Service Providers (ISPs)?",
+    "back": "Dial-up, DSL, cable, fiber-optic, and satellite."
+  },
+  {
+    "front": "What are safe ways to sign into a computer?",
+    "back": "Use a strong password, enable two-factor authentication, and consider a password manager."
+  },
+  {
+    "front": "What is an IDE?",
+    "back": "An Integrated Development Environment helps developers write, test, and debug code efficiently."
+  },
+  {
+    "front": "What is a code editor?",
+    "back": "A tool used by developers to write and debug code."
+  },
+  {
+    "front": "What is Git?",
+    "back": "A version control system that tracks code changes and enables collaboration."
+  },
+  {
+    "front": "What are cloud-based hosting services for repositories?",
+    "back": "Platforms like GitHub, GitLab, and Bitbucket used to store and manage project code."
+  },
+  {
+    "front": "What are package managers?",
+    "back": "Tools that simplify adding, updating, or removing libraries and dependencies (e.g., npm, pip, Maven)."
+  },
+  {
+    "front": "What are testing libraries and frameworks?",
+    "back": "Tools used to ensure code works as expected (e.g., Jest, PHPUnit, JUnit)."
+  },
+  {
+    "front": "What is a best practice for naming files?",
+    "back": "Use descriptive names like 'about-us.html' instead of vague names like 'page1.html'."
+  },
+  {
+    "front": "What is the root directory?",
+    "back": "The top-level folder in a file system hierarchy."
+  },
+  {
+    "front": "What is Markdown used for?",
+    "back": "A markup language commonly used for documentation and README files."
+  },
+  {
+    "front": "What is index.html?",
+    "back": "The default page shown when a user visits a website."
+  },
+  {
+    "front": "What are Explorer and Finder used for?",
+    "back": "File managers on Windows and macOS used to create, move, and delete files or folders."
+  },
+  {
+    "front": "How do you search for files on a computer?",
+    "back": "Use the built-in search functionality in Explorer (Windows) or Finder (macOS)."
+  },
+  {
+    "front": "What are the file types for HTML, CSS, and JavaScript?",
+    "back": "HTML: .html, CSS: .css, JavaScript: .js"
+  },
+  {
+    "front": "What are common image formats?",
+    "back": "JPEG, PNG, GIF (supports animation), and SVG (for vector graphics)."
+  },
+  {
+    "front": "What are common audio and video formats?",
+    "back": "MP3 for audio; MP4 and MOV for video."
+  },
+  {
+    "front": "What are common font formats?",
+    "back": "TTF for TrueType fonts, WOFF and WOFF2 for web fonts."
+  },
+  {
+    "front": "What is a ZIP file?",
+    "back": "A compressed file format that reduces the size of files and folders."
+  },
+  {
+    "front": "What is a web browser?",
+    "back": "A software application used to access and view websites on the internet."
+  },
+  {
+    "front": "What is a search engine?",
+    "back": "A tool for finding information online, such as Google, Bing, and Yahoo."
+  },
+  {
+    "front": "What are common web browsers?",
+    "back": "Google Chrome, Mozilla Firefox, Microsoft Edge."
+  },
+  {
+    "front": "How can you refine search strategies?",
+    "back": "Use operators like site:, filetype:, +, and - to include or exclude terms."
+  }
+]
