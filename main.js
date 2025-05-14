@@ -3,6 +3,9 @@ const cardFront = document.getElementById("card-front");
 const cardBack = document.getElementById("card-back");
 const cardCount = document.getElementById("card-count");
 
+const slider = document.getElementById("fontSlider");
+const fontValue = document.getElementById("fontValue");
+
 const flipBtn = document.getElementById("flip-btn");
 const nextBtn = document.getElementById("next-btn");
 const prevBtn = document.getElementById("prev-btn");
@@ -22,16 +25,42 @@ let isShuffle = false;
 const darkModeToggle = document.getElementById("dark-mode-toggle");
 const shuffleToggle = document.getElementById("shuffle-toggle");
 
+// Dark Mode Toggle
 darkModeToggle.addEventListener("change", (e) => {
   document.body.classList.toggle("dark", e.target.checked);
 });
 
+// Shuffle Flashcards
 shuffleToggle.addEventListener("change", (e) => {
   isShuffle = e.target.checked;
   if (isShuffle) shuffleCards();
   currentIndex = 0;
   displayCard();
 });
+
+const savedFontSize = localStorage.getItem("flashcardFontSize");
+if (savedFontSize) {
+  slider.value = savedFontSize;
+  fontValue.textContent = savedFontSize;
+  cardFront.style.fontSize = savedFontSize + "px";
+  cardBack.style.fontSize = savedFontSize + "px";
+}
+
+// Listen for slider changes
+slider.addEventListener("input", () => {
+  const size = slider.value + "px";
+  fontValue.textContent = slider.value;
+  cardFront.style.fontSize = size;
+  cardBack.style.fontSize = size;
+  localStorage.setItem("flashcardFontSize", slider.value);
+});
+
+const defaultFontSize = 20;
+const fontSize = savedFontSize || defaultFontSize;
+slider.value = fontSize;
+fontValue.textContent = fontSize;
+cardFront.style.fontSize = fontSize + "px";
+cardBack.style.fontSize = fontSize + "px";
 
 const lessonData = {
   html: {

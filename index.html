@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FreeCodeCamp Flashcards</title>
     <link rel="stylesheet" href="styles.css" />
-    <script data-goatcounter="https://fcc-flashcards.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+    <script
+      data-goatcounter="https://fcc-flashcards.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
   </head>
   <body>
     <div class="theme-toggle">
@@ -17,7 +20,11 @@
       <label style="margin-left: 1rem">
         <input type="checkbox" id="shuffle-toggle" />
         Shuffle Mode
-      </label>
+      <label for="fontSlider">Font Size: <span id="fontValue">20</span>px</label>
+      <input type="range" id="fontSlider" min="20" max="40" value="20" />
+
+
+
     </div>
 
     <h1>FreeCodeCamp Flashcards</h1>
