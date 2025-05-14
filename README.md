@@ -1,50 +1,68 @@
 # FreeCodeCamp Flashcards
 
-[Try Online}(http://www.trevorbrowning.com/fcc-flashcards)
+**Interactive Flashcard App for FCC Curriculum**
 
-HTML
-• HTML Basics
-• Semantics
-• Forms & Tables
-• Accessibility
-• All Core HTML Tags
+🌐 [Try it Online](http://www.trevorbrowning.com/fcc-flashcards)
 
-CSS
-• Computer Basics
-• Basic CSS
-• Design 
-• Absolute and Relative Units
-• Pseudo Classes and Elements
-* Colors
+---
 
+## Categories
 
-I'm continuing to add more card sets this week to cover the rest of the FCC curriculum 
+### HTML
+- HTML Basics  
+- Semantics  
+- Forms & Tables  
+- Accessibility  
+- All Core HTML Tags  
 
-Features:
-Dark mode
-Shuffle mode
-Keyboard shortcuts (left/right arrows to switch cards | enter/return - flip)
-Mobile swipe navigation
-Progress tracking
+### CSS
+- Computer Basics  
+- Basic CSS  
+- Design  
+- Absolute and Relative Units  
+- Pseudo Classes and Elements  
+- Colors  
 
+---
 
-It's not perfect, but I could really use some testing, so if anyone has a few minutes, please feel free to try it out and let me know how it works for you and what should be changed in the next update. 
-Thank you!
+## ⚙️ Features
+- Dark mode  
+- Shuffle mode  
+- Keyboard shortcuts  
+  - Left/Right arrows: switch cards  
+  - Enter/Return: flip card  
+- Mobile swipe navigation  
+- Progress tracking  
 
-Website:
-FCC Flashcards
+---
 
-If anyone would like to practice their Git skills, feel free to fork and make pull requests, I may accept it into the main branch!
-FCC Flashcards Github Repo
+## Call for Feedback
 
-Update 0.2:
-Added datapacks
-Absolute & Relative Units
-Pseudo Elements
-Updated flashcard font-size to 2rem
+It's not perfect yet, but it's live!  
+I'd love your help testing it — try it out and let me know what works and what could be improved for the next update. Thanks in advance!
 
-Update 0.3: 
-Added Datapacks (CSS - Colors)
+---
 
-Update 0.4:
-Added font-size slider
+## Contributing
+
+Want to practice your Git skills?  
+Feel free to fork the repo and submit a pull request — I may accept it into the main branch!
+
+🔗 [FCC Flashcards GitHub Repo](https://github.com/TrevorBrowning/fcc-flashcards)
+
+---
+
+## Updates
+
+**v0.2**  
+- Added datapacks:  
+  - Absolute & Relative Units  
+  - Pseudo Elements  
+- Flashcard font size set to `2rem`  
+
+**v0.3**  
+- Added datapack:  
+  - CSS - Colors  
+
+**v0.4**  
+- Added font-size slider  
