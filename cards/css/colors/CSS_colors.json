@@ -1,0 +1,78 @@
+[
+  {
+    "front": "What is Color Theory?",
+    "back": "The study of how colors interact and affect perception, covering color relationships, harmony, and psychological impact."
+  },
+  {
+    "front": "What are the Primary Colors?",
+    "back": "Yellow, blue, and red — the fundamental hues from which all other colors are derived."
+  },
+  {
+    "front": "What are Secondary Colors?",
+    "back": "Colors made by mixing equal amounts of two primary colors: green, orange, and purple."
+  },
+  {
+    "front": "What are Tertiary Colors?",
+    "back": "Colors made by combining a primary color with a neighboring secondary color, e.g., Yellow-Green or Blue-Violet."
+  },
+  {
+    "front": "What feelings do Warm Colors evoke?",
+    "back": "Warmth, comfort, and coziness. Includes reds, oranges, and yellows."
+  },
+  {
+    "front": "What feelings do Cool Colors evoke?",
+    "back": "Calmness, serenity, and professionalism. Includes blues, greens, and purples."
+  },
+  {
+    "front": "What is the Color Wheel?",
+    "back": "A circular diagram showing color relationships. Helps designers choose color combinations."
+  },
+  {
+    "front": "What is an Analogous Color Scheme?",
+    "back": "Colors next to each other on the color wheel; creates cohesive and soothing designs."
+  },
+  {
+    "front": "What is a Complementary Color Scheme?",
+    "back": "Colors opposite each other on the color wheel; creates high contrast and visual impact."
+  },
+  {
+    "front": "What is a Triadic Color Scheme?",
+    "back": "Three colors evenly spaced around the color wheel forming a triangle. Creates vibrant harmony."
+  },
+  {
+    "front": "What is a Monochromatic Color Scheme?",
+    "back": "Derived from one base color by adjusting lightness, darkness, and saturation. Evokes unity and contrast."
+  },
+  {
+    "front": "What are Named Colors in CSS?",
+    "back": "Predefined color names like blue, darkred, lightgreen recognized by browsers."
+  },
+  {
+    "front": "What does rgb() do in CSS?",
+    "back": "Defines a color using Red, Green, and Blue values, e.g., rgb(255, 0, 0)."
+  },
+  {
+    "front": "What is rgba() in CSS?",
+    "back": "Like rgb(), but includes alpha for transparency. E.g., rgba(0, 0, 255, 0.5)."
+  },
+  {
+    "front": "What does hsl() represent?",
+    "back": "Hue, Saturation, and Lightness — a way to define colors. E.g., hsl(120, 100%, 50%)."
+  },
+  {
+    "front": "What is hsla() in CSS?",
+    "back": "Like hsl(), but includes an alpha value for opacity. E.g., hsla(0, 100%, 50%, 0.5)."
+  },
+  {
+    "front": "What is a Hexadecimal color in CSS?",
+    "back": "A 6-digit base-16 code representing RGB values. E.g., #FF5733 for reddish-orange."
+  },
+  {
+    "front": "What is a Linear Gradient in CSS?",
+    "back": "A smooth transition between colors along a line. E.g., linear-gradient(45deg, red, green)."
+  },
+  {
+    "front": "What is a Radial Gradient in CSS?",
+    "back": "A circular or elliptical gradient radiating from a central point. E.g., radial-gradient(circle, red, blue)."
+  }
+]

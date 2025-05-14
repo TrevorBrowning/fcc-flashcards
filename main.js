@@ -73,6 +73,7 @@ const lessonData = {
     design: ["design_fundamentals"],
     absolute_and_relative_units: ["absolute_and_relative_units"],
     pseudo_classes_and_elements: ["pseudo_classes"],
+    colors: ["CSS_colors"],
   },
   js: {
     not_available: ["N/A"],
