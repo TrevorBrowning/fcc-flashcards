@@ -9,30 +9,35 @@
 ## Categories
 
 ### HTML
-- HTML Basics  
-- Semantics  
-- Forms & Tables  
-- Accessibility  
-- All Core HTML Tags  
+
+- HTML Basics
+- Semantics
+- Forms & Tables
+- Accessibility
+- All Core HTML Tags
 
 ### CSS
-- Computer Basics  
-- Basic CSS  
-- Design  
-- Absolute and Relative Units  
-- Pseudo Classes and Elements  
-- Colors  
+
+- Computer Basics
+- Basic CSS
+- Design
+- Absolute and Relative Units
+- Pseudo Classes and Elements
+- Colors
+- Styling Forms
+- The Box Model
 
 ---
 
-## ⚙️ Features
-- Dark mode  
-- Shuffle mode  
-- Keyboard shortcuts  
-  - Left/Right arrows: switch cards  
-  - Enter/Return: flip card  
-- Mobile swipe navigation  
-- Progress tracking  
+## Features
+
+- Dark mode
+- Shuffle mode
+- Keyboard shortcuts
+  - Left/Right arrows: switch cards
+  - Enter/Return: flip card
+- Mobile swipe navigation
+- Progress tracking
 
 ---
 
@@ -54,15 +59,24 @@ Feel free to fork the repo and submit a pull request — I may accept it into th
 
 ## Updates
 
-**v0.2**  
-- Added datapacks:  
-  - Absolute & Relative Units  
-  - Pseudo Elements  
-- Flashcard font size set to `2rem`  
+**v0.2**
 
-**v0.3**  
-- Added datapack:  
-  - CSS - Colors  
+- Added datapacks:
+  - Absolute & Relative Units
+  - Pseudo Elements
+- Flashcard font size set to `2rem`
 
-**v0.4**  
-- Added font-size slider  
+**v0.3**
+
+- Added datapack:
+  - CSS - Colors
+
+**v0.4**
+
+- Added font-size slider
+
+**v0.5**
+
+- Added datapack:
+  - CSS - Styling Forms
+  - CSS - The Box Model

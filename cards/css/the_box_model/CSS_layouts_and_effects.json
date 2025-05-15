@@ -1,0 +1,110 @@
+[
+  {
+    "front": "What does the CSS overflow property control?",
+    "back": "It controls how content is handled when it overflows its container. It is two-dimensional: horizontal (overflow-x) and vertical (overflow-y)."
+  },
+  {
+    "front": "What does the overflow-x property affect?",
+    "back": "It determines how horizontal overflow is handled within an element."
+  },
+  {
+    "front": "What does the overflow-y property affect?",
+    "back": "It determines how vertical overflow is handled within an element."
+  },
+  {
+    "front": "How does the shorthand 'overflow' property work?",
+    "back": "If given one value, it sets both overflow-x and overflow-y. If given two values, the first applies to overflow-x, the second to overflow-y."
+  },
+  {
+    "front": "What is the CSS transform property used for?",
+    "back": "It allows you to apply 2D and 3D transformations like rotate, scale, skew, and translate."
+  },
+  {
+    "front": "What does the translate() function do in CSS?",
+    "back": "It moves an element from its current position along the X and/or Y axis."
+  },
+  {
+    "front": "What does the scale() function do in CSS?",
+    "back": "It resizes an element by scaling it up or down."
+  },
+  {
+    "front": "What does the rotate() function do in CSS?",
+    "back": "It rotates an element clockwise or counter-clockwise around a point."
+  },
+  {
+    "front": "What does the skew() function do in CSS?",
+    "back": "It skews an element along the X and/or Y axis."
+  },
+  {
+    "front": "How should you handle accessibility when using transform to hide content?",
+    "back": "Use properties like display: none or visibility: hidden to ensure hidden content is also inaccessible to screen readers and keyboard navigation."
+  },
+  {
+    "front": "What is the CSS box model?",
+    "back": "It describes the structure of an element, including content, padding, border, and margin."
+  },
+  {
+    "front": "What is the content area in the box model?",
+    "back": "It is the innermost part of an element that contains the actual content like text or images."
+  },
+  {
+    "front": "What is padding in the CSS box model?",
+    "back": "It is the space between the content and the border of an element."
+  },
+  {
+    "front": "What is the border in the CSS box model?",
+    "back": "It is the edge surrounding the padding and content area of an element."
+  },
+  {
+    "front": "What is the margin in the CSS box model?",
+    "back": "It is the space outside the border that separates the element from surrounding elements."
+  },
+  {
+    "front": "What is margin collapse in CSS?",
+    "back": "It happens when vertical margins of adjacent elements overlap, and the resulting margin is equal to the largest one."
+  },
+  {
+    "front": "What does the box-sizing property do?",
+    "back": "It defines how the total width and height of an element are calculated, including or excluding padding and border."
+  },
+  {
+    "front": "What does box-sizing: content-box do?",
+    "back": "Only the content is included in the width and height; padding and border are added outside that size."
+  },
+  {
+    "front": "What does box-sizing: border-box do?",
+    "back": "Padding and border are included within the specified width and height of the element."
+  },
+  {
+    "front": "What is a CSS reset?",
+    "back": "A stylesheet that removes default browser styles for consistency. Examples include normalize.css and sanitize.css."
+  },
+  {
+    "front": "What is the CSS filter property used for?",
+    "back": "It applies visual effects like blur, brightness, contrast, grayscale, and more to an element."
+  },
+  {
+    "front": "What does the blur() filter function do?",
+    "back": "It applies a Gaussian blur to the element, with the amount defined in pixels."
+  },
+  {
+    "front": "What does the brightness() filter function do?",
+    "back": "It adjusts the brightness. 0% makes it black; over 100% increases brightness."
+  },
+  {
+    "front": "What does the contrast() filter function do?",
+    "back": "It adjusts the contrast. 0% results in a gray image, 100% shows the image normally, and more than 100% increases contrast."
+  },
+  {
+    "front": "What does the grayscale() filter function do?",
+    "back": "It converts the element to grayscale. 100% is completely gray, and 0% shows no change."
+  },
+  {
+    "front": "What does the sepia() filter function do?",
+    "back": "It applies a sepia tone to the element, often giving it a warm, brownish look."
+  },
+  {
+    "front": "What does the hue-rotate() filter function do?",
+    "back": "It rotates the hue of colors in the element around the color wheel by the specified degree value."
+  }
+]

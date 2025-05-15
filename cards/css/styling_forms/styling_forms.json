@@ -1,0 +1,26 @@
+[
+  {
+    "front": "What are best practices for styling input elements?",
+    "back": "Ensure text is accessible with adequate font size and color contrast. Also, maintain a visible focus indicator (like a bold border) when inputs are focused."
+  },
+  {
+    "front": "Why is maintaining a focus indicator important when styling inputs?",
+    "back": "Because input elements are focusable, it's crucial to preserve a noticeable indicator (such as a bold border) to improve accessibility and user navigation."
+  },
+  {
+    "front": "What does the CSS property 'appearance: none' do?",
+    "back": "'appearance: none' removes the browser's default styling from an element, giving you full control over its look."
+  },
+  {
+    "front": "What is a caveat of using 'appearance: none' on inputs?",
+    "back": "You must ensure you still provide clear visual cues for states like focus or error, which the browser no longer provides by default."
+  },
+  {
+    "front": "What is a common issue when styling input types like 'datetime-local' and 'color'?",
+    "back": "These inputs use browser-dependent pseudo-elements, making consistent styling difficult across different browsers."
+  },
+  {
+    "front": "Why is it hard to style date and color pickers?",
+    "back": "Because their default styles and internal structures vary between browsers, making CSS customizations unpredictable."
+  }
+]
