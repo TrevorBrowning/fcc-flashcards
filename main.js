@@ -103,6 +103,12 @@ const lessonData = {
     absolute_and_relative_units: ["absolute_and_relative_units"],
     pseudo_classes_and_elements: ["pseudo_classes"],
     colors: ["CSS_colors"],
+    styling_forms: ["styling_forms"],
+    the_box_model: ["CSS_layouts_and_effects"],
+    flexbox: ["flexbox"],
+    typography: ["typography"],
+    accessibility: ["accessibility"],
+    positioning: ["positioning"],
   },
   js: {
     not_available: ["N/A"],
