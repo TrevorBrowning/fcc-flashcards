@@ -1,0 +1,62 @@
+[
+  {
+    "front": "What does the CSS float property do?",
+    "back": "It removes an element from the normal flow and positions it to the left or right of its container, allowing text to wrap around it."
+  },
+  {
+    "front": "What are the common values for the float property?",
+    "back": "`float: left;` and `float: right;`"
+  },
+  {
+    "front": "Why do we use the clear property in CSS?",
+    "back": "To prevent elements from wrapping around floated elements and avoid layout issues."
+  },
+  {
+    "front": "What is the clearfix hack used for?",
+    "back": "It clears floated elements to prevent layout collapsing."
+  },
+  {
+    "front": "What does this CSS rule do?\n\n.clearfix::after { content: ''; display: block; clear: both; }",
+    "back": "It applies a clearfix to clear floats and maintain proper layout structure."
+  },
+  {
+    "front": "What is static positioning in CSS?",
+    "back": "The default positioning where elements are placed in the normal document flow from top to bottom, left to right."
+  },
+  {
+    "front": "What does relative positioning do?",
+    "back": "It allows you to offset an element from its normal position using top, left, right, and bottom properties."
+  },
+  {
+    "front": "What does absolute positioning do?",
+    "back": "It removes the element from the normal document flow and positions it relative to the nearest positioned ancestor."
+  },
+  {
+    "front": "What is the difference between relative and absolute positioning?",
+    "back": "Relative positions the element relative to itself; absolute positions it relative to the nearest positioned ancestor."
+  },
+  {
+    "front": "What does fixed positioning do?",
+    "back": "It positions an element relative to the viewport, keeping it in the same place even when the page is scrolled."
+  },
+  {
+    "front": "When would you use `position: fixed;`?",
+    "back": "For elements like sticky navbars or headers that should stay visible during scrolling."
+  },
+  {
+    "front": "What does sticky positioning do?",
+    "back": "It behaves like relative until the element reaches a certain scroll position, then it becomes fixed."
+  },
+  {
+    "front": "What is the `z-index` property used for?",
+    "back": "To control the vertical stacking order of overlapping elements."
+  },
+  {
+    "front": "When does `z-index` take effect?",
+    "back": "Only on elements with a position other than static (e.g., relative, absolute, fixed, or sticky)."
+  },
+  {
+    "front": "Example: What does `z-index: 1;` do?",
+    "back": "It places the element above elements with a lower z-index or no z-index."
+  }
+]

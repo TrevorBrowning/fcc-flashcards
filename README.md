@@ -26,6 +26,10 @@
 - Colors
 - Styling Forms
 - The Box Model
+- Flexbox
+- Typography
+- Accessibility
+- Positioning
 
 ---
 
@@ -80,3 +84,11 @@ Feel free to fork the repo and submit a pull request — I may accept it into th
 - Added datapack:
   - CSS - Styling Forms
   - CSS - The Box Model
+
+**v0.6**
+
+- Added datapack:
+  - CSS - Flexbox
+  - CSS - Typography
+  - CSS - Accessibility
+  - CSS - Positioning

@@ -1,0 +1,62 @@
+[
+  {
+    "front": "What does WebAIM's Color Contrast Checker do?",
+    "back": "It allows you to input foreground and background colors to check if they meet WCAG accessibility standards."
+  },
+  {
+    "front": "What is the TPGi Colour Contrast Analyzer?",
+    "back": "A free tool that checks color contrast for WCAG compliance and includes a color blindness simulator."
+  },
+  {
+    "front": "What is the accessibility tree?",
+    "back": "A structure used by assistive technologies like screen readers to interpret and interact with webpage content."
+  },
+  {
+    "front": "What does the CSS max() function do?",
+    "back": "It returns the largest value from a set of comma-separated values."
+  },
+  {
+    "front": "Example: What does `width: max(250px, 25vw);` mean?",
+    "back": "The element will be 250px wide unless 25% of the viewport width is larger, in which case it will use 25vw."
+  },
+  {
+    "front": "What does `display: none;` do for accessibility?",
+    "back": "It removes the content from both visual presentation and the accessibility tree, making it inaccessible to screen readers."
+  },
+  {
+    "front": "What does `visibility: hidden;` do?",
+    "back": "It hides the element visually and removes it from the accessibility tree, but it still takes up space in layout."
+  },
+  {
+    "front": "What does the `.sr-only` class do?",
+    "back": "It visually hides content while keeping it accessible to screen readers."
+  },
+  {
+    "front": "How does `.sr-only` hide content?",
+    "back": "By using CSS properties like `position: absolute`, `width: 1px`, `overflow: hidden`, and `clip: rect(...)`."
+  },
+  {
+    "front": "What does `scroll-behavior: smooth;` do?",
+    "back": "It enables smooth scrolling when navigating to anchor links or using JavaScript scrolling."
+  },
+  {
+    "front": "What does the `prefers-reduced-motion` media feature do?",
+    "back": "It detects if a user prefers to reduce motion or animations in their system preferences."
+  },
+  {
+    "front": "Example: When would `scroll-behavior: smooth;` apply with `prefers-reduced-motion`?",
+    "back": "Only if the user's device indicates they do NOT prefer reduced motion."
+  },
+  {
+    "front": "What does the `aria-hidden` attribute do?",
+    "back": "It hides an element from screen readers while keeping it visible to sighted users."
+  },
+  {
+    "front": "What does the HTML `hidden` attribute do?",
+    "back": "It hides an element from both sighted users and assistive technology, and can be toggled with JavaScript."
+  },
+  {
+    "front": "What is an accessibility issue with the `placeholder` attribute?",
+    "back": "Users may confuse the placeholder text with actual input values, making forms harder to use for some."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "front": "What is CSS Flexbox?",
+    "back": "CSS Flexbox is a one-dimensional layout model that arranges elements in rows or columns within a container."
+  },
+  {
+    "front": "What are the two axes defined by the Flex Model?",
+    "back": "The main axis and the cross axis."
+  },
+  {
+    "front": "What does the flex-direction property do?",
+    "back": "It sets the direction of the main axis in a flex container."
+  },
+  {
+    "front": "What is the default value of flex-direction?",
+    "back": "row"
+  },
+  {
+    "front": "What does flex-direction: row-reverse; do?",
+    "back": "It reverses the items in the row."
+  },
+  {
+    "front": "What does flex-direction: column; do?",
+    "back": "It aligns the flex items vertically."
+  },
+  {
+    "front": "What does flex-direction: column-reverse; do?",
+    "back": "It reverses the order of the flex items vertically."
+  },
+  {
+    "front": "What does the flex-wrap property control?",
+    "back": "It determines how flex items wrap within the container to fit the available space."
+  },
+  {
+    "front": "What is the default value of flex-wrap?",
+    "back": "nowrap"
+  },
+  {
+    "front": "What does flex-wrap: wrap; do?",
+    "back": "It wraps items when they exceed the width of the container."
+  },
+  {
+    "front": "What does flex-wrap: wrap-reverse; do?",
+    "back": "It wraps flex items in reverse order."
+  },
+  {
+    "front": "What is the flex-flow property?",
+    "back": "A shorthand for flex-direction and flex-wrap."
+  },
+  {
+    "front": "What does flex-flow: column wrap-reverse; mean?",
+    "back": "It sets the main axis direction to column and wraps items in reverse order."
+  },
+  {
+    "front": "What does justify-content do?",
+    "back": "It aligns child elements along the main axis."
+  },
+  {
+    "front": "What does justify-content: flex-start; do?",
+    "back": "Aligns items to the start of the main axis."
+  },
+  {
+    "front": "What does justify-content: flex-end; do?",
+    "back": "Aligns items to the end of the main axis."
+  },
+  {
+    "front": "What does justify-content: center; do?",
+    "back": "Centers items along the main axis."
+  },
+  {
+    "front": "What does justify-content: space-between; do?",
+    "back": "Distributes items evenly with no space at the ends."
+  },
+  {
+    "front": "What does justify-content: space-around; do?",
+    "back": "Distributes items evenly with space before the first and after the last item."
+  },
+  {
+    "front": "What does justify-content: space-evenly; do?",
+    "back": "Distributes items with equal spacing between and around them."
+  },
+  {
+    "front": "What does the align-items property control?",
+    "back": "It distributes items along the cross axis."
+  },
+  {
+    "front": "What does align-items: center; do?",
+    "back": "Centers items along the cross axis."
+  },
+  {
+    "front": "What does align-items: flex-start; do?",
+    "back": "Aligns items to the start of the cross axis."
+  },
+  {
+    "front": "What does align-items: stretch; do?",
+    "back": "Stretches items to fill the cross axis."
+  }
+]

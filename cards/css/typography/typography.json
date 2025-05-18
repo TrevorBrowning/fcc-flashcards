@@ -1,0 +1,142 @@
+[
+  {
+    "front": "What is typography?",
+    "back": "Typography is the art of choosing the right fonts and format to make text visually appealing and easy to read."
+  },
+  {
+    "front": "What is a typeface?",
+    "back": "A typeface is the overall design and style of a set of characters, numbers, and symbols."
+  },
+  {
+    "front": "What is a font?",
+    "back": "A font is a specific variation of a typeface with characteristics like size, weight, style, and width."
+  },
+  {
+    "front": "What is a serif typeface?",
+    "back": "A serif typeface has small lines at the ends of characters and is commonly used in print materials."
+  },
+  {
+    "front": "What is a sans-serif typeface?",
+    "back": "A sans-serif typeface has no small lines at the ends of characters and is commonly used in digital design."
+  },
+  {
+    "front": "What does font weight describe?",
+    "back": "Font weight describes the thickness of the characters, such as light, regular, bold, and black."
+  },
+  {
+    "front": "What is font style?",
+    "back": "Font style refers to the slant and orientation of characters, such as italic and oblique."
+  },
+  {
+    "front": "What is font width?",
+    "back": "Font width is the horizontal space characters occupy, such as condensed or expanded."
+  },
+  {
+    "front": "What is the baseline in typography?",
+    "back": "The baseline is the imaginary line on which most characters rest."
+  },
+  {
+    "front": "What is cap height?",
+    "back": "Cap height is the height of uppercase letters, measured from the baseline to the top."
+  },
+  {
+    "front": "What is x-height?",
+    "back": "X-height is the average height of lowercase letters, excluding ascenders and descenders."
+  },
+  {
+    "front": "What are ascenders?",
+    "back": "Ascenders are parts of lowercase letters that extend above the x-height, like in 'h', 'b', 'd', and 'f'."
+  },
+  {
+    "front": "What are descenders?",
+    "back": "Descenders are parts of lowercase letters that extend below the baseline, like in 'y', 'g', 'p', and 'q'."
+  },
+  {
+    "front": "What is kerning?",
+    "back": "Kerning adjusts space between specific character pairs to improve readability and aesthetics."
+  },
+  {
+    "front": "What is tracking in typography?",
+    "back": "Tracking adjusts the spacing between all characters in a block of text."
+  },
+  {
+    "front": "What is leading?",
+    "back": "Leading is the vertical space between lines of text, measured from one baseline to the next."
+  },
+  {
+    "front": "What are best practices for typography?",
+    "back": "Choose clear, simple fonts to make text easy to read, especially for main content."
+  },
+  {
+    "front": "What is a font family?",
+    "back": "A font family is a group of fonts with the same design, and you can specify fallbacks using commas."
+  },
+  {
+    "front": "Name some common CSS font families.",
+    "back": "serif, sans-serif, monospace, cursive, fantasy"
+  },
+  {
+    "front": "What are web-safe fonts?",
+    "back": "Fonts likely to be installed on most devices, used as fallbacks when a preferred font isn't available."
+  },
+  {
+    "front": "What are @-rules in CSS?",
+    "back": "Statements that give instructions to the browser, such as @media, @keyframes, or @font-face."
+  },
+  {
+    "front": "What does @font-face do?",
+    "back": "@font-face defines a custom font by specifying the font file, format, and properties like weight and style."
+  },
+  {
+    "front": "What does the src property in @font-face do?",
+    "back": "It specifies the location of font resources such as .woff or .otf files."
+  },
+  {
+    "front": "What are common font formats?",
+    "back": "collection, embedded-opentype, opentype, svg, truetype, woff, and woff2"
+  },
+  {
+    "front": "What is the difference between woff and woff2?",
+    "back": "woff2 uses a more efficient compression algorithm than woff."
+  },
+  {
+    "front": "What is OpenType?",
+    "back": "A scalable font format developed by Microsoft and Adobe, widely supported across platforms."
+  },
+  {
+    "front": "What does tech() in @font-face specify?",
+    "back": "The technology of the font resource, like color-COLRv1. It's optional."
+  },
+  {
+    "front": "What is an external font?",
+    "back": "A font not hosted in your local project, typically loaded via a CDN or third-party like Google Fonts."
+  },
+  {
+    "front": "How do you include external fonts using a link element?",
+    "back": "Use <link> in your HTML head with the font URL from services like Google Fonts."
+  },
+  {
+    "front": "How do you include external fonts using @import?",
+    "back": "Use @import with a URL inside your CSS to load fonts from external sources."
+  },
+  {
+    "front": "What is Font Squirrel?",
+    "back": "A popular resource for downloading and embedding custom external fonts."
+  },
+  {
+    "front": "What does the text-shadow property do?",
+    "back": "It applies shadow effects to text using X and Y offsets, blur, and color."
+  },
+  {
+    "front": "What happens if you don't specify a shadow color in text-shadow?",
+    "back": "The browser will automatically determine the color, which may not be ideal."
+  },
+  {
+    "front": "What does the blur radius in text-shadow control?",
+    "back": "It makes the shadow smoother; higher values increase blur and lighten the shadow."
+  },
+  {
+    "front": "Can text have multiple shadows?",
+    "back": "Yes, you can stack multiple shadows using a comma-separated list in the text-shadow property."
+  }
+]
